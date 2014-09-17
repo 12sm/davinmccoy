@@ -1,0 +1,262 @@
+/*!
+ * Roots 6.5.0
+ */
+
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+
+.credits a{
+   color: #AFAFAF;
+}
+.credits a:hover{
+   color: #fff;
+}
+div#mc_embed_signup {
+background: transparent;
+clear: left;
+font: 14px Helvetica,Arial,sans-serif;
+}
+div#mc_embed_signup .mc-field-group {
+width: 50%;
+margin: 0 auto;
+padding-bottom: 5px!important;
+}
+div#mc_embed_signup .clear {
+clear: both;
+width: 120px;
+margin: 0 auto;
+}
+.logo{
+   margin: 0 auto;
+}
+input#mc_embed_signup .button{
+   width: 100%;
+}
+ #mc-embedded-subscribe-form{
+   padding-left: 0px!important;
+}
+input#mc-embedded-subscribe.button{
+     height: 25px!important;
+}
+input#mce-EMAIL, input#mc-embedded-subscribe.button {
+   background: #3a3a3a;
+   border-radius: 25px;
+   height: 25px;
+   font-family: 'proxima-nova';
+   color: #888888;
+   text-align: center!important;
+}
+input::-webkit-input-placeholder{
+   font-family: 'proxima-nova';
+   color: #888888;
+   text-align: center;
+}
+input:moz-placeholder{
+   font-family: 'proxima-nova';
+   color: #888888;
+   text-align: center;
+}
+input::moz-placeholder{
+   font-family: 'proxima-nova';
+   color: #888888;
+   text-align: center;
+}
+input:ms-input-placeholder{
+   font-family: 'proxima-nova';
+   color: #888888;
+   text-align: center;
+}
+.social-shots{
+   list-style: none;
+   padding-left: 0px;
+}
+.shot-container {
+width: 80px;
+height: 85px;
+margin: 0 auto;
+background: url(../img/shot.png) no-repeat;
+background-position: 0px -80px;
+}
+.shot-mask {
+width: 80px;
+height: 83px;
+margin: 0 auto;
+-webkit-transition:background-position .4s ease;
+background-position: 0px 60px!important;
+background: url(../img/shot.png) no-repeat;
+mask: url(../img/shot.png);
+-webkit-mask: url(../img/shot.png);
+-webkit-mask-position: 0px 3px;
+-o-mask: url(../img/shot.png);
+-ms-mask: url(../img/shot.png);
+}
+.hover-shot{
+   height: 80px;
+   width: 80px;
+}
+.hover-shot:hover .shot-mask{
+   background-position: 0px 10px!important;
+}
+.social-shots .hover-shot:hover i{
+   color: #000;
+}
+#mc_embed_signup input:focus {
+outline: none;
+}
+.social-shots li {
+margin-bottom: 25px;
+}
+.social-shots i {
+   z-index: 2;
+   -webkit-transition: color .8s ease;
+color: #fff;
+font-size: 32px;
+text-align: center;
+min-width: 30px;
+top: 15px;
+position: absolute;
+left: 50%;
+margin-left: -15px;
+}
+.icon-box{
+   width: 80px;
+}
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.banner {  }
+
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+/* Gallery Shortcode */
+.gallery-row { padding: 15px 0; }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+
+#social ul {margin:0px; padding:0px; list-style: none;}
+#social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
+#social li a {padding: 10px;}
+
+footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+#mc_embed_signup div#mce-responses div {
+   width: 50%!important;
+   margin: 0 auto!important;
+   float: none;
+   text-align: center;
+   margin-top: -15px!important;
+   color: #fff;
+   }
+#mce-responses div{
+   width: 100%!important;
+}
+.outer {
+top: -135px;
+}
+.outer.left{
+    -ms-transform: rotate(35deg); /* IE 9 */
+    -webkit-transform: rotate(35deg); /* Chrome, Safari, Opera */
+    transform: rotate(35deg);
+}
+.outer.right{
+    -ms-transform: rotate(-35deg); /* IE 9 */
+    -webkit-transform: rotate(-35deg); /* Chrome, Safari, Opera */
+    transform: rotate(-35deg);
+}
+.inner.right{
+    -ms-transform: rotate(-25deg); /* IE 9 */
+    -webkit-transform: rotate(-25deg); /* Chrome, Safari, Opera */
+    transform: rotate(-25deg);
+}
+.inner.left{
+    -ms-transform: rotate(25deg); /* IE 9 */
+    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+}
+.inner {
+top: -25px;
+}
+.center {
+top: 30px;
+}
+.social-shots li {
+margin-bottom: 0px;
+}
+body {padding-top: 5%; }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) { }
