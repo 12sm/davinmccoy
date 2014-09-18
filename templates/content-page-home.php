@@ -15,7 +15,13 @@
              We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
         </style>
         <div id="mc_embed_signup">
-          <form action="//davinmccoy.us8.list-manage.com/subscribe/post?u=4d33b75ac40b7c4a1aa594342&amp;id=7fb168a173" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <form action="//davinmccoy.us8.list-manage.com/subscribe/post?u=4d33b75ac40b7c4a1aa594342&amp;id=7fb168a173"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                target="_blank"
+                novalidate>
             <div class="mc-field-group">
               <input type="email" value="" name="EMAIL" class="required email" placeholder='Enter E-Mail Here' id="mce-EMAIL">
             </div>
@@ -122,6 +128,10 @@
     </div>
   </div>
 </section>
+
+
+
+
 <section id="about">
 </section>
 <section id="shows">
