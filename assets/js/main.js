@@ -44,7 +44,7 @@ var Roots = {
   contact: {
     init: function() {
       // JavaScript to be fired on the contact page
-      $.backstretch('../wp-content/themes/davinmccoy/assets/img/contact-bg1.jpg');
+      $.backstretch('../wp-content/themes/davinmccoy/assets/img/contact-bg2.jpg');
     }
   },
   // About page
