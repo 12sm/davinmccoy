@@ -43,14 +43,14 @@ var Roots = {
   // Contact page
   contact: {
     init: function() {
-      // JavaScript to be fired on the photos page
+      // JavaScript to be fired on the contact page
       $.backstretch('../wp-content/themes/davinmccoy/assets/img/contact-bg.jpg');
     }
   },
   // About page
   about: {
     init: function() {
-      // JavaScript to be fired on the photos page
+      // JavaScript to be fired on the about page
       $.backstretch('../wp-content/themes/davinmccoy/assets/img/about-bg.jpg');
     }
   }
