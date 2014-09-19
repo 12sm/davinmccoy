@@ -152,12 +152,42 @@ margin-left: -15px;
 
 
 /* ==========================================================================
-   Sidebar
+   Navbar
    ========================================================================== */
 
-.sidebar { }
+/*#main-nav {
+  background-color: #303d50;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
+#main-nav ul {
+  width: 960px;
+  margin: 0 auto;
+  height: 25px;
+  padding-top: 10px;
+  padding-left: 10%
+}
 
+#main-nav ul li {
+  float: left;
+  height: 30px;
+  width: 200px;
+  padding-left: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#main-nav ul li a {
+  color: #f1ecb9;
+  font-weight: bold;
+  text-decoration: none;
+}*/
 
 /* ==========================================================================
    Posts
