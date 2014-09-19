@@ -33,6 +33,13 @@ var Roots = {
       $.backstretch('../wp-content/themes/splash/assets/img/bg.jpg');
     }
   },
+  // Photo page
+  page_id_19: {
+    init: function() {
+      // JavaScript to be fired on the home page
+      $.backstretch('../wp-content/themes/splash/assets/img/photos-bg.jpg');
+    }
+  },
   // About us page, note the change from about-us to about_us.
   about_us: {
     init: function() {
