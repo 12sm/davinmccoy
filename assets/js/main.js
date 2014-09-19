@@ -30,14 +30,14 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
-      $.backstretch('../wp-content/themes/splash/assets/img/bg.jpg');
+      $.backstretch('../wp-content/themes/davinmccoy/assets/img/bg.jpg');
     }
   },
   // Photo page
   photos: {
     init: function() {
       // JavaScript to be fired on the photos page
-      $.backstretch('../wp-content/themes/splash/assets/img/photos-bg.jpg');
+      $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg.jpg');
     }
   },
   // About us page, note the change from about-us to about_us.
