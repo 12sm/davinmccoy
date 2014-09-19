@@ -40,13 +40,20 @@ var Roots = {
       $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg.jpg');
     }
   },
-  // About us page, note the change from about-us to about_us.
-  about_us: {
+  // Contact page
+  contact: {
     init: function() {
-      // JavaScript to be fired on the about us page
+      // JavaScript to be fired on the photos page
+      $.backstretch('../wp-content/themes/davinmccoy/assets/img/contact-bg.jpg');
+    }
+  },
+  // About page
+  about: {
+    init: function() {
+      // JavaScript to be fired on the photos page
+      $.backstretch('../wp-content/themes/davinmccoy/assets/img/about-bg.jpg');
     }
   }
-};
 
 // The routing fires all common scripts, followed by the page specific scripts.
 // Add additional events for more control over timing e.g. a finalize event
