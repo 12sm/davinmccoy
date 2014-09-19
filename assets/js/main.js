@@ -34,9 +34,9 @@ var Roots = {
     }
   },
   // Photo page
-  page-id-19: {
+  photos: {
     init: function() {
-      // JavaScript to be fired on the home page
+      // JavaScript to be fired on the photos page
       $.backstretch('../wp-content/themes/splash/assets/img/photos-bg.jpg');
     }
   },
