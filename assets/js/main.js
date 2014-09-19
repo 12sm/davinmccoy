@@ -34,7 +34,7 @@ var Roots = {
     }
   },
   // Photo page
-  page_id_19: {
+  page-id-19: {
     init: function() {
       // JavaScript to be fired on the home page
       $.backstretch('../wp-content/themes/splash/assets/img/photos-bg.jpg');
