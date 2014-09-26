@@ -26,6 +26,8 @@ p, body {
 .black {color:#3E3E3E!important}
 .white {color:#FFF!important;}
 
+a {transition:color .2s ease;color:#CFBA97;}
+a:hover {text-decoration:none;color:#F2F2F2;}
 
 
 /* ==========================================================================
