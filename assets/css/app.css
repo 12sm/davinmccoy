@@ -13,7 +13,7 @@ h3 {}
 h4 {}
 h5 {}
 h6 {}
-p, body {font-family: "proxima-nova-alt";color:red;}
+p, body {font-family: "proxima-nova-alt";font-size:14px;line-height:1.3em;letter-spacing:1px;}
 
 
 
