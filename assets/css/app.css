@@ -1,8 +1,6 @@
 /*!
  * Roots 6.5.0
- */ 
-
-
+ */
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -13,6 +11,7 @@ h3 {font-family: "proxima-nova-alt";font-size:22px;font-weight:100;color:#FFF;}
 h4 {font-family: "proxima-nova-alt";font-size:18px;font-weight:400;color:#FFF;}
 h5 {font-family: "proxima-nova-alt";font-size:18px;font-weight:400;color:#B0AB9C;}
 h6 {font-family: "proxima-nova-alt";font-size:14px;font-weight:500;color:#FFF;}
+
 p, body {
 	font-family: "proxima-nova-alt";
 	font-size:14px;
@@ -21,141 +20,171 @@ p, body {
 	font-weight:400;
 	font-style:normal;
 	color:#FFF;
-} 
+}
 
-.black {color:#3E3E3E!important}
+.black {color:#3E3E3E!important;}
 .white {color:#FFF!important;}
 
 a {transition:color .2s ease;color:#CFBA97;}
 a:hover {text-decoration:none;color:#F2F2F2;}
 
-
 /* ==========================================================================
    HOME
    ========================================================================== */
 
-.credits a{
-   color: #AFAFAF;
+#stars {
+  background: #425169 url('../img/home-bg.jpg') top center no-repeat;
+  width: 100%;
+  height: 200%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
-.credits a:hover{
-   color: #fff;
+
+.credits a {
+  color: #AFAFAF;
 }
+
+.credits a:hover {
+  color: #fff;
+}
+
 div#mc_embed_signup {
-background: transparent;
-clear: left;
-font: 14px Helvetica,Arial,sans-serif;
+  background: transparent;
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif;
 }
+
 div#mc_embed_signup .mc-field-group {
-width: 50%;
-margin: 0 auto;
-padding-bottom: 5px!important;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 5px!important;
 }
+
 div#mc_embed_signup .clear {
-clear: both;
-width: 120px;
-margin: 0 auto;
+  clear: both;
+  width: 120px;
+  margin: 0 auto;
 }
-.logo{
-   margin: 0 auto;
+
+.logo {
+  margin: 0 auto;
 }
-input#mc_embed_signup .button{
-   width: 100%;
+
+input#mc_embed_signup .button {
+  width: 100%;
 }
- #mc-embedded-subscribe-form{
-   padding-left: 0px!important;
+
+#mc-embedded-subscribe-form {
+  padding-left: 0px!important;
 }
-input#mc-embedded-subscribe.button{
-     height: 25px!important;
+
+input#mc-embedded-subscribe.button {
+  height: 25px!important;
 }
+
 input#mce-EMAIL, input#mc-embedded-subscribe.button {
-   background: #3a3a3a;
-   border-radius: 25px;
-   height: 25px;
-   font-family: 'proxima-nova';
-   color: #888888;
-   text-align: center!important;
+  background: #3a3a3a;
+  border-radius: 25px;
+  height: 25px;
+  font-family: 'proxima-nova';
+  color: #888888;
+  text-align: center!important;
 }
-input::-webkit-input-placeholder{
-   font-family: 'proxima-nova';
-   color: #888888;
-   text-align: center;
+
+input::-webkit-input-placeholder {
+  font-family: 'proxima-nova';
+  color: #888888;
+  text-align: center;
 }
-input:moz-placeholder{
-   font-family: 'proxima-nova';
-   color: #888888;
-   text-align: center;
+
+input:moz-placeholder {
+  font-family: 'proxima-nova';
+  color: #888888;
+  text-align: center;
 }
-input::moz-placeholder{
-   font-family: 'proxima-nova';
-   color: #888888;
-   text-align: center;
+
+input::moz-placeholder {
+  font-family: 'proxima-nova';
+  color: #888888;
+  text-align: center;
 }
-input:ms-input-placeholder{
-   font-family: 'proxima-nova';
-   color: #888888;
-   text-align: center;
+
+input:ms-input-placeholder {
+  font-family: 'proxima-nova';
+  color: #888888;
+  text-align: center;
 }
-.social-shots{
-   list-style: none;
-   padding-left: 0px;
+
+.social-shots {
+  list-style: none;
+  padding-left: 0px;
 }
+
 .shot-container {
-width: 80px;
-height: 85px;
-margin: 0 auto;
-background: url(../img/shot.png) no-repeat;
-background-position: 0px -80px;
+  width: 80px;
+  height: 85px;
+  margin: 0 auto;
+  background: url('../img/shot.png') no-repeat;
+  background-position: 0px -80px;
 }
+
 .shot-mask {
-width: 80px;
-height: 83px;
-margin: 0 auto;
--webkit-transition:background-position .4s ease;
-background-position: 0px 60px!important;
-background: url(../img/shot.png) no-repeat;
-mask: url(../img/shot.png);
--webkit-mask: url(../img/shot.png);
--webkit-mask-position: 0px 3px;
--o-mask: url(../img/shot.png);
--ms-mask: url(../img/shot.png);
+  width: 80px;
+  height: 83px;
+  margin: 0 auto;
+  -webkit-transition:background-position .4s ease;
+  background-position: 0px 60px!important;
+  background: url('../img/shot.png') no-repeat;
+  mask: url(../img/shot.png);
+  -webkit-mask: url(../img/shot.png);
+  -webkit-mask-position: 0px 3px;
+  -o-mask: url(../img/shot.png);
+  -ms-mask: url(../img/shot.png);
 }
-.hover-shot{
-   height: 80px;
-   width: 80px;
+
+.hover-shot {
+  height: 80px;
+  width: 80px;
 }
-.hover-shot:hover .shot-mask{
-   background-position: 0px 10px!important;
+
+.hover-shot:hover .shot-mask {
+  background-position: 0px 10px!important;
 }
-.social-shots .hover-shot:hover i{
-   color: #000;
+
+.social-shots .hover-shot:hover i {
+  color: #000;
 }
+
 #mc_embed_signup input:focus {
-outline: none;
+  outline: none;
 }
+
 .social-shots li {
-margin-bottom: 25px;
+  margin-bottom: 25px;
 }
+
 .social-shots i {
-   z-index: 2;
-   -webkit-transition: color .8s ease;
-color: #fff;
-font-size: 32px;
-text-align: center;
-min-width: 30px;
-top: 15px;
-position: absolute;
-left: 50%;
-margin-left: -15px;
+  z-index: 2;
+  -webkit-transition: color .8s ease;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  min-width: 30px;
+  top: 15px;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
 }
-.icon-box{
-   width: 80px;
+
+.icon-box {
+  width: 80px;
 }
 /* ==========================================================================
    Header
    ========================================================================== */
 
 .banner {  }
-
 
 /* ==========================================================================
    Navbar
@@ -195,16 +224,11 @@ margin-left: -15px;
   text-decoration: none;
 }
 */
-
-
-
 /* ==========================================================================
    ABOUT
    ========================================================================== */
 
 .content { }
-
-
 
 /* ==========================================================================
    PHOTOS
@@ -213,13 +237,12 @@ margin-left: -15px;
 .main { }
 
 /* Gallery Shortcode */
-.gallery-row { padding: 15px 0; }
+.gallery-row {padding: 15px 0;}
 
 
 /* ==========================================================================
    CONTACT
    ========================================================================== */
-
 
 /* ==========================================================================
    Posts
@@ -231,23 +254,20 @@ margin-left: -15px;
 .hentry .entry-content { }
 .hentry footer { }
 
-
-
 /* ==========================================================================
    Footer
    ========================================================================== */
 
 .content-info { }
-
 #social ul {margin:0px; padding:0px; list-style: none;}
-#social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
+#social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
 footer {
-position: fixed;
-bottom: 0;
-width: 100%;
-text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 /* ==========================================================================
@@ -260,8 +280,6 @@ text-align: center;
 .alignright { float: right; }
 figure.alignnone { margin-left: 0; margin-right: 0; }
 
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -271,62 +289,71 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
 #mc_embed_signup div#mce-responses div {
-   width: 50%!important;
-   margin: 0 auto!important;
-   float: none;
-   text-align: center;
-   margin-top: -15px!important;
-   color: #fff;
-   }
-#mce-responses div{
-   width: 100%!important;
+  width: 50%!important;
+  margin: 0 auto!important;
+  float: none;
+  text-align: center;
+  margin-top: -15px!important;
+  color: #fff;
 }
+
+#mce-responses div {
+  width: 100%!important;
+}
+
 .outer {
-top: -135px;
+  top: -135px;
 }
-.outer.left{
-    -ms-transform: rotate(35deg); /* IE 9 */
-    -webkit-transform: rotate(35deg); /* Chrome, Safari, Opera */
-    transform: rotate(35deg);
+
+.outer.left {
+  -ms-transform: rotate(35deg); /* IE 9 */
+  -webkit-transform: rotate(35deg); /* Chrome, Safari, Opera */
+  transform: rotate(35deg);
 }
-.outer.right{
-    -ms-transform: rotate(-35deg); /* IE 9 */
-    -webkit-transform: rotate(-35deg); /* Chrome, Safari, Opera */
-    transform: rotate(-35deg);
+
+.outer.right {
+  -ms-transform: rotate(-35deg); /* IE 9 */
+  -webkit-transform: rotate(-35deg); /* Chrome, Safari, Opera */
+  transform: rotate(-35deg);
 }
-.inner.right{
-    -ms-transform: rotate(-25deg); /* IE 9 */
-    -webkit-transform: rotate(-25deg); /* Chrome, Safari, Opera */
-    transform: rotate(-25deg);
+
+.inner.right {
+  -ms-transform: rotate(-25deg); /* IE 9 */
+  -webkit-transform: rotate(-25deg); /* Chrome, Safari, Opera */
+  transform: rotate(-25deg);
 }
-.inner.left{
-    -ms-transform: rotate(25deg); /* IE 9 */
-    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
-    transform: rotate(25deg);
+
+.inner.left {
+  -ms-transform: rotate(25deg); /* IE 9 */
+  -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+  transform: rotate(25deg);
 }
+
 .inner {
-top: -25px;
+  top: -25px;
 }
+
 .center {
-top: 30px;
+  top: 30px;
 }
+
 .social-shots li {
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
-.content {padding-top: 5%; }
- }
+
+.content {
+  padding-top: 5%;
+}
+}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) { 
-
-
+@media (min-width: @screen-md) {
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) { 
-
-
+@media (min-width: @screen-lg) {
 
 }
