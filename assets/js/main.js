@@ -33,11 +33,25 @@ var Roots = {
       $.backstretch('../wp-content/themes/davinmccoy/assets/img/bg.jpg');
     }
   },
+  // About page
+  about: {
+    init: function() {
+      // JavaScript to be fired on the about page
+      $.backstretch('../wp-content/themes/davinmccoy/assets/img/about-bg2.jpg');
+    }
+  },
+  // Shows page
+  shows: {
+    init: function() {
+      // JavaScript to be fired on the about page
+      $.backstretch('../wp-content/themes/davinmccoy/assets/img/shows-bg.jpg');
+    }
+  }
   // Photo page
   photos: {
     init: function() {
       // JavaScript to be fired on the photos page
-      $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg.jpg');
+      $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg2.jpg');
     }
   },
   // Contact page
@@ -45,13 +59,6 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the contact page
       $.backstretch('../wp-content/themes/davinmccoy/assets/img/contact-bg2.jpg');
-    }
-  },
-  // About page
-  about: {
-    init: function() {
-      // JavaScript to be fired on the about page
-      $.backstretch('../wp-content/themes/davinmccoy/assets/img/about-bg.jpg');
     }
   }
 };
