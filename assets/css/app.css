@@ -201,6 +201,11 @@ input:ms-input-placeholder {
   width: 100%;
   z-index: 1000;
 }
+
+.barnone {
+  text-align: center;
+}
+
 /*
 #main-nav ul {
   width: 960px;
