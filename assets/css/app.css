@@ -63,12 +63,12 @@ a:hover {text-decoration:none;color:#F2F2F2;}
   /*width: 960px;*/
 }
 
-#content article#tour {
+#homecontent article#tour {
   position: absolute;
   top: 2000px;
 }
 
-#content article#videos {
+#homecontent article#videos {
   position: absolute;
   top: 4000px;
 }
