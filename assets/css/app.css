@@ -53,22 +53,22 @@ a:hover {text-decoration:none;color:#F2F2F2;}
   text-align: center;
 }
 
-#homecontent article {
+#homecontent > article {
   /*width: 350px;*/
   padding-top: 160px;
   text-align: center;
 }
 
-#homecontent article#news {
+#homecontent > article > #news {
   /*width: 960px;*/
 }
 
-#homecontent article#tour {
+#homecontent > article > #tour {
   position: absolute;
   top: 2000px;
 }
 
-#homecontent article#videos {
+#homecontent > article > #videos {
   position: absolute;
   top: 4000px;
 }

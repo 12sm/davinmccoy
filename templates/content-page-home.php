@@ -4,7 +4,7 @@
 <div id="images">
 </div>
 
-<div class="homecontent">
+<div id="homecontent">
   <article id="news">
     <div class='row'>
       <div class='col-sm-12'>
