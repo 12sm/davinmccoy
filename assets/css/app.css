@@ -32,6 +32,7 @@ a:hover {text-decoration:none;color:#F2F2F2;}
    HOME
    ========================================================================== */
 
+/*-------- BACKGROUND --------*/
 #stars {
   background: url('../img/home-bg.jpg');
   background-size: cover;
@@ -41,6 +42,40 @@ a:hover {text-decoration:none;color:#F2F2F2;}
   top: 0;
   z-index: 0;
 }
+
+/*-------- CONTENT --------*/
+#homecontent {
+  /*color: #fff;*/
+  position: relative;
+  margin: 0 auto;
+  /*width: 960px;*/
+  z-index: 300;
+  text-align: center;
+}
+
+#homecontent article {
+  /*width: 350px;*/
+  padding-top: 160px;
+  text-align: center;
+}
+
+#homecontent article#news {
+  /*width: 960px;*/
+}
+
+#content article#tour {
+  position: absolute;
+  top: 2000px;
+}
+
+#content article#videos {
+  position: absolute;
+  top: 4000px;
+}
+
+
+
+
 
 .credits a {
   color: #AFAFAF;

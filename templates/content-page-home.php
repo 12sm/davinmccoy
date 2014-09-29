@@ -6,11 +6,41 @@
 
 <div class="homecontent">
   <article id="news">
-	</article>
-	<article id="tour">
-	</article>
-	<article id="videos">
-	</article>
+    <div class='row'>
+      <div class='col-sm-12'>
+				<h1><a class="earth" href="#earth">Outer Space</a></h1>
+      </div>
+		</div>
+		<div class='row'>
+      <div class='col-sm-12'>
+        <img src='/wp-content/themes/splash/assets/img/logo.png' class="img-responsive logo">
+      </div>
+    </div>
+  </article>
+  <article id="tour">
+		<div class='row'>
+      <div class='col-sm-12'>
+				<h1><a class="moon" href="#moon">Moon</a></h1>
+      </div>
+		</div>
+    <div class='row'>
+      <div class='col-sm-12'>
+        <img src='/wp-content/themes/splash/assets/img/logo.png' class="img-responsive logo">
+      </div>
+    </div>
+  </article>
+  <article id="videos">
+		<div class='row'>
+      <div class='col-sm-12'>
+				<h1><a class="rocket" href="#rocket">Rocket</a></h1>
+      </div>
+		</div>
+    <div class='row'>
+      <div class='col-sm-12'>
+        <img src='/wp-content/themes/splash/assets/img/logo.png' class="img-responsive logo">
+      </div>
+    </div>
+  </article>
 </div>
 
 
@@ -29,14 +59,14 @@
     <script src="js/parallax.js"></script>
   </head>
   <body>
-		<nav id="main-nav">
-			<ul>
-				<li><a class="earth" href="#earth">Outer Space</a></li>
-				<li><a class="moon" href="#moon">Moon</a></li>
-				<li><a class="rocket" href="#rocket">Rocket</a></li>
-				<li><a class="saturn" href="#saturn">Planets</a></li>
-			</ul>
-		</nav>
+    <nav id="main-nav">
+      <ul>
+        <li><a class="earth" href="#earth">Outer Space</a></li>
+        <li><a class="moon" href="#moon">Moon</a></li>
+        <li><a class="rocket" href="#rocket">Rocket</a></li>
+        <li><a class="saturn" href="#saturn">Planets</a></li>
+      </ul>
+    </nav>
     <div id="earth"><img id="img-earth" src="img/earth.png" alt="Earth"></div>
     <div id="stars"></div>
     <div id="images">
@@ -54,17 +84,17 @@
       <article id="moon">
         <h2>Fly Me to the Moon</h2>
         <p>The Moon (Latin: Luna) is the Earth's only natural satellite. Although not the largest natural satellite in the Solar System, it is, among the satellites of major planets, the largest relative to the size of the object it orbits (its primary) and, after Jupiter's satellite Io, it is the second most dense satellite among those whose densities are known.</p>
-				<p>It is thought to have formed nearly 4.5 billion years ago, not long after Earth. Although there have been several hypotheses for its origin in the past, the current most widely accepted explanation is that the Moon formed from the debris left over after a giant impact between Earth and a Mars-sized body.</p>
+        <p>It is thought to have formed nearly 4.5 billion years ago, not long after Earth. Although there have been several hypotheses for its origin in the past, the current most widely accepted explanation is that the Moon formed from the debris left over after a giant impact between Earth and a Mars-sized body.</p>
       </article>
       <article id="rocket">
         <h2>Rocket Man</h2>
         <p>Space exploration is the ongoing discovery and exploration of celestial structures in outer space by means of continuously evolving and growing space technology. While the study of space is carried out mainly by astronomers with telescopes, the physical exploration of space is conducted both by unmanned robotic probes and human spaceflight.</p>
-				<p>While the observation of objects in space, known as astronomy, predates reliable recorded history, it was the development of large and relatively efficient rockets during the early 20th century that allowed physical space exploration to become a reality. Common rationales for exploring space include advancing scientific research, uniting different nations, ensuring the future survival of humanity and developing military and strategic advantages against other countries.</p>
+        <p>While the observation of objects in space, known as astronomy, predates reliable recorded history, it was the development of large and relatively efficient rockets during the early 20th century that allowed physical space exploration to become a reality. Common rationales for exploring space include advancing scientific research, uniting different nations, ensuring the future survival of humanity and developing military and strategic advantages against other countries.</p>
       </article>
       <article id="saturn">
         <h2>See the Planets</h2>
         <p>Planets are generally divided into two main types: large low-density gas giants, and smaller rocky terrestrials. Under IAU definitions, there are eight planets in the Solar System. In order of increasing distance from the Sun, they are the four terrestrials, Mercury, Venus, Earth, and Mars, then the four gas giants, Jupiter, Saturn, Uranus, and Neptune. Six of the planets are orbited by one or more natural satellites.</p>
-				<p>The idea of planets has evolved over its history, from the divine wandering stars of antiquity to the earthly objects of the scientific age. The concept has expanded to include worlds not only in the Solar System, but in hundreds of other extrasolar systems. The ambiguities inherent in defining planets have led to much scientific controversy.</p>
+        <p>The idea of planets has evolved over its history, from the divine wandering stars of antiquity to the earthly objects of the scientific age. The concept has expanded to include worlds not only in the Solar System, but in hundreds of other extrasolar systems. The ambiguities inherent in defining planets have led to much scientific controversy.</p>
       </article>
     </div>
   </body>

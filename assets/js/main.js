@@ -16,71 +16,102 @@
 
 (function($) {
 
-// Use this variable to set up the common and page specific functions. If you
-// rename this variable, you will also need to rename the namespace below.
-var Roots = {
-  // All pages
-  common: {
-    init: function() {
-      // JavaScript to be fired on all pages
-
-    }
-  },
-  // Home page
-  home: {
-    init: function() {
-      // JavaScript to be fired on the home page
-      // $.backstretch('../wp-content/themes/davinmccoy/assets/img/bg.jpg');
-    }
-  },
-  // About page
-  about: {
-    init: function() {
-      // JavaScript to be fired on the about page
-      $.backstretch('../wp-content/themes/davinmccoy/assets/img/about-bg2.jpg');
-    }
-  },
-  // Shows page
-  shows: {
-    init: function() {
-      // JavaScript to be fired on the about page
-      $.backstretch('../wp-content/themes/davinmccoy/assets/img/shows-bg.jpg');
-    }
-  },
-  // Photo page
-  photos: {
-    init: function() {
-      // JavaScript to be fired on the photos page
-      $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg2.jpg');
-    }
-  },
-  // Contact page
-  contact: {
-    init: function() {
-      // JavaScript to be fired on the contact page
-      $.backstretch('../wp-content/themes/davinmccoy/assets/img/contact-bg2.jpg');
-    }
+  function parallax(){
+    var scrollPosition = $(window).scrollTop();
+    $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
+    // $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
+    // $("#content").css('top', (0 - scrollPosition) + 'px');
   }
-};
-// The routing fires all common scripts, followed by the page specific scripts.
-// Add additional events for more control over timing e.g. a finalize event
-var UTIL = {
-  fire: function(func, funcname, args) {
-    var namespace = Roots;
-    funcname = (funcname === undefined) ? 'init' : funcname;
-    if (func !== '' && namespace[func] && typeof namespace[func][funcname] === 'function') {
-      namespace[func][funcname](args);
+
+  // Use this variable to set up the common and page specific functions. If you
+  // rename this variable, you will also need to rename the namespace below.
+  var Roots = {
+    // All pages
+    common: {
+      init: function() {
+        // JavaScript to be fired on all pages
+
+      }
+    },
+    // Home page
+    home: {
+      init: function() {
+        // JavaScript to be fired on the home page
+        // $.backstretch('../wp-content/themes/davinmccoy/assets/img/bg.jpg');
+        $(window).on('mousewheel', function(e){
+          e.preventDefault();
+        });
+        $(window).bind('scroll', function(e){
+          parallax();
+        });
+        $('a.earth').click(function(){
+          $('html, body').animate({scrollTop : 0}, 2000, function(){
+            parallax();
+          });
+          return false;
+        });
+        $('a.moon').click(function(){
+          $('html, body').animate({scrollTop : $('#moon').offset().top}, 2000, function(){
+            parallax();
+          });
+          return false;
+        });
+        $('a.rocket').click(function(){
+          $('html, body').animate({scrollTop : $('#rocket').offset().top}, 2000, function(){
+            parallax();
+          });
+          return false;
+        });
+      }
+    },
+    // About page
+    about: {
+      init: function() {
+        // JavaScript to be fired on the about page
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/about-bg2.jpg');
+      }
+    },
+    // Shows page
+    shows: {
+      init: function() {
+        // JavaScript to be fired on the about page
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/shows-bg.jpg');
+      }
+    },
+    // Photo page
+    photos: {
+      init: function() {
+        // JavaScript to be fired on the photos page
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg2.jpg');
+      }
+    },
+    // Contact page
+    contact: {
+      init: function() {
+        // JavaScript to be fired on the contact page
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/contact-bg2.jpg');
+      }
     }
-  },
-  loadEvents: function() {
-    UTIL.fire('common');
+  };
+  // The routing fires all common scripts, followed by the page specific scripts.
+  // Add additional events for more control over timing e.g. a finalize event
+  var UTIL = {
+    fire: function(func, funcname, args) {
+      var namespace = Roots;
+      funcname = (funcname === undefined) ? 'init' : funcname;
+      if (func !== '' && namespace[func] && typeof namespace[func][funcname] === 'function') {
+        namespace[func][funcname](args);
+      }
+    },
+    loadEvents: function() {
+      UTIL.fire('common');
 
-    $.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
-      UTIL.fire(classnm);
-    });
-  }
-};
+      $.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
+        UTIL.fire(classnm);
+      });
+    }
+  };
 
-$(document).ready(UTIL.loadEvents);
+  $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
