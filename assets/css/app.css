@@ -202,7 +202,11 @@ input:ms-input-placeholder {
   z-index: 1000;
 }
 
-.barnone {
+.barnone > div > a {
+  text-align: center;
+}
+
+.barnone > nav > ul {
   text-align: center;
 }
 
