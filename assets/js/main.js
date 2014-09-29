@@ -46,7 +46,7 @@ var Roots = {
       // JavaScript to be fired on the about page
       $.backstretch('../wp-content/themes/davinmccoy/assets/img/shows-bg.jpg');
     }
-  }
+  },
   // Photo page
   photos: {
     init: function() {
