@@ -33,11 +33,7 @@ a:hover {text-decoration:none;color:#F2F2F2;}
    ========================================================================== */
 
 #stars {
-  background: url('../img/home-bg.jpg') top center no-repeat;
-  width: 200%;
-  height: 400%;
-  position: fixed;
-  top: 0;
+  background: url('../img/home-bg.jpg');
   z-index: 0;
 }
 
