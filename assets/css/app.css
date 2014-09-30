@@ -298,7 +298,7 @@ width: 590px;
 margin: 0 auto;
 }
 
-ul#menu-primary-navigation {width: 100%;background: #000;margin: 0 auto;}
+ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
 #menu-primary-navigation li {display: inline;width: 20%;}
 #menu-primary-navigation li a {
 color: #FFF;
@@ -388,7 +388,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background: #000;
+  background: #1a1a1a;
   z-index: 1000;
 }
 
