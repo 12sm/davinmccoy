@@ -8,21 +8,21 @@
   <article id="news">
     <div class='row'>
       <div class='col-sm-12'>
-				<h1><a class="earth" href="#earth">Outer Space</a></h1>
+        <h1><a class="earth" href="#earth">Outer Space</a></h1>
       </div>
-		</div>
-		<div class='row'>
+    </div>
+    <div class='row'>
       <div class='col-sm-12'>
         <img src='/wp-content/themes/splash/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
   </article>
   <article id="tour">
-		<div class='row'>
+    <div class='row'>
       <div class='col-sm-12'>
-				<h1><a class="moon" href="#moon">Moon</a></h1>
+        <h1><a class="moon" href="#moon">Moon</a></h1>
       </div>
-		</div>
+    </div>
     <div class='row'>
       <div class='col-sm-12'>
         <img src='/wp-content/themes/splash/assets/img/logo.png' class="img-responsive logo">
@@ -30,11 +30,11 @@
     </div>
   </article>
   <article id="videos">
-		<div class='row'>
+    <div class='row'>
       <div class='col-sm-12'>
-				<h1><a class="rocket" href="#rocket">Rocket</a></h1>
+        <h1><a class="rocket" href="#rocket">Rocket</a></h1>
       </div>
-		</div>
+    </div>
     <div class='row'>
       <div class='col-sm-12'>
         <img src='/wp-content/themes/splash/assets/img/logo.png' class="img-responsive logo">
