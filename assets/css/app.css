@@ -296,6 +296,9 @@ input:ms-input-placeholder {
   width: 590px !important;
 }
 
+ul#menu-primary-navigation {width: 100%;}
+#menu-primary-navigation li {display: inline;width: 20%;}
+
 /*
 #main-nav ul {
   width: 960px;
