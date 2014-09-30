@@ -67,7 +67,7 @@ a:hover {text-decoration:none;color:#F2F2F2;}
 
 #homecontent > article#tour {
   position: absolute;
-  top: 2400px;
+  top: 2450px;
   left:0;
   right:0;
   margin: 0 auto;
@@ -79,7 +79,7 @@ a:hover {text-decoration:none;color:#F2F2F2;}
   left:0;
   right:0;
   margin: 0 auto;
-  padding-bottom: 2000px;
+  padding-bottom: 2050px;
 }
 
 /*-------- IMAGES --------*/
