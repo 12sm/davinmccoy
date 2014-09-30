@@ -60,7 +60,7 @@ a:hover {text-decoration:none;color:#F2F2F2;}
 }
 
 #homecontent > article#news {
-  /*width: 960px;*/
+  position: absolute;
 }
 
 #homecontent > article#tour {
