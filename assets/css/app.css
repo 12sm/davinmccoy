@@ -298,6 +298,19 @@ input:ms-input-placeholder {
 
 ul#menu-primary-navigation {width: 100%;}
 #menu-primary-navigation li {display: inline;width: 20%;}
+#menu-primary-navigation li a {
+color: #FFF;
+font-family:"proxima-nova-alt";
+font-size:18px;
+font-weight:600;
+text-transform:uppercase;
+transition:color .3s ease
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #cfba97!important;
+background-color: transparent!important;
+}
 
 /*
 #main-nav ul {
