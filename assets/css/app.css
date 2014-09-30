@@ -5,11 +5,11 @@
    Base
    ========================================================================== */
 
-h1 {font-family: "museo-slab";font-weight:900;font-size:46px;color:#FFF;}
-h2 {font-family: "proxima-nova-alt";font-size:32px;font-weight:500;color:#FFF;}
+h1 {font-family: "museo-slab";font-weight:900;font-size:42px;color:#FFF;}
+h2 {font-family: "museo-slab";font-size:32px;font-weight:900;color:#FFF;}
 h3 {font-family: "proxima-nova-alt";font-size:22px;font-weight:100;color:#FFF;}
 h4 {font-family: "proxima-nova-alt";font-size:18px;font-weight:400;color:#FFF;}
-h5 {font-family: "proxima-nova-alt";font-size:18px;font-weight:400;color:#B0AB9C;}
+h5 {font-family: "proxima-nova-alt";font-size:18px;font-weight:400;color:#FFF;}
 h6 {font-family: "proxima-nova-alt";font-size:14px;font-weight:500;color:#FFF;}
 
 p, body {
