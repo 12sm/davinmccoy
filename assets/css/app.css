@@ -60,16 +60,13 @@ a:hover {text-decoration:none;color:#F2F2F2;}
 }
 
 #homecontent > article#news {
-  position: absolute;
 }
 
 #homecontent > article#tour {
-  position: absolute;
   top: 2000px;
 }
 
 #homecontent > article#videos {
-  position: absolute;
   top: 4000px;
 }
 
