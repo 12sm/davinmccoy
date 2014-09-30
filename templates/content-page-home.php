@@ -1,4 +1,4 @@
-<div id="top"><img id="img-top" src="/wp-content/themes/sidbernstein/assets/img/home-top-bg.jpg"></div>
+<div id="top"><img id="img-top" src="../assets/img/home-top-bg.jpg"></div>
 <div id="stars"></div>
 
 <div id="images">
