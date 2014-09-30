@@ -63,10 +63,14 @@ a:hover {text-decoration:none;color:#F2F2F2;}
 }
 
 #homecontent > article#tour {
+  position: absolute;
+  margin: 0 auto;
   top: 2000px;
 }
 
 #homecontent > article#videos {
+  position: absolute;
+  margin: 0 auto;
   top: 4000px;
 }
 
