@@ -292,9 +292,11 @@ input:ms-input-placeholder {
   z-index: 1000;
 }
 
-/*.banner > div {
-  width: 450px !important;
-}*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: transparent;
+width: 590px;
+margin: 0 auto;
+}
 
 ul#menu-primary-navigation {width: 100%;background: #000;margin: 0 auto;}
 #menu-primary-navigation li {display: inline;width: 20%;}
