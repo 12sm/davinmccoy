@@ -50,13 +50,13 @@
           return false;
         });
         $('a.moon').click(function(){
-          $('html, body').animate({scrollTop : $('#moon').offset().top}, 2000, function(){
+          $('html, body').animate({scrollTop : $('#tour').offset().top}, 2000, function(){
             parallax();
           });
           return false;
         });
         $('a.rocket').click(function(){
-          $('html, body').animate({scrollTop : $('#rocket').offset().top}, 2000, function(){
+          $('html, body').animate({scrollTop : $('#videos').offset().top}, 2000, function(){
             parallax();
           });
           return false;

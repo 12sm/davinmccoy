@@ -54,23 +54,33 @@ a:hover {text-decoration:none;color:#F2F2F2;}
 }
 
 #homecontent > article {
-  /*width: 350px;*/
   padding-top: 160px;
   text-align: center;
 }
 
 #homecontent > article#news {
+  position:absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #homecontent > article#tour {
   position: absolute;
-  margin: 0 auto;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
   top: 2000px;
 }
 
 #homecontent > article#videos {
   position: absolute;
-  margin: 0 auto;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
   top: 4000px;
 }
 
