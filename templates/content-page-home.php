@@ -1,9 +1,9 @@
-<div id="top"><img id="img-top" src="../assets/img/home-top-bg.jpg"></div>
+<div id="top"><img id="img-top" src="/wp-content/themes/davinmccoy/assets/img/home-top-bg.jpg"></div>
 <div id="stars"></div>
 
 <div id="images">
-  <img id="img-middle" src="/wp-content/themes/sidbernstein/assets/img/home-middle-bg.jpg">
-  <img id="img-bottom" src="/wp-content/themes/sidbernstein/assets/img/home-bottom-bg.jpg">
+  <img id="img-middle" src="/wp-content/themes/davinmccoy/assets/img/home-middle-bg.jpg">
+  <img id="img-bottom" src="/wp-content/themes/davinmccoy/assets/img/home-bottom-bg.jpg">
 </div>
 
 <div id="homecontent">
@@ -18,7 +18,7 @@
     </div>
     <div class='row'>
       <div class='col-sm-12'>
-        <img src='/wp-content/themes/splash/assets/img/logo.png' class="img-responsive logo">
+        <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
   </article>
@@ -33,7 +33,7 @@
     </div>
     <div class='row'>
       <div class='col-sm-12'>
-        <img src='/wp-content/themes/splash/assets/img/logo.png' class="img-responsive logo">
+        <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
   </article>
@@ -48,7 +48,7 @@
     </div>
     <div class='row'>
       <div class='col-sm-12'>
-        <img src='/wp-content/themes/splash/assets/img/logo.png' class="img-responsive logo">
+        <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
   </article>
