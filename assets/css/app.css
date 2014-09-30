@@ -5,22 +5,14 @@
    Base
    ========================================================================== */
 
-h1 {font-family: "museo-slab";font-weight:900;font-size:42px;color:#FFF;}
-h2 {font-family: "museo-slab";font-size:32px;font-weight:900;color:#FFF;}
-h3 {font-family: "proxima-nova-alt";font-size:22px;font-weight:100;color:#FFF;}
-h4 {font-family: "proxima-nova-alt";font-size:18px;font-weight:400;color:#FFF;}
-h5 {font-family: "proxima-nova-alt";font-size:18px;font-weight:400;color:#FFF;}
-h6 {font-family: "proxima-nova-alt";font-size:14px;font-weight:500;color:#FFF;}
+h1 {font-family:"museo-slab";font-weight:900;font-size:42px;color:#FFF;text-transform:uppercase;}
+h2 {font-family:"museo-slab";font-size:30px;font-weight:900;color:#FFF;text-transform:uppercase;}
+h3 {font-family:"proxima-nova-alt";font-size:22px;font-weight:100;color:#FFF;}
+h4 {font-family:"proxima-nova-alt";font-size:18px;font-weight:400;color:#FFF;}
+h5 {font-family:"proxima-nova-alt";font-size:16px;font-weight:700;color:#FFF;}
+h6, small {font-family:"proxima-nova-alt";font-size:13px;font-weight:700;color:#FFF;}
 
-p, body {
-	font-family: "proxima-nova-alt";
-	font-size:16px;
-	line-height:1.3em;
-	letter-spacing:1px;
-	font-weight:400;
-	font-style:normal;
-	color:#FFF;
-}
+p, body {font-family:"proxima-nova-alt";font-size:16px;font-weight:400;color:#FFF;}
 
 .black {color:#3E3E3E!important;}
 .white {color:#FFF!important;}
