@@ -13,7 +13,6 @@ h5 {font-family: "proxima-nova-alt";font-size:18px;font-weight:400;color:#FFF;}
 h6 {font-family: "proxima-nova-alt";font-size:14px;font-weight:500;color:#FFF;}
 
 p, body {
-<<<<<<< HEAD
 	font-family: "proxima-nova-alt";
 	font-size:16px;
 	line-height:1.3em;
@@ -23,23 +22,14 @@ p, body {
 	color:#FFF;
 }
 
-.black {color:#3E3E3E!important}
-=======
-  font-family: "proxima-nova-alt";
-  font-size:14px;
-  line-height:1.3em;
-  letter-spacing:1px;
-  font-weight:400;
-  font-style:normal;
-  color:#FFF;
-}
-
 .black {color:#3E3E3E!important;}
->>>>>>> FETCH_HEAD
 .white {color:#FFF!important;}
 
 a {transition:color .2s ease;color:#CFBA97;}
 a:hover {text-decoration:none;color:#F2F2F2;}
+
+.main {margin-bottom:100px;}
+
 
 /* ==========================================================================
    HOME
@@ -353,8 +343,6 @@ border-color: transparent;
 /* ==========================================================================
    PHOTOS
    ========================================================================== */
-
-.main { }
 
 /* Gallery Shortcode */
 .gallery-row {padding: 15px 0;}
