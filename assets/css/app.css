@@ -20,8 +20,8 @@ blockquote {padding: 10px 20px;margin: 0 0 20px;border:none!important;}
 .black {color:#3E3E3E!important;}
 .white {color:#FFF!important;}
 
-a {transition:color .2s ease;color:#CFBA97;}
-a:hover {text-decoration:none;color:#F2F2F2;}
+a {transition:color .2s ease;color:#727272;}
+a:hover {text-decoration:none;color:#FFFFFF;}
 
 .main {margin-bottom:100px;}
 
@@ -286,7 +286,7 @@ margin: 0 auto;
 ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
 #menu-primary-navigation li {display: inline;width: 20%;}
 #menu-primary-navigation li a {
-color: #FFF;
+color: #727272;
 font-family:"proxima-nova-alt";
 font-size:18px;
 font-weight:600;
