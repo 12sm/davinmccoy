@@ -16,13 +16,6 @@
 
 (function($) {
 
-  function parallax(){
-    var scrollPosition = $(window).scrollTop();
-    $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
-    // $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
-    // $("#content").css('top', (0 - scrollPosition) + 'px');
-  }
-
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -38,6 +31,12 @@
       init: function() {
         // JavaScript to be fired on the home page
         // $.backstretch('../wp-content/themes/davinmccoy/assets/img/bg.jpg');
+        function parallax(){
+          var scrollPosition = $(window).scrollTop();
+          $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
+          // $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
+          // $("#content").css('top', (0 - scrollPosition) + 'px');
+        }
         $(window).on('mousewheel', function(e){
           e.preventDefault();
         });
