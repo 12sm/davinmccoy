@@ -416,7 +416,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 background-color: #1a1a1a;
 border-color: transparent;
 }
-	
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {width: 100%;}
+ul#menu-primary-navigation {text-align: center;}
+
 }
 
 /* Small devices (tablets, 768px and up) */
