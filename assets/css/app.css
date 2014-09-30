@@ -13,8 +13,7 @@ h5 {font-family:"proxima-nova-alt";font-size:16px;font-weight:700;color:#FFF;}
 h6, small {font-family:"proxima-nova-alt";font-size:13px;font-weight:700;color:#FFF;}
 
 p, body {font-family:"proxima-nova-alt";font-size:16px;font-weight:600;color:#FFF;text-rendering: geometricPrecision;-webkit-font-smoothing: antialiased !important;}
-p {letter-spacing: 1px;}
-
+p {letter-spacing: 1px;margin-bottom: 20px;line-height: 1.2em;}
 blockquote p {font-size: 22px;font-weight: 100;font-style: italic;line-height: 1em;}
 blockquote {padding: 10px 20px;margin: 0 0 20px;border:none!important;}
 
