@@ -5,14 +5,14 @@
    Base
    ========================================================================== */
 
-h1 {font-family:"museo-slab";font-weight:900;font-size:42px;color:#FFF;text-transform:uppercase;}
-h2 {font-family:"museo-slab";font-size:30px;font-weight:900;color:#FFF;text-transform:uppercase;}
-h3 {font-family:"proxima-nova-alt";font-size:22px;font-weight:100;color:#FFF;}
-h4 {font-family:"proxima-nova-alt";font-size:18px;font-weight:400;color:#FFF;}
-h5 {font-family:"proxima-nova-alt";font-size:16px;font-weight:700;color:#FFF;}
-h6, small {font-family:"proxima-nova-alt";font-size:13px;font-weight:700;color:#FFF;}
+h1 {font-family:"museo-slab";font-weight:900;font-size:42px;color:#EEE;text-transform:uppercase;}
+h2 {font-family:"museo-slab";font-size:30px;font-weight:900;color:#EEE;text-transform:uppercase;}
+h3 {font-family:"proxima-nova-alt";font-size:22px;font-weight:100;color:#EEE;}
+h4 {font-family:"proxima-nova-alt";font-size:18px;font-weight:400;color:#EEE;}
+h5 {font-family:"proxima-nova-alt";font-size:16px;font-weight:700;color:#EEE;}
+h6, small {font-family:"proxima-nova-alt";font-size:13px;font-weight:700;color:#EEE;}
 
-p, body {font-family:"proxima-nova-alt";font-size:16px;font-weight:600;color:#FFF;text-rendering: geometricPrecision;-webkit-font-smoothing: antialiased !important;}
+p, body {font-family:"proxima-nova-alt";font-size:16px;font-weight:600;color:#EEE;text-rendering: geometricPrecision;-webkit-font-smoothing: antialiased !important;}
 p {letter-spacing: 1px;margin-bottom: 20px;line-height: 1.2em;}
 blockquote p {font-size: 22px;font-weight: 100;font-style: italic;line-height: 1em;}
 blockquote {padding: 10px 20px;margin: 0 0 20px;border:none!important;}
