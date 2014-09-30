@@ -293,7 +293,7 @@ font-weight:600;
 text-transform:uppercase;
 transition:color .3s ease
 }
-#menu-primary-navigation li a:hover {color: rgb(139, 130, 81);}
+#menu-primary-navigation li a:hover {color: #FFF;}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 color: #cfba97!important;
