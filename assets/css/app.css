@@ -58,10 +58,8 @@ a:hover {text-decoration:none;color:#F2F2F2;}
 
 /*-------- CONTENT --------*/
 #homecontent {
-  /*color: #fff;*/
   position: relative;
   margin: 0 auto;
-  /*width: 960px;*/
   z-index: 300;
   text-align: center;
 }
@@ -80,7 +78,7 @@ a:hover {text-decoration:none;color:#F2F2F2;}
 
 #homecontent > article#tour {
   position: absolute;
-  top: 2450px;
+  top: 2400px;
   left:0;
   right:0;
   margin: 0 auto;
@@ -92,7 +90,7 @@ a:hover {text-decoration:none;color:#F2F2F2;}
   left:0;
   right:0;
   margin: 0 auto;
-  padding-bottom: 2050px;
+  padding-bottom: 2000px;
 }
 
 /*-------- IMAGES --------*/

@@ -67,28 +67,28 @@
     about: {
       init: function() {
         // JavaScript to be fired on the about page
-        $.backstretch('../wp-content/themes/davinmccoy/assets/img/about-bg2.jpg');
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/about-bg.jpg');
       }
     },
     // Shows page
     shows: {
       init: function() {
         // JavaScript to be fired on the about page
-        $.backstretch('../wp-content/themes/davinmccoy/assets/img/shows-bg.jpg');
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-2.jpg');
       }
     },
     // Photo page
     photos: {
       init: function() {
         // JavaScript to be fired on the photos page
-        $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg2.jpg');
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg.jpg');
       }
     },
     // Contact page
     contact: {
       init: function() {
         // JavaScript to be fired on the contact page
-        $.backstretch('../wp-content/themes/davinmccoy/assets/img/contact-bg2.jpg');
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/contact-bg.jpg');
       }
     }
   };
