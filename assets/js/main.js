@@ -30,11 +30,11 @@
     home: {
       init: function() {
         // JavaScript to be fired on the home page
-        // $.backstretch('../wp-content/themes/davinmccoy/assets/img/bg.jpg');
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         function parallax(){
           var scrollPosition = $(window).scrollTop();
-          $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
-          // $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
+          // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
+          $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
           // $("#content").css('top', (0 - scrollPosition) + 'px');
         }
         $(window).on('mousewheel', function(e){
@@ -50,13 +50,19 @@
           return false;
         });
         $('a.moon').click(function(){
-          $('html, body').animate({scrollTop : $('#tour').offset().top}, 2000, function(){
+          $('html, body').animate({scrollTop : $('#shows').offset().top}, 2000, function(){
             parallax();
           });
           return false;
         });
         $('a.rocket').click(function(){
           $('html, body').animate({scrollTop : $('#videos').offset().top}, 2000, function(){
+            parallax();
+          });
+          return false;
+        });
+        $('a.saturn').click(function(){
+          $('html, body').animate({scrollTop : $('#photos').offset().top}, 2000, function(){
             parallax();
           });
           return false;
