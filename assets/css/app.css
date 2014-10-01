@@ -54,8 +54,17 @@ a:hover {text-decoration:none;color:#FFFFFF;}
   text-align: center;
 }
 
+#homecontent > article#news {
+  position:absolute;
+  top: 0;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
 #homecontent > article#about {
   position:absolute;
+  top: 4000px
   left:0;
   right:0;
   margin: 0 auto;
@@ -63,7 +72,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 
 #homecontent > article#shows {
   position: absolute;
-  top: 4000px;
+  top: 8000px;
   left:0;
   right:0;
   margin: 0 auto;
@@ -71,16 +80,15 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 
 #homecontent > article#videos {
   position: absolute;
-  top: 8000px;
+  top: 12000px;
   left:0;
   right:0;
   margin: 0 auto;
-  padding-bottom: 2000px;
 }
 
 #homecontent > article#photos {
   position: absolute;
-  top: 12000px;
+  top: 16000px;
   left:0;
   right:0;
   margin: 0 auto;
@@ -105,7 +113,8 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 
 #img-about {
   background: url('../img/about-bg.jpg');
-  background-size: cover;
+  /*background-size: cover;*/
+  background-position: center top;
   position: absolute;
   top: 2000px;
   left:0;
@@ -137,7 +146,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
   background: url('../img/photos-bg.jpg');
   background-size: cover;
   position: absolute;
-  top: 6000px;
+  top: 8000px;
   left:0;
   right:0;
   margin: 0 auto;

@@ -43,8 +43,14 @@
         $(window).bind('scroll', function(e){
           parallax();
         });
-        $('a.earth').click(function(){
+        $('a.space').click(function(){
           $('html, body').animate({scrollTop : 0}, 2000, function(){
+            parallax();
+          });
+          return false;
+        });
+        $('a.earth').click(function(){
+          $('html, body').animate({scrollTop : $('#shows').offset().top}, 2000, function(){
             parallax();
           });
           return false;
