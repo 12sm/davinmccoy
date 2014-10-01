@@ -24,7 +24,7 @@ a {transition:color .2s ease;color:#727272;}
 a:hover {text-decoration:none;color:#FFFFFF;}
 
 .main {margin-bottom:100px;}
-
+.col {margin: 0 25%;}
 
 /* ==========================================================================
    HOME
@@ -388,17 +388,55 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
    News & Posts
    ========================================================================== */
 
-.imgLiquidFill.imgLiquid.featured-image-home {
+body.blog .imgLiquidFill.imgLiquid.featured-image-home {
   height: 0px;
   overflow: hidden;
   padding: 0;
   padding-bottom: 55%;
+  -webkit-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
+  -moz-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
+  box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
+  background: url('/wp-content/themes/davinmccoy/assets/img/blog-bg-default.jpg');
+  background-size: cover;
 }
 
-.imgLiquidFill.imgLiquid.featured-image-home img {
+body.blog .imgLiquidFill.imgLiquid.featured-image-home img {
   width: 100%;
   height: auto;
   visibility: visible;
+}
+
+.blog-post-square h1 {
+  margin-bottom: -20px;
+}
+
+span.post-date {
+  color: rgba(255,255,255,.3);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.border-box {
+  padding: 0;
+}
+
+.border-box a {
+  background: #818181;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 30px;
+  opacity:.6;
+  border: 0px;
+  transition: opacity .3s ease;
+}
+
+.border-box a:hover {opacity: 1;}
+
+.blog-post-square {
+  margin-bottom: 50px;
 }
 
 
