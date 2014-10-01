@@ -395,6 +395,9 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
 .hentry .entry-content { }
 .hentry footer { }
 
+.image-liquid {
+  padding-bottom: 100%;
+}
 /* ==========================================================================
    Footer
    ========================================================================== */
