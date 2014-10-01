@@ -50,7 +50,7 @@
           return false;
         });
         $('a.earth').click(function(){
-          $('html, body').animate({scrollTop : $('#shows').offset().top}, 2000, function(){
+          $('html, body').animate({scrollTop : $('#about').offset().top}, 2000, function(){
             parallax();
           });
           return false;
