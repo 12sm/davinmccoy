@@ -118,6 +118,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 #img-shows {
   background: url('../img/home-bg-2.jpg');
   background-size: cover;
+  background-position: center top;
   position: absolute;
   top: 4000px;
   left:0;
@@ -128,6 +129,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 #img-videos {
   background: url('../img/home-bg-3.jpg');
   background-size: cover;
+  background-position: center top;
   position: absolute;
   top: 6000px;
   left:0;
@@ -138,6 +140,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 #img-photos {
   background: url('../img/photos-bg.jpg');
   background-size: cover;
+  background-position: center top;
   position: absolute;
   top: 8000px;
   left:0;
