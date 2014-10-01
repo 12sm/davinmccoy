@@ -399,6 +399,7 @@ padding-bottom: 55%;
 .imgLiquidFill.imgLiquid.featured-image-home img {
 width: 100%;
 height: auto;
+visibility: visible;
 }
 
 
