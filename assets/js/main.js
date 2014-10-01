@@ -50,25 +50,25 @@
           return false;
         });
         $('a.earth').click(function(){
-          $('html, body').animate({scrollTop : $('#about').offset().top}, 2000, function(){
+          $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
             parallax();
           });
           return false;
         });
         $('a.moon').click(function(){
-          $('html, body').animate({scrollTop : $('#shows').offset().top}, 2000, function(){
+          $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
             parallax();
           });
           return false;
         });
         $('a.rocket').click(function(){
-          $('html, body').animate({scrollTop : $('#videos').offset().top}, 2000, function(){
+          $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
             parallax();
           });
           return false;
         });
         $('a.saturn').click(function(){
-          $('html, body').animate({scrollTop : $('#photos').offset().top}, 2000, function(){
+          $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
             parallax();
           });
           return false;
