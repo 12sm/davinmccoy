@@ -397,7 +397,7 @@ padding-bottom: 55%;
 -webkit-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
 -moz-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
 box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
-background: rgb(165, 165, 165); /* this will be replaced with an image */
+background: url('/wp-content/themes/davinmccoy/assets/img/blog-bg-default.jpg');
 }
 
 body.blog .imgLiquidFill.imgLiquid.featured-image-home img {
