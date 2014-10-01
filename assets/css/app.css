@@ -386,8 +386,22 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
    ========================================================================== */
 
 /* ==========================================================================
-   Posts
+   News & Posts
    ========================================================================== */
+
+.imgLiquidFill.imgLiquid.featured-image-home {
+height: 0px;
+overflow: hidden;
+padding: 0;
+padding-bottom: 55%;
+}
+
+.imgLiquidFill.imgLiquid.featured-image-home img {
+width: 100%;
+height: auto;
+}
+
+
 
 .hentry header { }
 .hentry time { }
