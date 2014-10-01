@@ -1,9 +1,9 @@
 <div id="stars"></div>
 
 <div id="images">
-  <img id="img-top" src="assets/img/home-bg-2.jpg">
-  <img id="img-middle" src="assets/img/home-bg-3.jpg">
-  <img id="img-bottom" src="assets/img/photos-bg.jpg">
+  <img id="img-top" src="/wp-content/themes/davinmccoy/assets/img/home-bg-2.jpg">
+  <img id="img-middle" src="/wp-content/themes/davinmccoy/assets/img/home-bg-3.jpg">
+  <img id="img-bottom" src="/wp-content/themes/davinmccoy/assets/img/photos-bg.jpg">
 </div>
 
 <div id="homecontent">
