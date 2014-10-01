@@ -93,13 +93,14 @@ a:hover {text-decoration:none;color:#FFFFFF;}
   position: fixed;
   top: 0;
   width: 100%;
+  height: auto;
   z-index: 200;
   text-align: center;
 }
 
 #images img {
   width: 100%;
-  height: 200%;
+  height: auto;
   padding-top: 120px;
 }
 
