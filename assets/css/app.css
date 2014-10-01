@@ -416,6 +416,10 @@ font-size: 13px;
 font-weight: 600;
 }
 
+.border-box {
+padding: 0;
+}
+
 .border-box a {
 background: #FFF;
 color: #000;
@@ -429,7 +433,11 @@ border: 0px;
 transition: opacity .3s ease;
 }
 
-.border-box a:hover {opacity: 1}
+.border-box a:hover {opacity: 1;}
+
+.blog-post-square {
+margin-bottom: 50px;
+}
 
 
 
