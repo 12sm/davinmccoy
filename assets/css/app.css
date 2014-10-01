@@ -31,7 +31,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
    ========================================================================== */
 
 /*-------- BACKGROUND --------*/
-#stars {
+/*#stars {
   background: url('../img/home-bg.jpg');
   background-size: cover;
   width: 100%;
@@ -39,7 +39,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
   position: fixed;
   top: 0;
   z-index: 0;
-}
+}*/
 
 /*-------- CONTENT --------*/
 #homecontent {
