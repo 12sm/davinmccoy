@@ -32,7 +32,7 @@
     <div class='row'>
       <div class='col-sm-12'>
         <div id="homedates">
-          [wpv-view name="Home-Tour"]
+          <?php echo do_shortcode("[wpv-view name='Home-Tour']"); ?>
         </div>
       </div>
     </div>
