@@ -380,7 +380,6 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
 /* Gallery Shortcode */
 .gallery-row {padding: 15px 0;}
 
-
 /* ==========================================================================
    CONTACT
    ========================================================================== */
@@ -390,16 +389,16 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
    ========================================================================== */
 
 .imgLiquidFill.imgLiquid.featured-image-home {
-height: 0px;
-overflow: hidden;
-padding: 0;
-padding-bottom: 55%;
+  height: 0px;
+  overflow: hidden;
+  padding: 0;
+  padding-bottom: 55%;
 }
 
 .imgLiquidFill.imgLiquid.featured-image-home img {
-width: 100%;
-height: auto;
-visibility: visible;
+  width: 100%;
+  height: auto;
+  visibility: visible;
 }
 
 
@@ -410,9 +409,6 @@ visibility: visible;
 .hentry .entry-content { }
 .hentry footer { }
 
-.imgLiquidFill {
-  padding-bottom: 100%;
-}
 /* ==========================================================================
    Footer
    ========================================================================== */

@@ -31,8 +31,14 @@
   <article id="shows">
     <div class='row'>
       <div class='col-sm-12'>
+        <div id="homedates">
+          [wpv-view name="Home-Tour"]
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class='col-sm-12'>
         <h1><a href="/shows/">See More Dates</a></h1>
-        <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
   </article>
