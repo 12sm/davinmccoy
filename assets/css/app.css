@@ -59,7 +59,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 
 #homecontent > article#about {
   position: absolute;
-  top: 4000px
+  top: 4000px;
   left:0;
   right:0;
   margin: 0 auto;
