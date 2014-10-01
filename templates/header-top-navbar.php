@@ -28,7 +28,10 @@
             <a href="/shows/">Videos</a>
           </li>
           <li class="menu-photos">
-            <a href="/photos/">Photos</a>
+            <a href="/videos/">Photos</a>
+          </li>
+          <li class="menu-store">
+            <a href="/store/">Store</a>
           </li>
           <li class="menu-contact">
             <a href="/contact/">Contact</a>
