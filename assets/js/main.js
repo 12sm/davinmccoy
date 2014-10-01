@@ -30,7 +30,7 @@
     home: {
       init: function() {
         // JavaScript to be fired on the home page
-        // $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         function parallax(){
           var scrollPosition = $(window).scrollTop();
           // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
@@ -76,7 +76,7 @@
       }
     },
     // News page
-    news: {
+    blog: {
       init: function() {
         // JavaScript to be fired on the about page
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
