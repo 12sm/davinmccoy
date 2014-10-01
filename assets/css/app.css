@@ -95,7 +95,6 @@ a:hover {text-decoration:none;color:#FFFFFF;}
   width: 100%;
   height: auto;
   z-index: 200;
-  text-align: center;
 }
 
 #images img {
@@ -107,16 +106,25 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 #img-top {
   position: absolute;
   top: 2000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
 }
 
 #img-middle {
   position: absolute;
   top: 4000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
 }
 
 #img-bottom {
   position: absolute;
   top: 6000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
 }
 
 
