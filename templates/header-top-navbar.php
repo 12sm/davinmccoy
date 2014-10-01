@@ -24,6 +24,9 @@
           <li class="menu-shows">
             <a href="/shows/">Shows</a>
           </li>
+          <li class="menu-videos">
+            <a href="/shows/">Videos</a>
+          </li>
           <li class="menu-photos">
             <a href="/photos/">Photos</a>
           </li>
