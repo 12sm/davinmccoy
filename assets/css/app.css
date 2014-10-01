@@ -389,7 +389,7 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
    News & Posts
    ========================================================================== */
 
-.imgLiquidFill.imgLiquid.featured-image-home {
+body.blog .imgLiquidFill.imgLiquid.featured-image-home {
 height: 0px;
 overflow: hidden;
 padding: 0;
@@ -400,7 +400,7 @@ box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
 background: rgb(165, 165, 165); /* this will be replaced with an image */
 }
 
-.imgLiquidFill.imgLiquid.featured-image-home img {
+body.blog .imgLiquidFill.imgLiquid.featured-image-home img {
 width: 100%;
 height: auto;
 visibility: visible;
