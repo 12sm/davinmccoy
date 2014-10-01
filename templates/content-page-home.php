@@ -15,6 +15,7 @@
   <article id="news">
     <div class='row'>
       <div class='col-sm-12'>
+        <h1><a href="/news/">Read More News</a></h1>
         <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
@@ -22,6 +23,7 @@
   <article id="about">
     <div class='row'>
       <div class='col-sm-12'>
+        <h1><a href="/about/">Read More About Davin</a></h1>
         <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
@@ -29,6 +31,7 @@
   <article id="shows">
     <div class='row'>
       <div class='col-sm-12'>
+        <h1><a href="/shows/">See More Dates</a></h1>
         <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
@@ -36,6 +39,7 @@
   <article id="videos">
     <div class='row'>
       <div class='col-sm-12'>
+        <h1><a href="/videos/">See More Videos</a></h1>
         <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
@@ -43,6 +47,7 @@
   <article id="photos">
     <div class='row'>
       <div class='col-sm-12'>
+        <h1><a href="/photos/">See More Photos</a></h1>
         <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
