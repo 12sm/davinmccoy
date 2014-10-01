@@ -19,19 +19,19 @@
             <a href="/">Home</a>
           </li>
           <li class="menu-news">
-            <a href="#news">News</a>
+            <a class="space" href="#news">News</a>
           </li>
           <li class="menu-about">
-            <a href="#about">About</a>
+            <a class="earth" href="#about">About</a>
           </li>
           <li class="menu-shows">
-            <a href="#shows">Shows</a>
+            <a class="moon" href="#shows">Shows</a>
           </li>
           <li class="menu-videos">
-            <a href="#videos">Videos</a>
+            <a class="rocket" href="#videos">Videos</a>
           </li>
           <li class="menu-photos">
-            <a href="#photos">Photos</a>
+            <a class="saturn" href="#photos">Photos</a>
           </li>
           <li class="menu-store">
             <a href="/store/">Store</a>
