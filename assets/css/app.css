@@ -469,7 +469,7 @@ ul#menu-primary-navigation {text-align: center;}
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) {
+@media (min-width: 992px) {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   width: 750px;
@@ -477,6 +477,6 @@ ul#menu-primary-navigation {text-align: center;}
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) {
+@media (min-width: 1200px) {
 
 }
