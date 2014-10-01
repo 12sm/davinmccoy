@@ -55,15 +55,10 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 }
 
 #homecontent > article#news {
-  position:absolute;
-  top: 0;
-  left:0;
-  right:0;
-  margin: 0 auto;
 }
 
 #homecontent > article#about {
-  position:absolute;
+  position: absolute;
   top: 4000px
   left:0;
   right:0;
