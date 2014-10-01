@@ -394,6 +394,9 @@ height: 0px;
 overflow: hidden;
 padding: 0;
 padding-bottom: 55%;
+-webkit-box-shadow: 0 0 10px 6px rgba(82, 82, 82, 0.2);
+-moz-box-shadow: 0 0 10px 6px rgba(82, 82, 82, 0.2);
+box-shadow: 0 0 10px 6px rgba(82, 82, 82, 0.2);
 }
 
 .imgLiquidFill.imgLiquid.featured-image-home img {
