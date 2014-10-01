@@ -97,7 +97,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
   z-index: 200;
 }
 
-#images img {
+#images div {
   width: 100%;
   height: auto;
   padding-top: 120px;
