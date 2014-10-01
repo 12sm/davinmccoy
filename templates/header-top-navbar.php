@@ -18,17 +18,20 @@
           <li class="active menu-home">
             <a href="/">Home</a>
           </li>
+          <li class="menu-news">
+            <a href="#news">News</a>
+          </li>
           <li class="menu-about">
-            <a href="/about/">About</a>
+            <a href="#about">About</a>
           </li>
           <li class="menu-shows">
-            <a href="/shows/">Shows</a>
+            <a href="#shows">Shows</a>
           </li>
           <li class="menu-videos">
-            <a href="/shows/">Videos</a>
+            <a href="#videos">Videos</a>
           </li>
           <li class="menu-photos">
-            <a href="/videos/">Photos</a>
+            <a href="#photos">Photos</a>
           </li>
           <li class="menu-store">
             <a href="/store/">Store</a>
