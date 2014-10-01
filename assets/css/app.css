@@ -279,7 +279,7 @@ input:ms-input-placeholder {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent;
-  width: 590px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -471,6 +471,9 @@ ul#menu-primary-navigation {text-align: center;}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md) {
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  width: 750px;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
