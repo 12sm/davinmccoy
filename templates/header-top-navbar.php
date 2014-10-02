@@ -13,8 +13,8 @@
       <nav id="main-nav" class="collapse navbar-collapse" role="navigation">
         <script>
           function doClick(x, y) {
-            if (window.location == "http://davinmccoy.12southdev.com")
-              window.location.href = x;
+            if (window.location.href != "http://davinmccoy.12southdev.com/")
+              window.location.href = y;
           }
         </script>
 
