@@ -42,7 +42,7 @@
     </div>
     <div class="row">
       <div class='col-sm-6'>
-        <h1><a href="/about/">Read More About Davin</a></h1>
+        <h3><a href="/about/">Read More About Davin</a></h3>
       </div>
     </div>
   </article>
