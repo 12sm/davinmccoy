@@ -12,11 +12,11 @@
       </div>
       <nav id="main-nav" class="collapse navbar-collapse" role="navigation">
         <script>
-          function doClick(x) {
+          function doClick(x, y) {
             if (window.location == "http://davinmccoy.12southdev.com")
-              window.location.href = "#photos";
-            else
               window.location.href = x;
+            else
+              window.location.href = y;
           }
         </script>
 
@@ -27,19 +27,19 @@
             <a href="/">Home</a>
           </li>
           <li class="menu-news">
-            <a class="space" href="#news" onclick="doClick('/news/'); return false;">News</a>
+            <a class="space" onclick="doClick('#news', '/news/'); return false;">News</a>
           </li>
           <li class="menu-about">
-            <a class="earth" href="#about" onclick="doClick('/about/'); return false;">About</a>
+            <a class="earth" onclick="doClick('#about', '/about/'); return false;">About</a>
           </li>
           <li class="menu-shows">
-            <a class="moon" href="#shows" onclick="doClick('/shows/'); return false;">Shows</a>
+            <a class="moon" onclick="doClick('#shows', '/shows/'); return false;">Shows</a>
           </li>
           <li class="menu-videos">
-            <a class="rocket" href="#videos" onclick="doClick('/videos/'); return false;">Videos</a>
+            <a class="rocket" onclick="doClick('#videos', '/videos/'); return false;">Videos</a>
           </li>
           <li class="menu-photos">
-            <a class="saturn" href="#photos" onclick="doClick('/photos/'); return false;">Photos</a>
+            <a class="saturn" onclick="doClick('#photos', '/photos/'); return false;">Photos</a>
           </li>
           <li class="menu-store">
             <a href="/store/">Store</a>
