@@ -256,7 +256,7 @@ div#mc_embed_signup .clear {
 }
 
 .logo {
-  margin: 2% auto;
+  margin: 2% auto -24px auto;
 }
 
 input#mc_embed_signup .button {
