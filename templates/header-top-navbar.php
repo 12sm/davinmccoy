@@ -12,8 +12,9 @@
       </div>
       <nav id="main-nav" class="collapse navbar-collapse" role="navigation">
         <script>
+          var regex = /[#a-z]+$/g;
           function doClick(x) {
-            if (window.location.href != "http://davinmccoy.12southdev.com" && window.location.href != "http://davinmccoy.12southdev.com" + /^[#a-z]+$/g)
+            if (window.location.href != "http://davinmccoy.12southdev.com" && window.location.href != "http://davinmccoy.12southdev.com" + regex)
               window.location.href = "http://davinmccoy.12southdev.com" + x;
           }
         </script>
