@@ -26,7 +26,7 @@
     </div>
     <div class="row">
       <div class='col-sm-12'>
-        <h3><a href="/news/">Read The Latest</a></h3>
+        <h3 class="border-box"><a href="/news/">Read The Latest</a></h3>
       </div>
     </div>
   </article>
@@ -44,7 +44,7 @@
     </div>
     <div class="row">
       <div class='col-sm-6'>
-        <h3><a href="/about/">Read More About Davin</a></h3>
+        <h3 class="border-box"><a href="/about/">Read More About Davin</a></h3>
       </div>
     </div>
   </article>
@@ -64,7 +64,7 @@
     </div>
     <div class="row">
       <div class='col-sm-12'>
-        <h3><a href="/shows/">See More Dates</a></h3>
+        <h3 class="border-box"><a href="/shows/">See More Dates</a></h3>
       </div>
     </div>
   </article>
@@ -82,7 +82,7 @@
     </div>
     <div class="row">
       <div class='col-sm-12'>
-        <h3><a href="/videos/">Watch More Videos</a></h3>
+        <h3 class="border-box"><a href="/videos/">Watch More Videos</a></h3>
       </div>
     </div>
   </article>
@@ -100,7 +100,7 @@
     </div>
     <div class="row">
       <div class='col-sm-12'>
-        <h3><a href="/photos/">View More Photos</a></h3>
+        <h3 class="border-box"><a href="/photos/">View More Photos</a></h3>
       </div>
     </div>
   </article>
