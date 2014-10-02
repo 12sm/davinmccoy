@@ -54,11 +54,11 @@ a:hover {text-decoration:none;color:#FFFFFF;}
   text-align: center;
 }
 
-#homecontent > article#news {
+#homecontent > article#home {
+  padding-top: 0 !important;
 }
 
 #homecontent > article#about {
-  padding-top: 0 !important;
   position: absolute;
   top: 2000px;
   left:0;
