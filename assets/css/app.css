@@ -54,7 +54,8 @@ a:hover {text-decoration:none;color:#FFFFFF;}
   text-align: center;
 }
 
-#homecontent > article#news {
+#homecontent > article#home {
+  padding-top: 0px !important;
 }
 
 #homecontent > article#about {
@@ -88,6 +89,10 @@ a:hover {text-decoration:none;color:#FFFFFF;}
   right:0;
   margin: 0 auto;
   padding-bottom: 8000px;
+}
+
+.hometile {
+  margin: 0 auto;
 }
 
 /*-------- IMAGES --------*/
@@ -149,6 +154,77 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 }
 
 
+#vidpage > div {
+  text-align: center;
+}
+
+
+/*-------- FLEX SLIDER --------*/
+/*
+ * jQuery FlexSlider v1.8
+ * http://flex.madebymufffin.com
+ *
+ * Copyright 2011, Tyler Smith
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {width: 100%; margin: 0; padding: 0;}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {zoom: 1; position: relative;}
+
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex-caption {width: 96%; padding: 2%; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 14px; line-height: 18px;}
+
+/* Direction Nav */
+.flex-direction-nav li a {width: 52px; height: 52px; margin: -13px 0 0; display: block; background: url('../img/bg_direction_nav.png') no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li .next {background-position: -52px 0; right: -21px;}
+.flex-direction-nav li .prev {left: -20px;}
+.flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: -30px; text-align: center;}
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url('../img/bg_control_nav.png') no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+
+
+
+
 
 
 
@@ -180,7 +256,7 @@ div#mc_embed_signup .clear {
 }
 
 .logo {
-  margin: 0 auto;
+  margin: 2% auto;
 }
 
 input#mc_embed_signup .button {
@@ -331,7 +407,10 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
   transition:color .3s ease
 }
 
-#menu-primary-navigation li a:hover {color: #FFF;}
+#menu-primary-navigation li a:hover {
+  color: #FFF;
+  cursor: pointer !important;
+}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   color: #cfba97!important;
@@ -380,7 +459,6 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
 /* Gallery Shortcode */
 .gallery-row {padding: 15px 0;}
 
-
 /* ==========================================================================
    CONTACT
    ========================================================================== */
@@ -390,6 +468,7 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
    ========================================================================== */
 
 body.blog .imgLiquidFill.imgLiquid.featured-image-home {
+<<<<<<< HEAD
 height: 0px;
 overflow: hidden;
 padding: 0;
@@ -406,45 +485,56 @@ body.blog .imgLiquidFill.imgLiquid.featured-image-home:hover {
 -webkit-filter: brightness(150%);
 -moz-filter: brightness(150%);
 filter: brightness(150%);
+=======
+  height: 0px;
+  overflow: hidden;
+  padding: 0;
+  padding-bottom: 55%;
+  -webkit-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
+  -moz-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
+  box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
+  background: url('/wp-content/themes/davinmccoy/assets/img/blog-bg-default.jpg');
+  background-size: cover;
+>>>>>>> FETCH_HEAD
 }
 
 body.blog .imgLiquidFill.imgLiquid.featured-image-home img {
-width: 100%;
-height: auto;
-visibility: visible;
+  width: 100%;
+  height: auto;
+  visibility: visible;
 }
 
 .blog-post-square h1 {
-margin-bottom: -20px;
+  margin-bottom: -20px;
 }
 
 span.post-date {
-color: rgba(255,255,255,.3);
-font-size: 13px;
-font-weight: 600;
+  color: rgba(255,255,255,.3);
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .border-box {
-padding: 0;
+  padding: 0;
 }
 
 .border-box a {
-background: #818181;
-color: #FFF;
-font-size: 16px;
-font-weight: 600;
-padding: 5px;
-display: inline-block;
-border-radius: 30px;
-opacity:.6;
-border: 0px;
-transition: opacity .3s ease;
+  background: #818181;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 30px;
+  opacity:.6;
+  border: 0px;
+  transition: opacity .3s ease;
 }
 
 .border-box a:hover {opacity: 1;}
 
 .blog-post-square {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 
@@ -455,9 +545,6 @@ margin-bottom: 50px;
 .hentry .entry-content { }
 .hentry footer { }
 
-.imgLiquidFill {
-  padding-bottom: 100%;
-}
 /* ==========================================================================
    Footer
    ========================================================================== */

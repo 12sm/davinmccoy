@@ -11,27 +11,33 @@
         <a class="navbar-brand hidden-lg hidden-md hidden-sm visible-xs" href="<?php echo home_url(); ?>/"><img src="/wp-content/themes/davinmccoy/assets/img/dm-logo.png" height="30px" /></a>
       </div>
       <nav id="main-nav" class="collapse navbar-collapse" role="navigation">
+        <script>
+          function doClick(x, y) {
+            if (window.location.href != "http://davinmccoy.12southdev.com/")
+              window.location.href = y;
+          }
+        </script>
 
 <!-------- NAVBAR START -------->
 
         <ul id="menu-primary-navigation" class="nav navbar-nav">
           <li class="active menu-home">
-            <a href="/">Home</a>
-          </li>
-          <li class="menu-news">
-            <a class="space" href="#news">News</a>
+            <a class="space" onclick="doClick('#home', '/'); return false;">Home</a>
           </li>
           <li class="menu-about">
-            <a class="earth" href="#about">About</a>
+            <a class="earth" onclick="doClick('#about', '/about/'); return false;">About</a>
           </li>
           <li class="menu-shows">
-            <a class="moon" href="#shows">Shows</a>
+            <a class="moon" onclick="doClick('#shows', '/shows/'); return false;">Shows</a>
           </li>
           <li class="menu-videos">
-            <a class="rocket" href="#videos">Videos</a>
+            <a class="rocket" onclick="doClick('#videos', '/videos/'); return false;">Videos</a>
           </li>
           <li class="menu-photos">
-            <a class="saturn" href="#photos">Photos</a>
+            <a class="saturn" onclick="doClick('#photos', '/photos/'); return false;">Photos</a>
+          </li>
+          <li class="menu-news">
+            <a href="/news/">News</a>
           </li>
           <li class="menu-store">
             <a href="/store/">Store</a>
