@@ -15,7 +15,12 @@
  * ======================================================================== */
 
 (function($) {
-
+  function parallax(){
+    var scrollPosition = $(window).scrollTop();
+    // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
+    $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
+    // $("#content").css('top', (0 - scrollPosition) + 'px');
+  }
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -23,6 +28,14 @@
     common: {
       init: function() {
         // JavaScript to be fired on all pages
+        function doClick(x) {
+          if (window.location.href != "http://davinmccoy.12southdev.com/" && window.location.href != "http://davinmccoy.12southdev.com/" + /^[#a-zA-Z]+$/g)
+            window.location.href = "http://davinmccoy.12southdev.com/";
+            $('html, body').animate({scrollTop : $(x).offset().top}, 1000, function(){
+              parallax();
+            });
+            return false;
+        }
       }
     },
     // Home page
@@ -31,48 +44,42 @@
         // JavaScript to be fired on the home page
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         $(".imgLiquidFill").imgLiquid();
-        function parallax(){
-          var scrollPosition = $(window).scrollTop();
-          // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
-          $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
-          // $("#content").css('top', (0 - scrollPosition) + 'px');
-        }
         $(window).on('mousewheel', function(e){
           e.preventDefault();
         });
         $(window).bind('scroll', function(e){
           parallax();
         });
-        $('a.space').click(function(){
-          $('html, body').animate({scrollTop : 0}, 2000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.earth').click(function(){
-          $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.moon').click(function(){
-          $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.rocket').click(function(){
-          $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.saturn').click(function(){
-          $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
+        // $('a.space').click(function(){
+        //   $('html, body').animate({scrollTop : 0}, 2000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
+        // $('a.earth').click(function(){
+        //   $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
+        // $('a.moon').click(function(){
+        //   $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
+        // $('a.rocket').click(function(){
+        //   $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
+        // $('a.saturn').click(function(){
+        //   $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
       }
     },
     // News page
