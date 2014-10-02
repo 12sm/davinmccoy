@@ -24,10 +24,10 @@
       init: function() {
         // JavaScript to be fired on all pages
         function doClick(x, y) {
-          if (window.location.href = "/" + x)
-            window.location.href = y;
+          if (window.location.href = "http://davinmccoy.12southdev.com/" + x)
+            window.location.href = "http://davinmccoy.12southdev.com" + y;
           else
-            window.location.href = "/" + x;
+            window.location.href = "http://davinmccoy.12southdev.com/" + x;
         }
       }
     },
