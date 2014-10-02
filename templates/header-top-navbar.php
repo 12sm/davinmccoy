@@ -20,7 +20,7 @@
           }
           function doClick(x) {
             if (window.location.href != "http://davinmccoy.12southdev.com")
-              window.location.href = "http://davinmccoy.12southdev.com/";
+              window.location.href = "http://davinmccoy.12southdev.com";
               $('html, body').animate({scrollTop : $(x).offset().top}, 1000, function(){
                 parallax();
               });
