@@ -16,7 +16,7 @@
             if (window.location != "http://davinmccoy.12southdev.com")
               window.location.href = "http://davinmccoy.12southdev.com" + x;
             else
-              window.location = this.href;
+              window.location.href = this.href;
           }
         </script>
 
