@@ -22,10 +22,7 @@
 
         <ul id="menu-primary-navigation" class="nav navbar-nav">
           <li class="active menu-home">
-            <a href="/">Home</a>
-          </li>
-          <li class="menu-home">
-            <a class="space" onclick="doClick('#home', '/'); return false;">News</a>
+            <a class="space" onclick="doClick('#home', '/'); return false;">Home</a>
           </li>
           <li class="menu-about">
             <a class="earth" onclick="doClick('#about', '/about/'); return false;">About</a>
