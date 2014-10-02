@@ -12,20 +12,9 @@
       </div>
       <nav id="main-nav" class="collapse navbar-collapse" role="navigation">
         <script>
-          function parallax(){
-            var scrollPosition = $(window).scrollTop();
-            // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
-            $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
-            // $("#content").css('top', (0 - scrollPosition) + 'px');
-          }
           function doClick(x) {
-            debugger;
-            if (window.location.href == "http://davinmccoy.12southdev.com")
-              window.location.href = "http://davinmccoy.12southdev.com";
-              $('html, body').animate({scrollTop : $(x).offset().top}, 1000, function(){
-                parallax();
-              });
-              return false;
+            if (window.location.href != "http://davinmccoy.12southdev.com")
+              window.location.href = "http://davinmccoy.12southdev.com" + x;
           }
         </script>
 
@@ -36,19 +25,19 @@
             <a href="/">Home</a>
           </li>
           <li class="menu-news">
-            <a class="space" href="#news" onclick="doClick('#news');">News</a>
+            <a class="space" href="#news" onclick="doClick('/news/');">News</a>
           </li>
           <li class="menu-about">
-            <a class="earth" href="#about" onclick="doClick('#about');">About</a>
+            <a class="earth" href="#about" onclick="doClick('/about/');">About</a>
           </li>
           <li class="menu-shows">
-            <a class="moon" href="#shows" onclick="doClick('#shows');">Shows</a>
+            <a class="moon" href="#shows" onclick="doClick('/shows/');">Shows</a>
           </li>
           <li class="menu-videos">
-            <a class="rocket" href="#videos" onclick="doClick('#videos');">Videos</a>
+            <a class="rocket" href="#videos" onclick="doClick('/videos/');">Videos</a>
           </li>
           <li class="menu-photos">
-            <a class="saturn" href="#photos" onclick="doClick('#photos');">Photos</a>
+            <a class="saturn" href="#photos" onclick="doClick('/photos/');">Photos</a>
           </li>
           <li class="menu-store">
             <a href="/store/">Store</a>
