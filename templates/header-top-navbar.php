@@ -12,19 +12,19 @@
       </div>
       <nav id="main-nav" class="collapse navbar-collapse" role="navigation">
         <script>
-          function doClick(x) {
-            if (window.location.href != "http://davinmccoy.12southdev.com/")
-              window.location.href = "http://davinmccoy.12southdev.com/";
-              $('html, body').animate({scrollTop : $(x).offset().top}, 1000, function(){
-                parallax();
-              });
-              return false;
-          }
           function parallax(){
             var scrollPosition = $(window).scrollTop();
             // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
             $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
             // $("#content").css('top', (0 - scrollPosition) + 'px');
+          }
+          function doClick(x) {
+            if (window.location.href != "http://davinmccoy.12southdev.com/")
+              window.location.href = "http://davinmccoy.12southdev.com/";
+              $('html, body').animate({scrollTop : $('{x}').offset().top}, 1000, function(){
+                parallax();
+              });
+              return false;
           }
         </script>
 
