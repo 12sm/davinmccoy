@@ -55,7 +55,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 }
 
 #homecontent > article#home {
-  padding-top: 0 !important;
+  padding-top: 0px !important;
 }
 
 #homecontent > article#about {
