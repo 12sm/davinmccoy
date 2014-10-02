@@ -406,7 +406,10 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
   transition:color .3s ease
 }
 
-#menu-primary-navigation li a:hover {color: #FFF;}
+#menu-primary-navigation li a:hover {
+  color: #FFF;
+  cursor: pointer;
+}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   color: #cfba97!important;
