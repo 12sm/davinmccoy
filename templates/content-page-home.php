@@ -37,7 +37,7 @@
     </div>
     <div class='row'>
       <div class='col-sm-12'>
-        <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
+        <?php echo do_shortcode('[about]'); ?>
       </div>
     </div>
     <div class="row">
