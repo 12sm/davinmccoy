@@ -19,19 +19,19 @@
             <a href="/">Home</a>
           </li>
           <li class="menu-news">
-            <a class="space" onclick="doClick('#news', '/news/'); return false;">News</a>
+            <a class="space" href="#news" onclick="doClick('#news', '/news/'); return false;">News</a>
           </li>
           <li class="menu-about">
-            <a class="earth" onclick="doClick('#about', '/about/'); return false;">About</a>
+            <a class="earth" href="#about" onclick="doClick('#about', '/about/'); return false;">About</a>
           </li>
           <li class="menu-shows">
-            <a class="moon" onclick="doClick('#shows', '/shows/'); return false;">Shows</a>
+            <a class="moon" href="#shows" onclick="doClick('#shows', '/shows/'); return false;">Shows</a>
           </li>
           <li class="menu-videos">
-            <a class="rocket" onclick="doClick('#videos', '/videos/'); return false;">Videos</a>
+            <a class="rocket" href="#videos" onclick="doClick('#videos', '/videos/'); return false;">Videos</a>
           </li>
           <li class="menu-photos">
-            <a class="saturn" onclick="doClick('#photos', '/photos/'); return false;">Photos</a>
+            <a class="saturn" href="#photos" onclick="doClick('#photos', '/photos/'); return false;">Photos</a>
           </li>
           <li class="menu-store">
             <a href="/store/">Store</a>
