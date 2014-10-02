@@ -58,6 +58,7 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 }
 
 #homecontent > article#about {
+  padding-top: 0 !important;
   position: absolute;
   top: 2000px;
   left:0;
@@ -255,7 +256,7 @@ div#mc_embed_signup .clear {
 }
 
 .logo {
-  margin: 0 auto;
+  margin: 4% auto;
 }
 
 input#mc_embed_signup .button {
