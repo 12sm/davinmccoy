@@ -13,7 +13,7 @@
       <nav id="main-nav" class="collapse navbar-collapse" role="navigation">
         <script>
           function doClick(x) {
-            if (this.href != "/")
+            if (window.location != "http://davinmccoy.12southdev.com")
               window.location.href = "http://davinmccoy.12southdev.com" + x;
           }
         </script>
