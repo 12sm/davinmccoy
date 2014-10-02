@@ -153,7 +153,9 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 }
 
 
-
+#vidpage > div {
+  text-align: center;
+}
 
 
 /*-------- FLEX SLIDER --------*/
