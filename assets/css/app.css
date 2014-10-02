@@ -506,11 +506,12 @@ body.blog .imgLiquidFill.imgLiquid.featured-image-home img {
 
 .blog-post-square h1 {
   margin-bottom: -20px;
-  transition:color .3s ease;
+  transition: opacity .3s ease;
+  opacity: .7;
 }
 
 .blog-post-square h1:hover {
-color: #FFF;
+opacity: 1;
 }
 
 span.post-date {
