@@ -73,7 +73,7 @@
     </div>
     <div class='row'>
       <div class='col-sm-12'>
-        <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
+        <iframe width="560" height="315" src="//www.youtube.com/embed/7_iud2fBhJ4" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="row">

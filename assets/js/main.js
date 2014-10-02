@@ -28,6 +28,9 @@
     common: {
       init: function() {
         // JavaScript to be fired on all pages
+        $(window).load(function() {
+          $(".imgLiquidFill").imgLiquid();
+        });
       }
     },
     // Home page
@@ -35,7 +38,9 @@
       init: function() {
         // JavaScript to be fired on the home page
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
-        $(".imgLiquidFill").imgLiquid();
+        $(window).load(function() {
+          $('.flexslider').flexslider();
+        });
         $(window).on('mousewheel', function(e){
           e.preventDefault();
         });
