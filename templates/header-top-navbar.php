@@ -16,28 +16,29 @@
 
         <script>
           function doClick(x, y) {
-  if (window.location.href != "http://davinmccoy.12southdev.com/" && window.location.href != "http://davinmccoy.12southdev.com/" + "/^[#a-zA-Z]+$/g")
+            if (window.location.href != "http://davinmccoy.12southdev.com/" && window.location.href != "http://davinmccoy.12southdev.com/" + /^[#a-zA-Z]+$/g)
               window.location.href = "http://davinmccoy.12southdev.com/" + x;
           }
+
         </script>
         <ul id="menu-primary-navigation" class="nav navbar-nav">
           <li class="active menu-home">
             <a href="/">Home</a>
           </li>
           <li class="menu-news">
-            <a class="space" href="#news" onclick="doClick('#news', 'news'); return false;">News</a>
+            <a class="space" href="#news" onclick="doClick('#news');">News</a>
           </li>
           <li class="menu-about">
-            <a class="earth" href="#about" onclick="doClick('#about', 'about'); return false;">About</a>
+            <a class="earth" href="#about" onclick="doClick('#about');">About</a>
           </li>
           <li class="menu-shows">
-            <a class="moon" href="#shows" onclick="doClick('#shows', 'shows'); return false;">Shows</a>
+            <a class="moon" href="#shows" onclick="doClick('#shows');">Shows</a>
           </li>
           <li class="menu-videos">
-            <a class="rocket" href="#videos" onclick="doClick('#videos', '/videos/'); return false;">Videos</a>
+            <a class="rocket" href="#videos" onclick="doClick('#videos');">Videos</a>
           </li>
           <li class="menu-photos">
-            <a class="saturn" href="#photos" onclick="doClick('#photos', '/photos/'); return false;">Photos</a>
+            <a class="saturn" href="#photos" onclick="doClick('#photos');">Photos</a>
           </li>
           <li class="menu-store">
             <a href="/store/">Store</a>
