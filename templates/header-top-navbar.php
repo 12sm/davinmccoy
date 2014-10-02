@@ -14,6 +14,14 @@
 
 <!-------- NAVBAR START -------->
 
+        <script>
+          function doClick(x, y) {
+            if (window.location.href = "http://davinmccoy.12southdev.com/" + x)
+              window.location.href = "http://davinmccoy.12southdev.com/" + y;
+            else
+              window.location.href = "http://davinmccoy.12southdev.com/" + x;
+          }
+        </script>
         <ul id="menu-primary-navigation" class="nav navbar-nav">
           <li class="active menu-home">
             <a href="/">Home</a>
