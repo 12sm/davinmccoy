@@ -42,36 +42,36 @@
         $(window).bind('scroll', function(e){
           parallax();
         });
-        $('a.space').click(function(){
-          $('html, body').animate({scrollTop : 0}, 2000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.earth').click(function(){
-          $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.moon').click(function(){
-          $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.rocket').click(function(){
-          $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.saturn').click(function(){
-          $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
+        // $('a.space').click(function(){
+        //   $('html, body').animate({scrollTop : 0}, 2000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
+        // $('a.earth').click(function(){
+        //   $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
+        // $('a.moon').click(function(){
+        //   $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
+        // $('a.rocket').click(function(){
+        //   $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
+        // $('a.saturn').click(function(){
+        //   $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
+        //     parallax();
+        //   });
+        //   return false;
+        // });
       }
     },
     // News page
