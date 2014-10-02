@@ -11,7 +11,7 @@
   </div>
 </div>
 
-<div id="homecontent">
+<div id="homecontent" class="container">
   <article id="news">
     <div class="row">
       <div class='col-sm-12'>
@@ -40,7 +40,7 @@
         <?php echo do_shortcode('[about]'); ?>
       </div>
     </div>
-    <div class="container row">
+    <div class="row">
       <div class='col-sm-6'>
         <h1><a href="/about/">Read More About Davin</a></h1>
       </div>
