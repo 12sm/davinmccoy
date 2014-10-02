@@ -25,7 +25,7 @@
         // JavaScript to be fired on all pages
         function doClick(x, y) {
           if (window.location.href = "http://davinmccoy.12southdev.com/" + x)
-            window.location.href = "http://davinmccoy.12southdev.com" + y;
+            window.location.href = "http://davinmccoy.12southdev.com/" + y;
           else
             window.location.href = "http://davinmccoy.12southdev.com/" + x;
         }

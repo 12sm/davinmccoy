@@ -19,13 +19,13 @@
             <a href="/">Home</a>
           </li>
           <li class="menu-news">
-            <a class="space" href="#news" onclick="doClick('#news', '/news/'); return false;">News</a>
+            <a class="space" href="#news" onclick="doClick('#news', 'news'); return false;">News</a>
           </li>
           <li class="menu-about">
-            <a class="earth" href="#about" onclick="doClick('#about', '/about/'); return false;">About</a>
+            <a class="earth" href="#about" onclick="doClick('#about', 'about'); return false;">About</a>
           </li>
           <li class="menu-shows">
-            <a class="moon" href="#shows" onclick="doClick('#shows', '/shows/'); return false;">Shows</a>
+            <a class="moon" href="#shows" onclick="doClick('#shows', 'shows'); return false;">Shows</a>
           </li>
           <li class="menu-videos">
             <a class="rocket" href="#videos" onclick="doClick('#videos', '/videos/'); return false;">Videos</a>
