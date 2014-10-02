@@ -16,7 +16,7 @@
 
         <script>
           function doClick(x, y) {
-            if (window.location.href = "http://davinmccoy.12southdev.com/" + x)
+            if (window.location.href == "http://davinmccoy.12southdev.com/" + x)
               window.location.href = "http://davinmccoy.12southdev.com/" + y;
             else
               window.location.href = "http://davinmccoy.12southdev.com/" + x;
