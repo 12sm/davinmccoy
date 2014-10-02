@@ -16,22 +16,22 @@
 
         <ul id="menu-primary-navigation" class="nav navbar-nav">
           <li class="active menu-home">
-            <a href="/#photos">Home</a>
+            <a href="/">Home</a>
           </li>
           <li class="menu-news">
-            <a class="space" href="#news">News</a>
+            <a class="space" href="doClick('#news', '/news/')">News</a>
           </li>
           <li class="menu-about">
-            <a class="earth" href="#about">About</a>
+            <a class="earth" href="doClick('#about', '/about/')">About</a>
           </li>
           <li class="menu-shows">
-            <a class="moon" href="#shows">Shows</a>
+            <a class="moon" href="doClick('#shows', '/shows/')">Shows</a>
           </li>
           <li class="menu-videos">
-            <a class="rocket" href="#videos">Videos</a>
+            <a class="rocket" href="doClick('#videos', '/videos/')">Videos</a>
           </li>
           <li class="menu-photos">
-            <a class="saturn" href="#photos">Photos</a>
+            <a class="saturn" href="doClick('#photos', '/photos/')">Photos</a>
           </li>
           <li class="menu-store">
             <a href="/store/">Store</a>

@@ -23,7 +23,12 @@
     common: {
       init: function() {
         // JavaScript to be fired on all pages
-
+        function doClick(x, y) {
+          if (window.location.href = "/" + x)
+            window.location.href = y;
+          else
+            window.location.href = "/" + x;
+        }
       }
     },
     // Home page
