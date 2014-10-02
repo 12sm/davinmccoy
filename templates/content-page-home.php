@@ -90,7 +90,7 @@
     </div>
     <div class='row'>
       <div class='col-sm-12'>
-        <?php echo do_shortcode("[alpine-phototile-for-instagram id=446 user="davin_mccoy_band" src="user_recent" imgl="fancybox" style="cascade" col="5" size="L" num="10" curve="1" align="center" max="100" nocredit="1"]"); ?>
+        <?php echo do_shortcode('[alpine-phototile-for-instagram id=446 user="davin_mccoy_band" src="user_recent" imgl="fancybox" style="cascade" col="5" size="L" num="10" curve="1" align="center" max="100" nocredit="1"]'); ?>
       </div>
     </div>
     <div class="row">
