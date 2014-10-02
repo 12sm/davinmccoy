@@ -11,6 +11,16 @@
         <a class="navbar-brand hidden-lg hidden-md hidden-sm visible-xs" href="<?php echo home_url(); ?>/"><img src="/wp-content/themes/davinmccoy/assets/img/dm-logo.png" height="30px" /></a>
       </div>
       <nav id="main-nav" class="collapse navbar-collapse" role="navigation">
+        <script>
+          function doClick(x) {
+            if (window.location.href != "http://davinmccoy.12southdev.com/")
+              window.location.href = "http://davinmccoy.12southdev.com/";
+              $('html, body').animate({scrollTop : $(x).offset().top}, 1000, function(){
+                parallax();
+              });
+              return false;
+          }
+        </script>
 
 <!-------- NAVBAR START -------->
 

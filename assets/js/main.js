@@ -21,14 +21,6 @@
     $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
     // $("#content").css('top', (0 - scrollPosition) + 'px');
   }
-  function doClick(x) {
-    if (window.location.href != "http://davinmccoy.12southdev.com/")
-      window.location.href = "http://davinmccoy.12southdev.com/";
-      $('html, body').animate({scrollTop : $(x).offset().top}, 1000, function(){
-        parallax();
-      });
-      return false;
-  }
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
