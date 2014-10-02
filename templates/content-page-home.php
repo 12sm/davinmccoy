@@ -25,7 +25,7 @@
     </div>
     <div class="row">
       <div class='col-sm-12'>
-        <h1><a href="/news/">Read More News</a></h1>
+        <h3><a href="/news/">Read More News</a></h3>
       </div>
     </div>
   </article>
@@ -61,7 +61,7 @@
     </div>
     <div class="row">
       <div class='col-sm-12'>
-        <h1><a href="/shows/">See More Dates</a></h1>
+        <h3><a href="/shows/">See More Dates</a></h3>
       </div>
     </div>
   </article>
@@ -78,7 +78,7 @@
     </div>
     <div class="row">
       <div class='col-sm-12'>
-        <h1><a href="/videos/">Watch More Videos</a></h1>
+        <h3><a href="/videos/">Watch More Videos</a></h3>
       </div>
     </div>
   </article>
@@ -95,7 +95,7 @@
     </div>
     <div class="row">
       <div class='col-sm-12'>
-        <h1><a href="/photos/">View More Photos</a></h1>
+        <h3><a href="/photos/">View More Photos</a></h3>
       </div>
     </div>
   </article>
