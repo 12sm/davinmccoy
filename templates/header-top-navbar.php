@@ -16,7 +16,7 @@
 
         <ul id="menu-primary-navigation" class="nav navbar-nav">
           <li class="active menu-home">
-            <a href="/">Home</a>
+            <a href="/#photos">Home</a>
           </li>
           <li class="menu-news">
             <a class="space" href="#news">News</a>
