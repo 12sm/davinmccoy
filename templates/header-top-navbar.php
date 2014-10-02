@@ -41,7 +41,7 @@
             <a class="earth" href="#about" onclick="doClick('#about');">About</a>
           </li>
           <li class="menu-shows">
-            <a class="moon" href="#shows" onclick="doClick(''#shows');">Shows</a>
+            <a class="moon" href="#shows" onclick="doClick('#shows');">Shows</a>
           </li>
           <li class="menu-videos">
             <a class="rocket" href="#videos" onclick="doClick('#videos');">Videos</a>
