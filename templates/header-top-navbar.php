@@ -19,7 +19,7 @@
             <a href="/">Home</a>
           </li>
           <li class="menu-news">
-            <a class="space" href="#news" onclick="doClick(#news, /news/); return false;">News</a>
+            <a class="space" href="#news" onclick="doClick('#news', '/news/'); return false;">News</a>
           </li>
           <li class="menu-about">
             <a class="earth" href="#about" onclick="doClick('#about', '/about/'); return false;">About</a>
