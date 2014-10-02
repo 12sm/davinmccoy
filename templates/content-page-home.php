@@ -12,10 +12,11 @@
 </div>
 
 <div id="homecontent" class="container">
-  <article id="news">
+
+  <article id="home">
     <div class="row">
       <div class='col-sm-12'>
-        <h1>News</h1>
+        <img src='/wp-content/themes/davinmccoy/assets/img/logo.png' class="img-responsive logo">
       </div>
     </div>
     <div class='row'>
@@ -25,10 +26,11 @@
     </div>
     <div class="row">
       <div class='col-sm-12'>
-        <h3><a href="/news/">Read More News</a></h3>
+        <h3><a href="/news/">Read The Latest</a></h3>
       </div>
     </div>
   </article>
+
   <article id="about">
     <div class="row">
       <div class='col-sm-6'>
@@ -46,6 +48,7 @@
       </div>
     </div>
   </article>
+
   <article id="shows">
     <div class="row">
       <div class='col-sm-12'>
@@ -65,6 +68,7 @@
       </div>
     </div>
   </article>
+
   <article id="videos">
     <div class="row">
       <div class='col-sm-12'>
@@ -82,6 +86,7 @@
       </div>
     </div>
   </article>
+
   <article id="photos">
     <div class="row">
       <div class='col-sm-12'>
@@ -99,4 +104,5 @@
       </div>
     </div>
   </article>
+
 </div>

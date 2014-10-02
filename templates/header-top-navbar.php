@@ -24,8 +24,8 @@
           <li class="active menu-home">
             <a href="/">Home</a>
           </li>
-          <li class="menu-news">
-            <a class="space" onclick="doClick('#news', '/news/'); return false;">News</a>
+          <li class="menu-home">
+            <a class="space" onclick="doClick('#home', '/'); return false;">News</a>
           </li>
           <li class="menu-about">
             <a class="earth" onclick="doClick('#about', '/about/'); return false;">About</a>
@@ -38,6 +38,9 @@
           </li>
           <li class="menu-photos">
             <a class="saturn" onclick="doClick('#photos', '/photos/'); return false;">Photos</a>
+          </li>
+          <li class="menu-news">
+            <a href="/news/">News</a>
           </li>
           <li class="menu-store">
             <a href="/store/">Store</a>
