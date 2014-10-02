@@ -399,6 +399,13 @@ padding-bottom: 55%;
 box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
 background: url('/wp-content/themes/davinmccoy/assets/img/blog-bg-default.jpg');
 background-size: cover;
+transition: filter .3s ease, -webkit-filter .3s ease, -moz-filter .3s ease;
+}
+
+body.blog .imgLiquidFill.imgLiquid.featured-image-home:hover {
+-webkit-filter: brightness(150%);
+-moz-filter: brightness(150%);
+filter: brightness(150%);
 }
 
 body.blog .imgLiquidFill.imgLiquid.featured-image-home img {
