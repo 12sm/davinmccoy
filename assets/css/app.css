@@ -414,6 +414,7 @@ input:ms-input-placeholder {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent;
+  border-top: 0;
   width: 700px;
   margin: 0 auto;
 }
@@ -680,7 +681,7 @@ background: rgba(90,90,90,.5);
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {width: 50%;}
-ul#menu-primary-navigation {text-align: center;}
+ul#menu-primary-navigation {text-align: right;}
 
 }
 
