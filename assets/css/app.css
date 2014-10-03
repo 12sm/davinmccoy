@@ -630,7 +630,7 @@ padding: 0px 10px;
 
 #mc_embed_signup label {
 display: block;
-font-size: 10px;
+font-size: 10px!important;
 padding-top: 5px;
 font-weight: bold;
 text-align: right;
