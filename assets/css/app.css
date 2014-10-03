@@ -103,7 +103,7 @@ color: #1a1a1a;
 #bit-events[data-bit-widget-id='1412350676765'] th.
 .bit-header-overflow-fix,
 #bit-events[data-bit-widget-id='1412350718241'] th {
-color: #A78158;
+color: #A78158!important;
 }
 
 /*-------- IMAGES --------*/
