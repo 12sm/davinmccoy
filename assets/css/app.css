@@ -632,6 +632,10 @@ width: 30%;
 width:50%!important;
 }
 
+.footer-nav, p.credits {
+padding: 10px 0 10px 3%;
+}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
