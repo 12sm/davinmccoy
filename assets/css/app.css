@@ -535,7 +535,7 @@ color: #555;
 }
 
 .post-featured-image {
-height: 500px;
+height: auto;
 overflow: hidden;
 width: 100%;
 margin-bottom:20px;
