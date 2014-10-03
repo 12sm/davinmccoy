@@ -507,7 +507,7 @@ ul.simple-toggle li a:hover { background-color: #ccc; }
 
 #cboxTitle {
 background: #FFF;
-bottom: 27px;
+bottom: 27px!important;
 }
 
 
