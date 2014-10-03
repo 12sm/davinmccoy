@@ -669,30 +669,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
-@media (max-width:48.000em){
-
-  ul.simple-toggle { display: none; }
-  .anchor-link, #mobile-nav { display: block; }
-
-  ul.open {
-    background-color: #F4F4F4;
-    box-shadow: 2px 2px 3px #444444;
-    display: block;
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    right: 5px;
-    top: 100%;
-    width: 70%;
-    z-index: 500;
-  }
-
-  ul.open li { display: block; list-style: none; text-align: center; }
-  ul.open li a { display: block; padding: 20px 10px; border-bottom: 1px solid #ccc; text-decoration: none; }
-  ul.open li a:hover { background-color: #ccc; color: #fff; }
-}
-
 @media (max-width: 767px) {
 
 body.page.page-id-16 .wrap {
@@ -700,11 +676,10 @@ background: rgba(90,90,90,.5);
 }
 
 .navbar-default {
-  background-color: #1a1a1a;
   border-color: transparent;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {width: 100%;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {width: 50%;}
 ul#menu-primary-navigation {text-align: center;}
 
 }
