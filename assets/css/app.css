@@ -524,6 +524,10 @@ font-size: 14px;
    News & Posts
    ========================================================================== */
 
+body.single.single-post {
+background: #404040;
+}
+
 body.blog .imgLiquidFill.imgLiquid.featured-image-home {
   height: 0px;
   overflow: hidden;
