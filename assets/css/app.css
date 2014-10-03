@@ -629,9 +629,20 @@ padding: 0px 10px;
 }
 
 #mc_embed_signup label {
-font-size: 15px;
-text-transform:uppercase;
+display: block;
+font-size: 10px;
+padding-top: 5px;
 font-weight: bold;
+text-align: right;
+}
+
+#mc_embed_signup input.email {
+display: block;
+padding: 8px 0;
+margin: 0 4% 10px 0;
+text-indent: 5px;
+width: 100%;
+min-width: 130px;
 }
 
 .footer-nav, p.credits {
