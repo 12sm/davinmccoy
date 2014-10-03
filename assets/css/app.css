@@ -732,6 +732,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+.col {margin: 0 5%;}
+
 /* === HOME === */
 
 #homecontent > article {
@@ -783,6 +785,8 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.col {margin: 0 15%;}
 
 ul#menu-social-navigation li {
 padding: 0px 5px;
@@ -898,6 +902,8 @@ ul#menu-social-navigation li {
 padding: 0px 10px;
 }
 
+.col {margin: 0 20%;}
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   width: 750px;
 }
@@ -909,5 +915,7 @@ padding: 0px 10px;
 ul#menu-social-navigation li {
 padding: 0px 10px;
 }
+
+.col {margin: 0 25%;}
 
 }
