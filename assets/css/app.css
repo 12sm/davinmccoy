@@ -210,7 +210,7 @@ border-top: 1px solid #B8B8B8!important;
 
 /* FlexSlider Necessary Styles
 *********************************/
-.flexslider {width: 100%; margin: 0; padding: 0;}
+.flexslider {width: 100%; margin: 0; padding: 0;border:none!important;background:transparent!important;}
 .flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {max-width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
