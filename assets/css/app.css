@@ -100,7 +100,9 @@ color: #1a1a1a;
 }
 
 #bit-events[data-bit-widget-id='1412350581204'] th,
-#bit-events[data-bit-widget-id='1412350676765'] th {
+#bit-events[data-bit-widget-id='1412350676765'] th.
+.bit-header-overflow-fix,
+#bit-events[data-bit-widget-id='1412350718241'] th {
 color: #A78158;
 }
 
