@@ -525,8 +525,11 @@ font-size: 14px;
    ========================================================================== */
 
 body.single.single-post {
-background: #404040;
+background: #C5C5C5;
+color: #555;
 }
+
+body.single.single-post p {color: #555;}
 
 body.blog .imgLiquidFill.imgLiquid.featured-image-home {
   height: 0px;
