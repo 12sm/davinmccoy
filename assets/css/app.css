@@ -397,6 +397,10 @@ input:ms-input-placeholder {
    Navbar
    ========================================================================== */
 
+.navbar-header {
+  background-color: #1a1a1a;
+}
+
 .navbar {
   /*background-color: #303d50;
   height: 35px;*/
