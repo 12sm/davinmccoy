@@ -1,5 +1,5 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
-  <div class="barnone container">
+  <div class="barnone">
     <div class="headdiv">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
