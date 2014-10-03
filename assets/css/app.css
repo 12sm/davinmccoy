@@ -530,6 +530,7 @@ color: #555;
 }
 
 body.single.single-post p, body.single.single-post h1 {color: #555; font-weight: 500;}
+body.single.single-post h1 {font-size:50px;}
 
 body.single.single-post .btn-primary {
 color: #fff;
