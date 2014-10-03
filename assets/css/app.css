@@ -539,6 +539,7 @@ border:none;
 border-radius:30px;
 font-weight:bold;
 transition:opacity .3s ease;
+letter-spacing:1px;
 }
 
 body.single.single-post .btn-primary:hover {
