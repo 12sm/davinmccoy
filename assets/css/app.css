@@ -410,8 +410,8 @@ input:ms-input-placeholder {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent;
-  width: 700px;
-  margin: 0 auto;
+  width: 50%;
+  margin: 0 0 0 50%;
 }
 
 ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
@@ -441,6 +441,16 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
   border-color: transparent;
 }
 
+.nav { width:100%; background-color: #fff; }
+ul.simple-toggle { list-style: none; padding: 0px; margin: 0px; font-weight: bold; text-align: center; }
+ul.simple-toggle li { display: inline-block; text-align: left; }
+ul.simple-toggle li a { display: block; padding: 15px 10px; text-decoration: none; color: #444; }
+ul.simple-toggle li a:hover { background-color: #ccc; }
+
+.anchor-link { display: none; text-align: right; padding: 0 1em 0; text-align: center; padding: 10px 15px; color: #fff; background-color: #0084B4; text-decoration: none; margin: 3px; float: right; }
+#mobile-nav { display:none; }
+
+
 /*
 #main-nav ul {
   width: 960px;
@@ -465,21 +475,6 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
   text-decoration: none;
 }
 */
-
-/*.nav { width:100%; background-color: #fff; }
-ul.simple-toggle { list-style: none; padding: 0px; margin: 0px; font-weight: bold; text-align: center; }
-ul.simple-toggle li { display: inline-block; text-align: left; }
-ul.simple-toggle li a { display: block; padding: 15px 10px; text-decoration: none; color: #444; }
-ul.simple-toggle li a:hover { background-color: #ccc; }
-
-.anchor-link { display: none; text-align: right; padding: 0 1em 0; text-align: center; padding: 10px 15px; color: #fff; background-color: #0084B4; text-decoration: none; margin: 3px; float: right; }
-#mobile-nav { display:none; }*/
-
-
-
-
-
-
 
 /* ==========================================================================
    ABOUT
