@@ -40,7 +40,7 @@
             <a href="/news/">News</a>
           </li>
           <li class="menu-store">
-            <a href="/store/">Store</a>
+            <a href="http://davinmccoy.myshopify.com/">Store</a>
           </li>
           <li class="menu-contact">
             <a href="/contact/">Contact</a>
