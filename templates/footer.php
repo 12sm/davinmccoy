@@ -9,7 +9,7 @@
 	        ?>
       </div>
 	</div>
-	<div class="col-sm-6">
+	<div class="col-sm-7">
       <!-- <div class="sidebar-footer">
       	<?php // dynamic_sidebar('sidebar-footer'); ?>
       </div> -->
@@ -34,7 +34,7 @@
 
 <!--End mc_embed_signup-->
 	</div>
-	<div class="col-sm-4">
+	<div class="col-sm-3">
       <!-- <div id="social" class="social-nav">
 		   <?php
 			// if (has_nav_menu('social_navigation')) :
