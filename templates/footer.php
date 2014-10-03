@@ -15,13 +15,13 @@
       </div>
 	</div>
 	<div class="col-sm-4">
-      <div id="social" class="social-nav">
-		  <?php
-			 if (has_nav_menu('social_navigation')) :
-			   wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
-			 endif;
+      <!-- <div id="social" class="social-nav">
+		   <?php
+			// if (has_nav_menu('social_navigation')) :
+			//   wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
+			// endif;
 		  ?>
-      </div>
+      </div> -->
 	 </div>
       <p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
 	
