@@ -109,7 +109,7 @@ font-weight: bold!important;
 
 a.bit-fb-share,
 a.bit-twitter-share {
-filter: blur(20px) grayscale(20%);
+display:none;
 }
 
 .bit-events td {
