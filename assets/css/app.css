@@ -768,6 +768,51 @@ ul#menu-primary-navigation {text-align: center;}
 .content {
   padding-top: 5%;
 }
+
+/*-------- NAVBAR --------*/
+.navbar {
+  /*background-color: #303d50;
+  height: 35px;*/
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 30px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+  width: 700px;
+  margin: 0 auto;
+}
+
+ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
+#menu-primary-navigation li {display: inline;width: 12%;}
+
+#menu-primary-navigation li a {
+  color: #727272;
+  font-family: "proxima-nova-alt";
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color .3s ease
+}
+
+#menu-primary-navigation li a:hover {
+  color: #FFF;
+  cursor: pointer !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #cfba97!important;
+  background-color: transparent!important;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
