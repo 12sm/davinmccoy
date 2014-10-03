@@ -1,6 +1,6 @@
 <footer class="content-info container-fluid" role="contentinfo">
   <div class="row">
-  	<div class="col-sm-3">
+  	<div class="col-sm-2">
       <div class="footer-nav">
 			<?php
 		 if (has_nav_menu('footer_navigation')) :
@@ -9,7 +9,7 @@
 	        ?>
       </div>
 	</div>
-	<div class="col-sm-5">
+	<div class="col-sm-6">
       <!-- <div class="sidebar-footer">
       	<?php // dynamic_sidebar('sidebar-footer'); ?>
       </div> -->
