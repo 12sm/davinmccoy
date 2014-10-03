@@ -687,6 +687,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+/* === HOME === */
+
+#homecontent > article {
+padding-top: 70px;
+padding: 70px 15px 0px 15px;
+}
+
 footer {
 position: relative;
 bottom: 0;
