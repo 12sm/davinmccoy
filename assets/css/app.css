@@ -687,7 +687,32 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+footer {
+position: relative;
+bottom: 0;
+width: 100%;
+height: auto;
+text-align: center;
+background: #1a1a1a;
+z-index: 1000;
+}
 
+ul#menu-social-navigation li {
+font-size: 30px;
+}
+
+#mc_embed_signup label {
+display: block;
+font-size: 15px!important;
+padding-top: 5px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
+
+#mc_embed_signup input.button {
+margin: 0 auto!important;
+}
 
 body.page.page-id-16 .wrap {
 background: rgba(90,90,90,.5);
