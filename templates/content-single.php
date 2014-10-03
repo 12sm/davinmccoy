@@ -4,8 +4,9 @@
       <h1 class="entry-title"><?php the_title(); ?></h1>
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
-	<?php the_post_thumbnail('large'); ?>
-
+	<div class="post-featured-image">
+		<?php the_post_thumbnail('full'); ?>
+	</div>
     <div class="entry-content">
       <?php the_content(); ?>
     </div>
