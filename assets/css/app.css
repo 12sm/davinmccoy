@@ -534,8 +534,15 @@ body.single.single-post p, body.single.single-post h1 {color: #555; font-weight:
 body.single.single-post .btn-primary {
 color: #fff;
 background-color: #797979;
+opacity:1;
 border:none;
 border-radius:30px;
+font-weight:bold;
+transition:opacity .3s ease;
+}
+
+body.single.single-post .btn-primary:hover {
+opacity:.4;
 }
 
 body.blog .imgLiquidFill.imgLiquid.featured-image-home {
