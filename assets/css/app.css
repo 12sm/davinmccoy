@@ -652,6 +652,11 @@ p.credits {
 font-size: 12px;
 opacity: .5;
 }
+#mc_embed_signup input.button {
+display: block;
+width: 30%;
+margin: 0!important;
+}
 
 /* ==========================================================================
    WordPress Generated Classes
