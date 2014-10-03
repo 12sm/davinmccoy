@@ -531,6 +531,13 @@ color: #555;
 
 body.single.single-post p, body.single.single-post h1 {color: #555; font-weight: 500;}
 
+body.single.single-post .btn-primary {
+color: #fff;
+background-color: #797979;
+border:none;
+border-radius:30px;
+}
+
 body.blog .imgLiquidFill.imgLiquid.featured-image-home {
   height: 0px;
   overflow: hidden;
