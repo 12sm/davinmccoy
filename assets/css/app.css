@@ -586,7 +586,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
-body.page .wrap {
+body.page.page-id-16 .wrap {
 background: rgba(90,90,90,.5);
 }
 
