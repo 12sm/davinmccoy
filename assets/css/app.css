@@ -764,6 +764,8 @@ background: rgba(90,90,90,.5);
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {width: 50%;}
 ul#menu-primary-navigation {text-align: center;}
 
+body.single.single-post {margin-top:70px;}
+
 }
 
 /* Small devices (tablets, 768px and up) */
