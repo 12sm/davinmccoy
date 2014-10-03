@@ -687,6 +687,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+
+
 body.page.page-id-16 .wrap {
 background: rgba(90,90,90,.5);
 }
@@ -702,6 +704,10 @@ ul#menu-primary-navigation {text-align: center;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+ul#menu-social-navigation li {
+padding: 0px 5px;
+}
 
 #mc_embed_signup div#mce-responses div {
   width: 50%!important;
@@ -809,6 +815,10 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+ul#menu-social-navigation li {
+padding: 0px 10px;
+}
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   width: 750px;
 }
@@ -816,5 +826,9 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+ul#menu-social-navigation li {
+padding: 0px 10px;
+}
 
 }
