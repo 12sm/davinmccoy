@@ -505,6 +505,10 @@ ul.simple-toggle li a:hover { background-color: #ccc; }
 /* Gallery Shortcode */
 .gallery-row {padding: 15px 0;}
 
+#cboxTitle {
+background: #FFF;
+}
+
 
 /* ==========================================================================
    TOUR
