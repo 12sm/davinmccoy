@@ -38,6 +38,7 @@
       init: function() {
         // JavaScript to be fired on the home page
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
+        document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         $(window).load(function() {
           $('.flexslider').flexslider();
         });
