@@ -107,9 +107,8 @@ font-size: 13px;
 font-weight: bold!important;
 }
 
-a.bit-fb-share,
-a.bit-twitter-share {
-display:none;
+.bit-header-overflow-fix {
+display:none!important;
 }
 
 .bit-events td {
