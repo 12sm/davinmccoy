@@ -659,6 +659,10 @@ margin: 0;
 vertical-align: center;
 }
 
+#mc_embed_signup input {
+border: none;
+}
+
 p.credits {
 font-size: 12px;
 opacity: .5;
