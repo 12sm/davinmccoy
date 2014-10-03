@@ -103,6 +103,11 @@ div#bit-events {
 font-size: 13px;
 }
 
+#bit-events tr.bit-header a, #bit-events tr.bit-header-narrow a {
+float: none;
+font-weight: bold;
+}
+
 /*-------- IMAGES --------*/
 
 #images {
