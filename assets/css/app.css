@@ -608,7 +608,7 @@ margin: 0 auto;
 text-align: center;
 }
 
-#menu-social-navigation>li {
+ul#menu-social-navigation li {
 display: inline-block;
 text-align: center;
 padding: 0px 10px;
