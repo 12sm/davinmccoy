@@ -600,6 +600,20 @@ footer {
   z-index: 1000;
 }
 
+ul#menu-social-navigation {
+padding-left: 0px;
+list-style: none;
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+}
+
+#menu-social-navigation>li {
+display: inline-block;
+text-align: center;
+padding: 0px 10px;
+}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
