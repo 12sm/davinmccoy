@@ -535,9 +535,10 @@ color: #555;
 }
 
 .post-featured-image {
-height: 400px;
+height: 500px;
 overflow: hidden;
 width: 100%;
+margin-bottom:20px;
 }
 
 body.single.single-post p, body.single.single-post h1 {color: #555; font-weight: 500;}
