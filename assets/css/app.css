@@ -466,7 +466,7 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
 }
 */
 
-.nav { width:100%; background-color: #fff; border-bottom: 1px solid #ccc; }
+.nav { width:50%; background-color: #fff; }
 ul.simple-toggle { list-style: none; padding: 0px; margin: 0px; font-weight: bold; text-align: center; }
 ul.simple-toggle li { display: inline-block; text-align: left; }
 ul.simple-toggle li a { display: block; padding: 15px 10px; text-decoration: none; color: #444; }
@@ -514,24 +514,6 @@ font-size: 14px;
    ========================================================================== */
 
 body.blog .imgLiquidFill.imgLiquid.featured-image-home {
-<<<<<<< HEAD
-height: 0px;
-overflow: hidden;
-padding: 0;
-padding-bottom: 55%;
--webkit-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
--moz-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
-background: url('/wp-content/themes/davinmccoy/assets/img/blog-bg-default.jpg');
-background-size: cover;
-transition: filter .3s ease, -webkit-filter .3s ease, -moz-filter .3s ease;
-}
-
-body.blog .imgLiquidFill.imgLiquid.featured-image-home:hover {
--webkit-filter: brightness(150%);
--moz-filter: brightness(150%);
-filter: brightness(150%);
-=======
   height: 0px;
   overflow: hidden;
   padding: 0;
@@ -541,7 +523,22 @@ filter: brightness(150%);
   box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
   background: url('/wp-content/themes/davinmccoy/assets/img/blog-bg-default.jpg');
   background-size: cover;
->>>>>>> FETCH_HEAD
+  transition: filter .3s ease, -webkit-filter .3s ease, -moz-filter .3s ease;
+}
+
+body.blog .imgLiquidFill.imgLiquid.featured-image-home:hover {
+  -webkit-filter: brightness(150%);
+  -moz-filter: brightness(150%);
+  filter: brightness(150%);
+  height: 0px;
+  overflow: hidden;
+  padding: 0;
+  padding-bottom: 55%;
+  -webkit-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
+  -moz-box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
+  box-shadow: 0 0 10px 6px rgba(27, 27, 27, 0.2);
+  background: url('/wp-content/themes/davinmccoy/assets/img/blog-bg-default.jpg');
+  background-size: cover;
 }
 
 body.blog .imgLiquidFill.imgLiquid.featured-image-home img {
@@ -557,7 +554,7 @@ body.blog .imgLiquidFill.imgLiquid.featured-image-home img {
 }
 
 .blog-post-square h1:hover {
-opacity: 1;
+  opacity: 1;
 }
 
 span.post-date {
