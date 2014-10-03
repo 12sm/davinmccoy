@@ -99,6 +99,10 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 color: #1a1a1a;
 }
 
+#bit-events[data-bit-widget-id='1412350581204'] th {
+color: #A78158;
+}
+
 /*-------- IMAGES --------*/
 
 #images {
