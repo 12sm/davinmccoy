@@ -72,7 +72,9 @@
     </div>
     <div class='row'>
       <div class='col-sm-12'>
-        <iframe width="560" height="315" src="//www.youtube.com/embed/7_iud2fBhJ4" frameborder="0" allowfullscreen></iframe>
+        <div class="vid-container">
+          <iframe width="560" height="315" src="//www.youtube.com/embed/7_iud2fBhJ4" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -90,7 +92,7 @@
     </div>
     <div class='hometile row container '>
       <div class='col-sm-12'>
-        <?php echo do_shortcode('[alpine-phototile-for-instagram id=446 user="davin_mccoy_band" src="user_recent" imgl="fancybox" style="cascade" col="5" size="L" num="10" curve="1" align="center" max="100" nocredit="1"]'); ?>
+        <?php echo do_shortcode('[alpine-phototile-for-instagram id=446 user="davin_mccoy_band" src="user_recent" imgl="fancybox" style="cascade" col="5" size="L" num="5" curve="1" align="center" max="100" nocredit="1"]'); ?>
       </div>
     </div>
     <div class="row">

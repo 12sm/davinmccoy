@@ -36,7 +36,7 @@
                 <div style="position: absolute; left: -5000px;">
                   <input type="text" name="b_4d33b75ac40b7c4a1aa594342_7fb168a173" tabindex="-1" value="">
                 </div>
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
               </div>
             </div>
             <!-- end row -->
@@ -66,6 +66,8 @@
 </footer>
 
 <?php wp_footer(); ?>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5432d1344622756c" async></script>
 
 <!-- Begin 12SM Network Analytics <!-->
 <script type="text/javascript">

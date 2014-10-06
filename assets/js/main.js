@@ -31,6 +31,8 @@
         $(window).load(function() {
           $(".imgLiquidFill").imgLiquid();
         });
+
+        $('.vid-container').fitVids();
       }
     },
     // Home page
