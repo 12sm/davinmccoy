@@ -46,6 +46,7 @@
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         enquire.register("screen and (min-width: 768px)", {
+          debugger;
           match : function() {
             $(window).load(function() {
               $('.flexslider').flexslider();
