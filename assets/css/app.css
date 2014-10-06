@@ -702,11 +702,11 @@ padding: 10px 0 10px 3%;
 
 #mc_embed_signup input.button {
 display: block;
-width: 35%;
-padding-bottom: 29px;
-min-width: 90px;
-margin: 0;
-vertical-align: center;
+padding: 0px 0;
+margin: 0 4% 10px 0;
+text-indent: 5px;
+width: 58%;
+min-width: 130px;
 }
 
 #mc_embed_signup input {
