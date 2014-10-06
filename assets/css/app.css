@@ -866,8 +866,15 @@ padding: 0px 5px;
   margin: 0 auto;
 }
 
-ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
-#menu-primary-navigation li {display: inline;width: 12%;}
+ul#menu-primary-navigation {
+  width: 700px;
+  background: #1a1a1a;
+  margin: 0px auto;
+  display: block;
+  float: none;
+}
+
+#menu-primary-navigation li {display: inline;width:auto;}
 
 #menu-primary-navigation li a {
   color: #727272;
@@ -875,7 +882,8 @@ ul#menu-primary-navigation {width: 100%;background: #1a1a1a;margin: 0 auto;}
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  transition: color .3s ease
+  transition: color .3s ease;
+  padding:15px 12px;
 }
 
 #menu-primary-navigation li a:hover {
