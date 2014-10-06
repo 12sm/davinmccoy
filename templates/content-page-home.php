@@ -86,7 +86,13 @@
     </div>
     <div class='hometile row container '>
       <div class='col-sm-12'>
-      <div id="insta-grid"></div>
+      <div class="hidden-sm hidden-xs">
+        <?php echo do_shortcode('[alpine-phototile-for-instagram id=489 user="davin_mccoy_band" src="user_recent" imgl="fancybox" style="cascade" col="6" size="Th" num="6" curve="1" align="center" max="100" nocredit="1"]'); ?>
+      </div>
+<div class="hidden-md hidden-lg">
+<script src="http://instansive.com/widget/js/instansive.js"></script><iframe src="http://instansive.com/widgets/idf50718fca07701d71e2cf29ec5fb0d.html" scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+</div>
+
       </div>
     </div>
     <div class="row">
