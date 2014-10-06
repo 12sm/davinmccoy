@@ -312,6 +312,8 @@ input#mc-embedded-subscribe:active {
   background:rgba(255,255,255,.3);
 }
 
+subscribe-column {text-align:center;}
+
 #mc_embed_signup input.button {
 display: block;
 padding: 0px 0;
@@ -736,8 +738,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width: 767px) {
-
-subscribe-column {text-align:center!important;}
 
 .col {margin: 0 5%;}
 
