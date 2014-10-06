@@ -671,10 +671,9 @@ body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {}
 
 .single-videos .entry-title {text-align:left;}
 
-.archive .video-description, .single-videos .video-description {
+.home .video-description, .archive .video-description, .single-videos .video-description {
   padding:15px;
   text-align:left;
-  margin-bottom:60px;
 }
 
 .imgLiquidFill.imgLiquid.video-image {

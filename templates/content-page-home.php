@@ -70,13 +70,7 @@
         <h1>Videos</h1>
       </div>
     </div>
-    <div class='row'>
-      <div class='col-sm-12'>
-        <div class="vid-container">
         <?php echo do_shortcode('[wpv-view name="HOME | VIDEO"]'); ?>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class='col-sm-12'>
         <h3 class="border-box"><a href="/videos/">Watch More Videos</a></h3>

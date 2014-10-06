@@ -29,7 +29,11 @@
       init: function() {
         // JavaScript to be fired on all pages
         $(window).load(function() {
-          $(".imgLiquidFill").imgLiquid();
+          $(".imgLiquidFill").imgLiquid({
+	        fill: true,
+	        horizontalAlign: "center",
+	        verticalAlign: "25%"
+          });
         });
 
         $('.vid-container').fitVids();
@@ -51,6 +55,9 @@
                 $('.flexslider').flexslider();
               });
               $(window).on('mousewheel', function(e){
+                e.preventDefault();
+              });
+              $(window).on('wheel', function(e){
                 e.preventDefault();
               });
               $(window).bind('scroll', function(e){
