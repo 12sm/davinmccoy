@@ -29,11 +29,15 @@
       init: function() {
         // JavaScript to be fired on all pages
         $(window).load(function() {
+<<<<<<< HEAD
           $(".imgLiquidFill").imgLiquid({
 	        fill: true,
 	        horizontalAlign: "center",
 	        verticalAlign: "25%"    
           });
+=======
+          $(".imgLiquidFill").imgLiquid();
+>>>>>>> FETCH_HEAD
         });
 
         $('.vid-container').fitVids();
@@ -47,6 +51,7 @@
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         enquire.register("screen and (min-width: 768px)", {
           match : function() {
+            debugger;
             $(window).load(function() {
               $('.flexslider').flexslider();
             });
@@ -87,7 +92,7 @@
               return false;
             });
           },
-        });
+        }).listen();
       }
     },
     // News page
