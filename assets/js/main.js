@@ -111,7 +111,9 @@
                 return false;
               });
             },
-            unmatch : function() {},
+          });
+          enquire.register("screen and (max-width: 767px)", {
+            match : function() {}
           });
         };
         enquirer();
