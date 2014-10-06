@@ -52,65 +52,60 @@
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         window.addEventListener("resize", enquirer);
-        var oR = new OnResize();
-        oR.delay = 300;
         function enquirer(){
-          enquire.register("screen and (min-width: 768px)", {
-            match : function() {
-              $(window).on('mousewheel', function(e){
-                e.preventDefault();
-              });
-              $(window).on('wheel', function(e){
-                e.preventDefault();
-              });
-              $(window).bind('scroll', function(e){
+          if ($(window).width() > 767 ){
+            $(window).on('mousewheel', function(e){
+              e.preventDefault();
+            });
+            $(window).on('wheel', function(e){
+              e.preventDefault();
+            });
+            $(window).bind('scroll', function(e){
+              parallax();
+            });
+            $('a.space').click(function(){
+              $('html, body').animate({scrollTop : 0}, 2000, function(){
                 parallax();
               });
-              $('a.space').click(function(){
-                $('html, body').animate({scrollTop : 0}, 2000, function(){
-                  parallax();
-                });
-                return false;
+              return false;
+            });
+            $('a.earth').click(function(){
+              $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
+                parallax();
               });
-              $('a.earth').click(function(){
-                $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
-                  parallax();
-                });
-                return false;
+              return false;
+            });
+            $('a.moon').click(function(){
+              $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
+                parallax();
               });
-              $('a.moon').click(function(){
-                $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
-                  parallax();
-                });
-                return false;
+              return false;
+            });
+            $('a.rocket').click(function(){
+              $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
+                parallax();
               });
-              $('a.rocket').click(function(){
-                $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
-                  parallax();
-                });
-                return false;
+              return false;
+            });
+            $('a.saturn').click(function(){
+              $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
+                parallax();
               });
-              $('a.saturn').click(function(){
-                $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
-                  parallax();
-                });
-                return false;
-              });
-            },
-          });
-          enquire.register("screen and (max-width: 767px)", {
-            match : function() {
-              $(window).on('mousewheel', function(e){
-                return true;
-              });
-              $(window).on('wheel', function(e){
-                return true;
-              });
-            }
-          });
+              return false;
+            });
+          } else {
+            $(window).unbind('scroll', function(e){
+              parallax();
+            });
+            $(window).on('mousewheel', function(e){
+              return true;
+            });
+            $(window).on('wheel', function(e){
+              return true;
+            });
+          }
         };
         enquirer();
-        oR.add(enquirer);
       }
     },
     // News page
