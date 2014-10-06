@@ -53,6 +53,8 @@
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         function enquirer(){
+          var wid = window.innerWidth;
+          console.log(wid);
           if (wid > 767 ){
             $(window).on('mousewheel', function(e){
               e.preventDefault();
