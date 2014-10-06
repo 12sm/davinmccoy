@@ -54,6 +54,9 @@
             $(window).on('mousewheel', function(e){
               e.preventDefault();
             });
+            $(window).on('wheel', function(e){
+              e.preventDefault();
+            });
             $(window).bind('scroll', function(e){
               parallax();
             });
