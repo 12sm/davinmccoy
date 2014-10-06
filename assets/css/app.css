@@ -205,6 +205,7 @@ border-top: 1px solid #B8B8B8!important;
 .flexslider .slides img {
 width: 100%!important;
 display: block;
+height: 100%;
 }
 
 /*
