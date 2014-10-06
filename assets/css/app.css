@@ -846,7 +846,9 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+body.home {
+overflow: hidden;
+}
   article#home > div:first-child {
 margin-top: 30px;
 }
