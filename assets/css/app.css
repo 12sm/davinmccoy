@@ -309,7 +309,7 @@ input#mc-embedded-subscribe {
 input#mc-embedded-subscribe:hover,
 input#mc-embedded-subscribe:focus,
 input#mc-embedded-subscribe:active {
-  background:#fff;
+  background:rgba(255,255,255,.3);
 }
 
 #mc_embed_signup input.button {
