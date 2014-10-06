@@ -675,6 +675,8 @@ span.post-date {
    Videos
    ========================================================================== */ 
 
+.single-videos .entry-title {text-align: center;}
+
 .single-videos .video-description {
   padding:15px;
   text-align:left;
