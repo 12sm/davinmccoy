@@ -908,7 +908,6 @@ margin-top: 30px;
 }
 
 #homecontent > article#home {
-  position: absolute;
   background: none;
   padding-top: 0px !important;
 }
