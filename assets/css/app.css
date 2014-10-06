@@ -302,6 +302,7 @@ input#mce-EMAIL, input#mc-embedded-subscribe {
 
 input#mc-embedded-subscribe {
   font-weight: bold;
+  padding: 0 10px;
   transition:background .3s ease;
 }
 
