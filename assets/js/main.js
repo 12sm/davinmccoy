@@ -22,12 +22,7 @@
     // $("#content").css('top', (0 - scrollPosition) + 'px');
   }
   //for emedagram
-  function liquidWrap(){
-        $('.insta-photo').addClass('col-sm-6 col-md-3 col-lg-2');
-        $('.insta-photo > a > img').wrap('<div class="img-pad"></div>');
-        $('.img-pad').imgLiquid();
-        $('.insta-photo > a').swipebox();
-      };
+
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -50,15 +45,6 @@
     home: {
       init: function() {
         // JavaScript to be fired on the home page
-        //embedagram
-        $('#insta-grid').embedagram({
-          instagram_id: 1361999001,
-          thumb_width: 306,
-          limit: 6,
-          link_type: 'img',
-          wrap_tag: 'div class=insta-photo',
-          success: liquidWrap
-        });
 
         $(window).load(function() {
           $('.flexslider').flexslider();
@@ -172,14 +158,6 @@
       init: function() {
         // JavaScript to be fired on the photos page
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg.jpg');
-        $('#insta-grid').embedagram({
-          instagram_id: 1361999001,
-          thumb_width: 306,
-          limit: 30,
-          link_type: 'img',
-          wrap_tag: 'div class=insta-photo',
-          success: liquidWrap
-        });
       }
     },
     // Contact page
