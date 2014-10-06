@@ -903,15 +903,6 @@ margin-top: 30px;
   left:0;
   right:0;
   margin: 0 auto;
-  /* padding-bottom: 8000px; */
-}
-
-#homecontent > article#mobile-footer.visible-xs.hidden-sm.hidden-md.hidden-lg {
-  position: absolute;
-  top: 5000px;
-  left:0;
-  right:0;
-  margin: 0 auto;
   padding-bottom: 8000px;
 }
 
@@ -947,7 +938,7 @@ border-top: 1px solid #B8B8B8!important;
 #images {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 103%;
   height: auto;
   z-index: 200;
 }
