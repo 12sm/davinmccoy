@@ -26,6 +26,7 @@
         $('.insta-photo').addClass('col-sm-6 col-md-3 col-lg-2');
         $('.insta-photo > a > img').wrap('<div class="img-pad"></div>');
         $('.img-pad').imgLiquid();
+        $('.insta-photo > a').swipebox();
       };
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
@@ -59,7 +60,6 @@
           success: liquidWrap
         });
 
-        $('.AlpinePhotoTiles-link').swipebox();
         $(window).load(function() {
           $('.flexslider').flexslider();
         });
@@ -163,7 +163,14 @@
       init: function() {
         // JavaScript to be fired on the photos page
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg.jpg');
-        $('.AlpinePhotoTiles-link').swipebox();
+        $('#insta-grid').embedagram({
+          instagram_id: 1361999001,
+          thumb_width: 306,
+          limit: 30,
+          link_type: 'img',
+          wrap_tag: 'div class=insta-photo',
+          success: liquidWrap
+        });
       }
     },
     // Contact page
