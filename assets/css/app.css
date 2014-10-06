@@ -737,6 +737,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+subscribe-column {text-align:center;}
+
 .col {margin: 0 5%;}
 
 /* === HOME === */
@@ -790,6 +792,8 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+subscribe-column {text-align:left;}
 
 /*-------- CONTENT --------*/
 
@@ -1081,6 +1085,9 @@ padding: 2px 10px;
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   width: 750px;
 }
+
+subscribe-column {text-align:left;}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1091,5 +1098,7 @@ padding: 2px 10px;
 }
 
 .col {margin: 0 25%;}
+
+subscribe-column {text-align:left;}
 
 }
