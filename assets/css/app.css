@@ -781,7 +781,10 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  
+article > div:first-child {
+margin-top: 75px;
+}
 .col {margin: 0 15%;}
 
 ul#menu-social-navigation li {
