@@ -327,7 +327,7 @@ input#mc-embedded-subscribe:active {
   background:rgba(255,255,255,.3);
 }
 
-subscribe-column {text-align:center;}
+.subscribe-column {text-align:center;}
 
 #mc_embed_signup input.button {
 display: block;
