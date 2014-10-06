@@ -704,13 +704,13 @@ padding: 10px 0 10px 3%;
 display: block;
 padding: 0px 0;
 margin: 0 4% 10px 0;
-text-indent: 5px;
+text-indent: 3px;
 width: 58%;
 min-width: 130px;
 }
 
 #mc_embed_signup input {
-border: none;
+border: none!important;
 }
 
 p.credits {
