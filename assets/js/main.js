@@ -44,6 +44,9 @@
       init: function() {
         // JavaScript to be fired on the home page
         $('.AlpinePhotoTiles-link').swipebox();
+        $(window).load(function() {
+          $('.flexslider').flexslider();
+        });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         var oR = new OnResize();
@@ -51,9 +54,6 @@
         function enquirer(){
           enquire.register("screen and (min-width: 768px)", {
             match : function() {
-              $(window).load(function() {
-                $('.flexslider').flexslider();
-              });
               $(window).on('mousewheel', function(e){
                 e.preventDefault();
               });
