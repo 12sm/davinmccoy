@@ -65,11 +65,11 @@
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
-        // window.addEventListener("resize", enquirer);
+        window.addEventListener("resize", enquirer);
         var oR = new OnResize();
         oR.delay = 300;
         function enquirer(){
-          enquire.register("min-width: 768px", {
+          enquire.register("screen and (min-width: 768px)", {
             match : function() {
               $(window).on('mousewheel', function(e){
                 e.preventDefault();
@@ -112,7 +112,7 @@
               });
             },
           });
-          enquire.register("max-width: 767px", {
+          enquire.register("screen and (max-width: 767px)", {
             match : function() {
               $(window).on('mousewheel', function(e){
                 return true;
