@@ -36,7 +36,7 @@
                 <div style="position: absolute; left: -5000px;">
                   <input type="text" name="b_4d33b75ac40b7c4a1aa594342_7fb168a173" tabindex="-1" value="">
                 </div>
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
               </div>
             </div>
             <!-- end row -->
