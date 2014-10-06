@@ -83,7 +83,7 @@
               return false;
             });
           },
-        }).listen(); //note: as of enquire.js v2 listen() has been deprecated
+        });
       }
     },
     // News page
