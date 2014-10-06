@@ -45,14 +45,15 @@
     home: {
       init: function() {
         // JavaScript to be fired on the home page
-
+        var wid = window.innerWidth;
+        console.log(wid);
         $(window).load(function() {
           $('.flexslider').flexslider();
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         function enquirer(){
-          if ($(window).width() > 767 ){
+          if (wid > 767 ){
             $(window).on('mousewheel', function(e){
               e.preventDefault();
             });
