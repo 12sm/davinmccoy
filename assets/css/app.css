@@ -194,12 +194,6 @@ div#bit-events {
 
 /* Slider */
 
-.flexslider .slides img {
-  width: 100%!important;
-  display: block;
-  height: 100%;
-}
-
 /*
  * jQuery FlexSlider v1.8
  * http://flex.madebymufffin.com
@@ -218,9 +212,21 @@ div#bit-events {
 
 /* FlexSlider Necessary Styles
 *********************************/
-.flexslider {width: 1140px;height: 460px; margin: 0; padding: 0;border:none!important;background:transparent!important;}
+.flexslider {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none!important;
+  background: transparent!important;
+}
 .flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img {max-width: 100%; display: block;}
+.flexslider .slides img {
+  max-width: 100%;
+  display: block;
+  width: 100%!important;
+  height: auto;
+}
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
