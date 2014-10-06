@@ -96,7 +96,7 @@
     </div>
   </article>
   
-  <article id="mobile-footer visible-xs hidden-sm hidden-md-hidden-lg">
+  <article id="mobile-footer visible-xs hidden-sm hidden-md hidden-lg">
     <div class="row">
       <div class='col-sm-12'>
         <h1>Footer</h1>
