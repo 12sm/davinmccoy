@@ -65,7 +65,8 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 }
 
 #homecontent > article#about {
-  position: absolute;
+  background: url('../img/about-bg.jpg');
+  background-size: cover;
   top: 1000px;
   left:0;
   right:0;
@@ -73,7 +74,8 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 }
 
 #homecontent > article#shows {
-  position: absolute;
+  background: url('../img/home-bg-2.jpg');
+  background-size: cover;
   top: 2000px;
   left:0;
   right:0;
@@ -81,7 +83,8 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 }
 
 #homecontent > article#videos {
-  position: absolute;
+  background: url('../img/home-bg-3.jpg');
+  background-size: cover;
   top: 3000px;
   left:0;
   right:0;
@@ -89,7 +92,8 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 }
 
 #homecontent > article#photos {
-  position: absolute;
+   background: url('../img/photos-bg.jpg');
+  background-size: cover;
   top: 4000px;
   left:0;
   right:0;
@@ -858,6 +862,8 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+
   .about .backstretch img {
 left: -885px!important;
 }
@@ -902,11 +908,14 @@ margin-top: 30px;
 }
 
 #homecontent > article#home {
+  position: absolute;
+  background: none;
   padding-top: 0px !important;
 }
 
 #homecontent > article#about {
   position: absolute;
+  background: none;
   top: 2000px;
   left:0;
   right:0;
@@ -915,6 +924,7 @@ margin-top: 30px;
 
 #homecontent > article#shows {
   position: absolute;
+  background: none;
   top: 4000px;
   left:0;
   right:0;
@@ -923,6 +933,7 @@ margin-top: 30px;
 
 #homecontent > article#videos {
   position: absolute;
+  background: none;
   top: 5970px;
   left:0;
   right:0;
@@ -931,6 +942,7 @@ margin-top: 30px;
 
 #homecontent > article#photos {
   position: absolute;
+  background: none;
   top: 8000px;
   left:0;
   right:0;
