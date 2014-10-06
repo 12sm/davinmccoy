@@ -41,45 +41,49 @@
         // JavaScript to be fired on the home page
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
-        $(window).load(function() {
-          $('.flexslider').flexslider();
-        });
-        $(window).on('mousewheel', function(e){
-          e.preventDefault();
-        });
-        $(window).bind('scroll', function(e){
-          parallax();
-        });
-        $('a.space').click(function(){
-          $('html, body').animate({scrollTop : 0}, 2000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.earth').click(function(){
-          $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.moon').click(function(){
-          $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.rocket').click(function(){
-          $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
-        $('a.saturn').click(function(){
-          $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
-            parallax();
-          });
-          return false;
-        });
+        enquire.register("screen and (min-width: 768px)", {
+          match : function() {
+            $(window).load(function() {
+              $('.flexslider').flexslider();
+            });
+            $(window).on('mousewheel', function(e){
+              e.preventDefault();
+            });
+            $(window).bind('scroll', function(e){
+              parallax();
+            });
+            $('a.space').click(function(){
+              $('html, body').animate({scrollTop : 0}, 2000, function(){
+                parallax();
+              });
+              return false;
+            });
+            $('a.earth').click(function(){
+              $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
+                parallax();
+              });
+              return false;
+            });
+            $('a.moon').click(function(){
+              $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
+                parallax();
+              });
+              return false;
+            });
+            $('a.rocket').click(function(){
+              $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
+                parallax();
+              });
+              return false;
+            });
+            $('a.saturn').click(function(){
+              $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
+                parallax();
+              });
+              return false;
+            });
+          },
+        }).listen(); //note: as of enquire.js v2 listen() has been deprecated
       }
     },
     // News page
