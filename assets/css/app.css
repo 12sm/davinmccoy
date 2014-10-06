@@ -667,7 +667,7 @@ span.post-date {
 
 body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {}
 
-.single-videos .entry-title {text-align: center;}
+.single-videos .entry-title {text-align:left;}
 
 .archive .video-description, .single-videos .video-description {
   padding:15px;
