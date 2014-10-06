@@ -29,11 +29,7 @@
       init: function() {
         // JavaScript to be fired on all pages
         $(window).load(function() {
-          $(".imgLiquidFill").imgLiquid({
-	        fill: true,
-	        horizontalAlign: "center",
-	        verticalAlign: "top"    
-          });
+          $(".imgLiquidFill").imgLiquid();
         });
 
         $('.vid-container').fitVids();
@@ -88,7 +84,7 @@
               return false;
             });
           },
-        });
+        }).listen();
       }
     },
     // News page
