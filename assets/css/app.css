@@ -1147,8 +1147,9 @@ ul#menu-primary-navigation {
 }
 
 body.blog h2.title {
-  display:block;
-  overflow:hidden;
+  display: block;
+  overflow: hidden;
+  height: 92px;
 }
 
 body.blog .excerpt p {
