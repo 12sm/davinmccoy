@@ -856,10 +856,6 @@ body.single.single-post {margin-top:70px;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-body.about .backstretch img {
-left: -865.390402px!important;
-}
-
 footer {
   position: static;
   bottom: 0;
