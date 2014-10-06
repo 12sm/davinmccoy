@@ -129,14 +129,13 @@ div#bit-events {
   top: 0;
   left:0;
   right:0;
-  margin: 0 auto;
+  margin: auto;
   width: 100%;
   height: auto;
   z-index: 299;
 }
 
 #images div {
-  padding-top: 1000px;
 }
 
 #img-about {
