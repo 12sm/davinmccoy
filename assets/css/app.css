@@ -800,7 +800,7 @@ padding: 70px 15px 0px 15px;
 }
 
 footer {
-position: fixed;
+position: static;
 bottom: 0;
 width: 100%;
 height: auto;
