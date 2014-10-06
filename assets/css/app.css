@@ -1160,10 +1160,6 @@ body.blog .excerpt p {
   overflow: hidden;
 }
 
-.blog-post-square {
-  float:none;
-}
-
 }
 
 /* Medium devices (desktops, 992px and up) */
