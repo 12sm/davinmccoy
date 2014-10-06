@@ -50,7 +50,6 @@
         function enquirer(){
           enquire.register("screen and (min-width: 768px)", {
             match : function() {
-              debugger;
               $(window).load(function() {
                 $('.flexslider').flexslider();
               });
