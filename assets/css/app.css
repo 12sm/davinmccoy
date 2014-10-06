@@ -817,7 +817,7 @@ z-index: 1000;
 
 h1.entry-title {
 text-align: left;
-font-size: 34px;
+font-size: 34px!important;
 }
 
 ul#menu-social-navigation li {
