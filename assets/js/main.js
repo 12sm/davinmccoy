@@ -65,9 +65,9 @@
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
-        window.addEventListener("resize", enquirer);
-        // var oR = new OnResize();
-        // oR.delay = 300;
+        // window.addEventListener("resize", enquirer);
+        var oR = new OnResize();
+        oR.delay = 300;
         function enquirer(){
           enquire.register("screen and (min-width: 768px)", {
             match : function() {
@@ -124,7 +124,7 @@
           });
         };
         enquirer();
-        // oR.add(enquirer);
+        oR.add(enquirer);
       }
     },
     // News page
