@@ -805,6 +805,12 @@ padding-top: 70px;
 padding: 70px 15px 0px 15px;
 }
 
+
+h1.entry-title {
+text-align: left;
+font-size: 34px;
+}
+
 ul#menu-social-navigation li {
 font-size: 30px;
 }
