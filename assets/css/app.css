@@ -305,6 +305,15 @@ input#mce-EMAIL, input#mc-embedded-subscribe.button {
   text-align: center!important;
 }
 
+#mc_embed_signup input.button {
+display: block;
+padding: 0px 0;
+margin: 0 4% 10px 0;
+text-indent: 5px;
+width: 58%;
+min-width: 130px;
+}
+
 input::-webkit-input-placeholder {
   font-family: 'proxima-nova';
   color: #888888;
