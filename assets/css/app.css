@@ -912,6 +912,18 @@ ul#menu-primary-navigation {
   background-color: transparent;
   border-color: transparent;
 }
+
+body.blog h2.title {
+  display:block;
+  height:100px;
+  overflow:hidden;	
+}
+
+body.blog .excerpt p {
+  height: 60px;
+  overflow: hidden;	
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
