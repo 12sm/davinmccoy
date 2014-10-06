@@ -43,20 +43,11 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 
 /*-------- CONTENT --------*/
 
-
-/* Slider */
-
-.flexslider .slides img {
-width: 100%!important;
-display: block;
-}
-
 #home .image {
-max-height: 460px;
-overflow: hidden;
-height: 50vh;
+  max-height: 460px;
+  overflow: hidden;
+  height: 50vh;
 }
-
 
 #homecontent {
   position: relative;
@@ -76,7 +67,7 @@ height: 50vh;
 
 #homecontent > article#about {
   position: absolute;
-  top: 2000px;
+  top: 1000px;
   left:0;
   right:0;
   margin: 0 auto;
@@ -84,7 +75,7 @@ height: 50vh;
 
 #homecontent > article#shows {
   position: absolute;
-  top: 4000px;
+  top: 2000px;
   left:0;
   right:0;
   margin: 0 auto;
@@ -92,7 +83,7 @@ height: 50vh;
 
 #homecontent > article#videos {
   position: absolute;
-  top: 5970px;
+  top: 3000px;
   left:0;
   right:0;
   margin: 0 auto;
@@ -100,7 +91,7 @@ height: 50vh;
 
 #homecontent > article#photos {
   position: absolute;
-  top: 8000px;
+  top: 4000px;
   left:0;
   right:0;
   margin: 0 auto;
@@ -111,27 +102,25 @@ height: 50vh;
   margin: 0 auto;
 }
 
-#homecontent > article#shows h1,
-#homecontent > article#shows h2,
-.tour-body h1 {
-color: #575757;
-text-align:center;
+#homecontent > article#shows h1, #homecontent > article#shows h2, .tour-body h1 {
+  color: #575757;
+  text-align:center;
 }
 
 div#bit-events {
-font-size: 13px;
+  font-size: 13px;
 }
 
 #bit-events tr.bit-header a, #bit-events tr.bit-header-narrow a {
-font-weight: bold!important;
+  font-weight: bold!important;
 }
 
 .bit-header-overflow-fix {
-display:none!important;
+  display:none!important;
 }
 
 .bit-events td {
-border-top: 1px solid #B8B8B8!important;
+  border-top: 1px solid #B8B8B8!important;
 }
 
 /*-------- IMAGES --------*/
@@ -203,9 +192,9 @@ border-top: 1px solid #B8B8B8!important;
 /* Slider */
 
 .flexslider .slides img {
-width: 100%!important;
-display: block;
-height: 100%;
+  width: 100%!important;
+  display: block;
+  height: 100%;
 }
 
 /*
@@ -674,8 +663,8 @@ span.post-date {
 /* ==========================================================================
    Videos
    ========================================================================== */
-.video-image {}   
-   
+.video-image {}
+
 body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {
   height: 0px;
   overflow: hidden;
@@ -703,8 +692,8 @@ body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image:hover {
   background: url('/wp-content/themes/davinmccoy/assets/img/blog-bg-default.jpg');
   background-size: cover;
 }
-   
-   
+
+
 
 /* ==========================================================================
    Footer
