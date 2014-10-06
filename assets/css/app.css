@@ -684,7 +684,7 @@ padding: 0px 10px;
 #mc_embed_signup label {
 display: block;
 font-size: 10px!important;
-padding-top: 5px;
+padding-top: 7px;
 font-weight: bold;
 text-align: right;
 text-transform:uppercase;
@@ -719,6 +719,7 @@ border: none!important;
 p.credits {
 font-size: 12px;
 opacity: .5;
+padding-top: 18px;
 }
 
 /* ==========================================================================
@@ -922,7 +923,7 @@ ul#menu-primary-navigation {
 @media (min-width: 992px) {
 
 ul#menu-social-navigation li {
-padding: 0px 10px;
+padding: 2px 10px;
 }
 
 .col {margin: 0 20%;}
@@ -936,7 +937,7 @@ padding: 0px 10px;
 @media (min-width: 1200px) {
 
 ul#menu-social-navigation li {
-padding: 0px 10px;
+padding: 2px 10px;
 }
 
 .col {margin: 0 25%;}
