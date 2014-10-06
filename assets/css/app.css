@@ -126,7 +126,7 @@ div#bit-events {
 /*-------- IMAGES --------*/
 
 #images {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   height: auto;
@@ -135,7 +135,6 @@ div#bit-events {
 
 #images div {
   padding-top: 1000px;
-  padding-bottom: 1000px;
 }
 
 #img-about {
