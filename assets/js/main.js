@@ -25,7 +25,7 @@
   function liquidWrap(){
         $('.insta-photo').addClass('col-sm-6 col-md-3 col-lg-2');
         $('.insta-photo > a').wrap('<div class="img-pad"></div>');
-        $('.img-pad').imgLiquid();
+
       };
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
