@@ -674,6 +674,12 @@ span.post-date {
 /* ==========================================================================
    Videos
    ========================================================================== */ 
+
+.single-videos .video-description {
+  padding:15px;
+  text-align:left;
+  margin-bottom:60px;	
+}
    
 .imgLiquidFill.imgLiquid.video-image {
   height: 0px;
