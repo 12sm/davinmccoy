@@ -807,11 +807,10 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-<<<<<<< HEAD
+
   article#home > div:first-child {
 margin-top: 30px;
 }
-=======
 
 .subscribe-column {text-align:left;}
 
