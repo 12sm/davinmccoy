@@ -43,14 +43,6 @@ a:hover {text-decoration:none;color:#FFFFFF;}
 
 /*-------- CONTENT --------*/
 
-
-/* Slider */
-
-.flexslider .slides img {
-width: 100%!important;
-display: block;
-}
-
 #homecontent {
   position: relative;
   margin: 0 auto;
@@ -192,6 +184,14 @@ border-top: 1px solid #B8B8B8!important;
 
 
 /*-------- FLEX SLIDER --------*/
+
+/* Slider */
+
+.flexslider .slides img {
+width: 100%!important;
+display: block;
+}
+
 /*
  * jQuery FlexSlider v1.8
  * http://flex.madebymufffin.com
@@ -781,6 +781,156 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+/*-------- CONTENT --------*/
+
+#homecontent {
+  position: relative;
+  margin: 0 auto;
+  z-index: 300;
+  text-align: center;
+}
+
+#homecontent > article {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#homecontent > article#home {
+  padding-top: 0px !important;
+}
+
+#homecontent > article#about {
+  position: absolute;
+  top: 2000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#homecontent > article#shows {
+  position: absolute;
+  top: 4000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#homecontent > article#videos {
+  position: absolute;
+  top: 5970px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#homecontent > article#photos {
+  position: absolute;
+  top: 8000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+  padding-bottom: 8000px;
+}
+
+.hometile {
+  margin: 0 auto;
+}
+
+#homecontent > article#shows h1,
+#homecontent > article#shows h2,
+.tour-body h1 {
+color: #575757;
+text-align:center;
+}
+
+div#bit-events {
+font-size: 13px;
+}
+
+#bit-events tr.bit-header a, #bit-events tr.bit-header-narrow a {
+font-weight: bold!important;
+}
+
+.bit-header-overflow-fix {
+display:none!important;
+}
+
+.bit-events td {
+border-top: 1px solid #B8B8B8!important;
+}
+
+/*-------- IMAGES --------*/
+
+#images {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 200;
+}
+
+#images div {
+  padding-top: 1000px;
+}
+
+#img-about {
+  background: url('../img/about-bg.jpg');
+  background-size: cover;
+  background-position: center top;
+  position: absolute;
+  top: 1000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#img-shows {
+  background: url('../img/home-bg-2.jpg');
+  background-size: cover;
+  background-position: center top;
+  position: absolute;
+  top: 2000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#img-videos {
+  background: url('../img/home-bg-3.jpg');
+  background-size: cover;
+  background-position: center top;
+  position: absolute;
+  top: 3000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#img-photos {
+  background: url('../img/photos-bg.jpg');
+  background-size: cover;
+  background-position: center top;
+  position: absolute;
+  top: 4000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+
+#vidpage > div {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
 .col {margin: 0 15%;}
 
