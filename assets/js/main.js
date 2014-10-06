@@ -104,7 +104,7 @@
       }
     },
     // Video page
-    videos: {
+    post_type_archive_videos: {
       init: function() {
         // JavaScript to be fired on the photos page
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-3.jpg');
