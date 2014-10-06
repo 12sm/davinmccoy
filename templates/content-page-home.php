@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="row">
-      <div class='col-sm-12'> 
+      <div class='col-sm-12'>
         <h3 class="border-box"><a href="/news/">Read The Latest News</a></h3>
       </div>
     </div>
@@ -95,5 +95,7 @@
       </div>
     </div>
   </article>
+
   
+
 </div>
