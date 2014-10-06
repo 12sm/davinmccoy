@@ -858,6 +858,9 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .about .backstretch img {
+left: -885px!important;
+}
 
 footer {
   position: static;
@@ -1164,7 +1167,9 @@ body.blog .excerpt p {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+.about .backstretch img {
+left: initial!important;
+}
 ul#menu-social-navigation li {
 padding: 2px 10px;
 }
