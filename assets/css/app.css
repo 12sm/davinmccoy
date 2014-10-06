@@ -901,6 +901,15 @@ margin-top: 30px;
   left:0;
   right:0;
   margin: 0 auto;
+  /* padding-bottom: 8000px; */
+}
+
+#homecontent > article#videos {
+  position: absolute;
+  top: 5000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
   padding-bottom: 8000px;
 }
 
