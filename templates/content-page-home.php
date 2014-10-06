@@ -72,7 +72,9 @@
     </div>
     <div class='row'>
       <div class='col-sm-12'>
-        <iframe width="560" height="315" src="//www.youtube.com/embed/7_iud2fBhJ4" frameborder="0" allowfullscreen></iframe>
+        <div class="vid-container">
+          <iframe width="560" height="315" src="//www.youtube.com/embed/7_iud2fBhJ4" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
     <div class="row">
