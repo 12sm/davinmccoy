@@ -815,6 +815,11 @@ background: #1a1a1a;
 z-index: 1000;
 }
 
+h1.entry-title {
+text-align: left;
+font-size: 34px;
+}
+
 ul#menu-social-navigation li {
 font-size: 30px;
 }
