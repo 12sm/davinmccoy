@@ -292,17 +292,16 @@ input#mc_embed_signup .button {
   padding-left: 0px!important;
 }
 
-input#mc-embedded-subscribe.button {
-  height: 25px!important;
-}
 
-input#mce-EMAIL, input#mc-embedded-subscribe.button {
+input#mce-EMAIL, input#mc-embedded-subscribe {
   background: #3a3a3a;
   border-radius: 25px;
   height: 25px;
   font-family: 'proxima-nova';
   color: #888888;
   text-align: center!important;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 #mc_embed_signup input.button {
