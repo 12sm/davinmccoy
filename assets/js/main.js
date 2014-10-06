@@ -32,7 +32,7 @@
           $(".imgLiquidFill").imgLiquid();
         });
 
-        $('vid-container').fitVids();
+        $('.vid-container').fitVids();
       }
     },
     // Home page
