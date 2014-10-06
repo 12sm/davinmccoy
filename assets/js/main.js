@@ -53,7 +53,7 @@
         $('#insta-grid').embedagram({
           instagram_id: 1361999001,
           thumb_width: 306,
-          limit: 20,
+          limit: 6,
           wrap_tag: 'div class=insta-photo',
           success: liquidWrap
         });
