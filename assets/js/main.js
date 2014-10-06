@@ -29,15 +29,11 @@
       init: function() {
         // JavaScript to be fired on all pages
         $(window).load(function() {
-<<<<<<< HEAD
           $(".imgLiquidFill").imgLiquid({
 	        fill: true,
 	        horizontalAlign: "center",
 	        verticalAlign: "25%"    
           });
-=======
-          $(".imgLiquidFill").imgLiquid();
->>>>>>> FETCH_HEAD
         });
 
         $('.vid-container').fitVids();
