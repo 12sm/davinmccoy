@@ -43,6 +43,7 @@
     home: {
       init: function() {
         // JavaScript to be fired on the home page
+        $('.AlpinePhotoTiles-link').swipebox();
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         var oR = new OnResize();
@@ -145,6 +146,7 @@
       init: function() {
         // JavaScript to be fired on the photos page
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/photos-bg.jpg');
+        $('.AlpinePhotoTiles-link').swipebox();
       }
     },
     // Contact page
