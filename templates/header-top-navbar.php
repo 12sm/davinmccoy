@@ -25,7 +25,7 @@
             <a class="space" onclick="doClick('#home', '/'); return false;">Home</a>
           </li>
           <li class="menu-about">
-            <a class="earth">About</a>
+            <a class="earth" href="/about">About</a>
           </li>
           <li class="menu-shows">
             <a class="moon" onclick="doClick('#shows', '/shows/'); return false;">Shows</a>
