@@ -29,7 +29,11 @@
       init: function() {
         // JavaScript to be fired on all pages
         $(window).load(function() {
-          $(".imgLiquidFill").imgLiquid();
+          $(".imgLiquidFill").imgLiquid({
+	        fill: true,
+	        horizontalAlign: "center",
+	        verticalAlign: "top"    
+          });
         });
 
         $('.vid-container').fitVids();
