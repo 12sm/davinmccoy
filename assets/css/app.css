@@ -857,7 +857,7 @@ body.single.single-post {margin-top:70px;}
 @media (min-width: 768px) {
 
 body.about .backstretch img {
-left: -865.390402px;
+left: -865.390402px!important;
 }
 
 footer {
