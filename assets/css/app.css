@@ -856,10 +856,6 @@ body.single.single-post {margin-top:70px;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-body.about .backstretch img {
-left: -865.390402px;
-}
-
 footer {
   position: static;
   bottom: 0;
@@ -1151,8 +1147,9 @@ ul#menu-primary-navigation {
 }
 
 body.blog h2.title {
-  display:block;
-  overflow:hidden;
+  display: block;
+  overflow: hidden;
+  height: 92px;
 }
 
 body.blog .excerpt p {
