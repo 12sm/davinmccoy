@@ -673,10 +673,9 @@ span.post-date {
 
 /* ==========================================================================
    Videos
-   ========================================================================== */
-.video-image {}   
+   ========================================================================== */ 
    
-body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {
+.imgLiquidFill.imgLiquid.video-image {
   height: 0px;
   overflow: hidden;
   padding: 0;
@@ -689,7 +688,7 @@ body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {
   transition: filter .3s ease, -webkit-filter .3s ease, -moz-filter .3s ease;
 }
 
-body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image:hover {
+.imgLiquidFill.imgLiquid.video-image:hover {
   -webkit-filter: brightness(150%);
   -moz-filter: brightness(150%);
   filter: brightness(150%);
