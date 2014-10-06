@@ -904,7 +904,7 @@ margin-top: 30px;
   /* padding-bottom: 8000px; */
 }
 
-#homecontent > article#mobile-footer {
+#homecontent > article#mobile-footer.visible-xs.hidden-sm.hidden-md.hidden-lg {
   position: absolute;
   top: 5000px;
   left:0;
