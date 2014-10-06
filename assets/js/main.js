@@ -47,7 +47,6 @@
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         enquire.register("screen and (min-width: 768px)", {
           match : function() {
-            debugger;
             $(window).load(function() {
               $('.flexslider').flexslider();
             });
