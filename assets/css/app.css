@@ -722,7 +722,7 @@ body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {}
 
 footer {
   position: absolute;
-  top: 4000;
+  top: 4855px;
   width: 100%;
   height:211px;
   text-align: center;
@@ -805,15 +805,6 @@ padding-top: 70px;
 padding: 70px 15px 0px 15px;
 }
 
-footer {
-position: static;
-bottom: 0;
-width: 100%;
-height: auto;
-text-align: center;
-background: #1a1a1a;
-z-index: 1000;
-}
 
 h1.entry-title {
 text-align: left;
@@ -858,6 +849,16 @@ body.single.single-post {margin-top:70px;}
 
 body.about .backstretch img {
 left: -865.390402px;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background: #1a1a1a;
+  z-index: 1000;
 }
 
 #home .image {
