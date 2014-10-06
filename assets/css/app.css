@@ -666,6 +666,8 @@ span.post-date {
 
 .blog-post-square {
   margin-bottom: 50px;
+  display:block;
+  float:left;
 }
 
 
@@ -1156,6 +1158,10 @@ body.blog h2.title {
 body.blog .excerpt p {
   height: 60px;
   overflow: hidden;
+}
+
+.blog-post-square {
+  float:none;
 }
 
 }
