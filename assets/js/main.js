@@ -47,7 +47,7 @@
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         var oR = new OnResize();
         oR.delay = 300;
-        var enquirer = function(){
+        function enquirer(){
           enquire.register("screen and (min-width: 768px)", {
             match : function() {
               debugger;
@@ -95,7 +95,7 @@
               });
             },
           });
-        }
+        };
         enquirer();
         oR.add(enquirer);
       }
