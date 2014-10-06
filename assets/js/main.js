@@ -93,6 +93,7 @@
                 return false;
               });
             },
+            unmatch : function() {},
           });
         };
         enquirer();
