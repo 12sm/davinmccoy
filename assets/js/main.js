@@ -69,7 +69,7 @@
         var oR = new OnResize();
         oR.delay = 300;
         function enquirer(){
-          enquire.register("screen and (min-width: 768px)", {
+          enquire.register("min-width: 768px", {
             match : function() {
               $(window).on('mousewheel', function(e){
                 e.preventDefault();
@@ -112,7 +112,7 @@
               });
             },
           });
-          enquire.register("screen and (max-width: 767px)", {
+          enquire.register("max-width: 767px", {
             match : function() {
               $(window).on('mousewheel', function(e){
                 return true;
