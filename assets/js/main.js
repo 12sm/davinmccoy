@@ -54,6 +54,7 @@
           instagram_id: 1361999001,
           thumb_width: 306,
           limit: 6,
+          link_type, 'img',
           wrap_tag: 'div class=insta-photo',
           success: liquidWrap
         });
