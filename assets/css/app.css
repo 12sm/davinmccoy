@@ -847,6 +847,15 @@ body.single.single-post {margin-top:70px;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background: #1a1a1a;
+  z-index: 1000;
+}
 
 #home .image {
   max-height: 460px;
