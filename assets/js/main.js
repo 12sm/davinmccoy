@@ -113,7 +113,14 @@
             },
           });
           enquire.register("screen and (max-width: 767px)", {
-            match : function() {}
+            match : function() {
+              $(window).on('mousewheel', function(e){
+                return true;
+              });
+              $(window).on('wheel', function(e){
+                return true;
+              });
+            }
           });
         };
         enquirer();
