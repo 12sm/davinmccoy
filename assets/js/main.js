@@ -32,7 +32,7 @@
           $(".imgLiquidFill").imgLiquid({
 	        fill: true,
 	        horizontalAlign: "center",
-	        verticalAlign: "top"    
+	        verticalAlign: "25%"    
           });
         });
 
