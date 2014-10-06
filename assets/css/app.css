@@ -945,7 +945,7 @@ border-top: 1px solid #B8B8B8!important;
 #images {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 103%;
   height: auto;
   z-index: 200;
 }
