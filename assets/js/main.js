@@ -96,7 +96,7 @@
     single_post: {
       init: function() {
         // JavaScript to be fired on the about page
-        $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
+        $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-2.jpg');
       }
     },
     // About page
@@ -123,7 +123,7 @@
     single_videos: {
       init: function() {
         // JavaScript to be fired on the photos page
-        $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-3.jpg');
+        $.backstretch('../../wp-content/themes/davinmccoy/assets/img/home-bg-3.jpg');
       }
     },
     // Photo page
