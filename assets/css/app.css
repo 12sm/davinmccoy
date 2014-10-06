@@ -300,8 +300,12 @@ input#mce-EMAIL, input#mc-embedded-subscribe {
   font-family: 'proxima-nova';
   color: #888888;
   text-align: center!important;
-  font-weight: bold;
+  fo
   letter-spacing: 1px;
+}
+
+input#mc-embedded-subscribe {
+  font-weight: bold;
 }
 
 #mc_embed_signup input.button {
