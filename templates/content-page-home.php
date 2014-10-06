@@ -73,7 +73,7 @@
     <div class='row'>
       <div class='col-sm-12'>
         <div class="vid-container">
-          <iframe width="560" height="315" src="//www.youtube.com/embed/7_iud2fBhJ4" frameborder="0" allowfullscreen></iframe>
+        <?php echo do_shortcode('[wpv-view name="HOME | VIDEO"]'); ?>
         </div>
       </div>
     </div>
