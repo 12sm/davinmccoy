@@ -296,8 +296,9 @@ input#mce-EMAIL, input#mc-embedded-subscribe {
   font-family: 'proxima-nova';
   color: #888888;
   text-align: center!important;
-  fo
+  font-size:12;
   letter-spacing: 1px;
+  text-transform:uppercase;
 }
 
 input#mc-embedded-subscribe {
