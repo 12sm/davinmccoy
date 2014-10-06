@@ -737,7 +737,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
-subscribe-column {text-align:center;}
+subscribe-column {text-align:center!important;}
 
 .col {margin: 0 5%;}
 
