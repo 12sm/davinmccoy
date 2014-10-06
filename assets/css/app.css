@@ -57,6 +57,7 @@ overflow: hidden;
 height: 50vh;
 }
 
+
 #homecontent {
   position: relative;
   margin: 0 auto;
@@ -198,6 +199,14 @@ border-top: 1px solid #B8B8B8!important;
 
 
 /*-------- FLEX SLIDER --------*/
+
+/* Slider */
+
+.flexslider .slides img {
+width: 100%!important;
+display: block;
+}
+
 /*
  * jQuery FlexSlider v1.8
  * http://flex.madebymufffin.com
@@ -302,12 +311,20 @@ input#mce-EMAIL, input#mc-embedded-subscribe {
   font-family: 'proxima-nova';
   color: #888888;
   text-align: center!important;
-  fo
+  font-size:12px;
   letter-spacing: 1px;
 }
 
 input#mc-embedded-subscribe {
   font-weight: bold;
+  padding: 0 10px;
+  transition:background .3s ease;
+}
+
+input#mc-embedded-subscribe:hover,
+input#mc-embedded-subscribe:focus,
+input#mc-embedded-subscribe:active {
+  background:rgba(255,255,255,.3);
 }
 
 #mc_embed_signup input.button {
@@ -735,6 +752,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+subscribe-column {text-align:center;}
+
 .col {margin: 0 5%;}
 
 /* === HOME === */
@@ -788,20 +807,168 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+<<<<<<< HEAD
   article#home > div:first-child {
 margin-top: 30px;
 }
+=======
+
+subscribe-column {text-align:left;}
+
+/*-------- CONTENT --------*/
+
+#homecontent {
+  position: relative;
+  margin: 0 auto;
+  z-index: 300;
+  text-align: center;
+}
+
+#homecontent > article {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#homecontent > article#home {
+  padding-top: 0px !important;
+}
+
+#homecontent > article#about {
+  position: absolute;
+  top: 2000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#homecontent > article#shows {
+  position: absolute;
+  top: 4000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#homecontent > article#videos {
+  position: absolute;
+  top: 5970px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#homecontent > article#photos {
+  position: absolute;
+  top: 8000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+  padding-bottom: 8000px;
+}
+
+.hometile {
+  margin: 0 auto;
+}
+
+#homecontent > article#shows h1,
+#homecontent > article#shows h2,
+.tour-body h1 {
+color: #575757;
+text-align:center;
+}
+
+div#bit-events {
+font-size: 13px;
+}
+
+#bit-events tr.bit-header a, #bit-events tr.bit-header-narrow a {
+font-weight: bold!important;
+}
+
+.bit-header-overflow-fix {
+display:none!important;
+}
+
+.bit-events td {
+border-top: 1px solid #B8B8B8!important;
+}
+
+/*-------- IMAGES --------*/
+
+#images {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 200;
+}
+
+#images div {
+  padding-top: 1000px;
+}
+
+#img-about {
+  background: url('../img/about-bg.jpg');
+  background-size: cover;
+  background-position: center top;
+  position: absolute;
+  top: 1000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#img-shows {
+  background: url('../img/home-bg-2.jpg');
+  background-size: cover;
+  background-position: center top;
+  position: absolute;
+  top: 2000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#img-videos {
+  background: url('../img/home-bg-3.jpg');
+  background-size: cover;
+  background-position: center top;
+  position: absolute;
+  top: 3000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#img-photos {
+  background: url('../img/photos-bg.jpg');
+  background-size: cover;
+  background-position: center top;
+  position: absolute;
+  top: 4000px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+#vidpage > div {
+  text-align: center;
+}
+
+>>>>>>> origin/master
 article > div:first-child {
-margin-top: 60px;
+  margin-top: 60px;
 }
+
 .home .vid-container {
-max-width: 50vw;
-margin: 0 auto;
+  max-width: 50vw;
+  margin: 0 auto;
 }
+
 .col {margin: 0 15%;}
 
 ul#menu-social-navigation li {
-padding: 0px 5px;
+  padding: 0px 5px;
 }
 
 #mc_embed_signup div#mce-responses div {
@@ -913,6 +1080,18 @@ ul#menu-primary-navigation {
   background-color: transparent;
   border-color: transparent;
 }
+
+body.blog h2.title {
+  display:block;
+  height:100px;
+  overflow:hidden;
+}
+
+body.blog .excerpt p {
+  height: 60px;
+  overflow: hidden;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -927,6 +1106,9 @@ padding: 2px 10px;
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   width: 750px;
 }
+
+subscribe-column {text-align:left;}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -937,5 +1119,7 @@ padding: 2px 10px;
 }
 
 .col {margin: 0 25%;}
+
+subscribe-column {text-align:left;}
 
 }
