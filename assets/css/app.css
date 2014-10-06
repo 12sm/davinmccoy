@@ -51,6 +51,12 @@ width: 100%!important;
 display: block;
 }
 
+#home .image {
+max-height: 460px;
+overflow: hidden;
+height: 50vh;
+}
+
 #homecontent {
   position: relative;
   margin: 0 auto;
@@ -782,7 +788,9 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  
+  article#home > div:first-child {
+margin-top: 30px;
+}
 article > div:first-child {
 margin-top: 60px;
 }
