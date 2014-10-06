@@ -15,7 +15,7 @@
       get_template_part('templates/header');
     }
   ?>
-  <div class="wrap" role="document">
+  <div class="wrap container-fluid" role="document">
     <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
