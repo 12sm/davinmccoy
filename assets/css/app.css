@@ -805,16 +805,6 @@ padding-top: 70px;
 padding: 70px 15px 0px 15px;
 }
 
-footer {
-position: static;
-bottom: 0;
-width: 100%;
-height: auto;
-text-align: center;
-background: #1a1a1a;
-z-index: 1000;
-}
-
 ul#menu-social-navigation li {
 font-size: 30px;
 }
