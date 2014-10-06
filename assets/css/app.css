@@ -979,7 +979,7 @@ border-top: 1px solid #B8B8B8!important;
 #img-about {
   background: url('../img/about-bg.jpg');
   background-size: cover;
-  background-position: center top;
+  background-position: 75% 0%;
   position: absolute;
   top: 1000px;
   left:0;
