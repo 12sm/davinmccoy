@@ -725,6 +725,12 @@ body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {}
   background-size: cover;
 }
 
+.imgLiquidFill.imgLiquid.video-image-home img {
+  width: 100%;
+  height: auto;
+  visibility: visible;
+}
+
 .video-gallery h4 {
   height: 40px;
   overflow: hidden;	
