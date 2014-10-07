@@ -66,6 +66,7 @@
       $(window).on('wheel', function(e){
         return true;
       });
+      $(window).unbind('scroll');
     }
   };
   function parallax(){
@@ -111,7 +112,7 @@
           return true;
         });
         $(window).load(enquirer);
-        window.onresize = enquirer;
+        $(window).resize(enquirer).trigger('resize');
       }
     },
     // News page
