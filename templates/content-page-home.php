@@ -86,7 +86,7 @@
     </div>
     <div class='hometile row container '>
       <div class='col-sm-12'>
-      <div class="hidden-sm hidden-xs">
+      <div>
         <?php echo do_shortcode('[alpine-phototile-for-instagram id=489 user="davin_mccoy_band" src="user_recent" imgl="fancybox" style="cascade" col="6" size="Th" num="6" curve="1" align="center" max="100" nocredit="1"]'); ?>
       </div>
 <div class="hidden-md hidden-lg">
