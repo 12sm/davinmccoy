@@ -725,7 +725,7 @@ body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {}
   background-size: cover;
 }
 
-.imgLiquidFill.imgLiquid.video-image-home img {
+.imgLiquidFill.imgLiquid.video-image img {
   width: 100%;
   height: auto;
   visibility: visible;
