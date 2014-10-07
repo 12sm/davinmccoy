@@ -21,6 +21,7 @@
     $(window).off('wheel');
     $(window).unbind('scroll');
     $(window).bind('scroll', function(e){return true});
+    $('.nav li a').unbind('click');
   }
   function parallax(){
     var scrollPosition = $(window).scrollTop();
