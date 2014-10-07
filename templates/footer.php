@@ -24,7 +24,7 @@
       <div id="mc_embed_signup">
         <form action="//davinmccoy.us8.list-manage.com/subscribe/post?u=4d33b75ac40b7c4a1aa594342&amp;id=7fb168a173" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
-            <div class="row">
+            <div class="hancock row">
               <div class="col-sm-4">
                 <label for="mce-EMAIL">Subscribe to the mailing list</label>
               </div>
