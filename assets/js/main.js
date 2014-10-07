@@ -15,6 +15,23 @@
  * ======================================================================== */
 
 (function($) {
+  function inquirer(){
+    $(window).on('mousewheel', function(e){
+      event.stopPropagation();
+    });
+    $(window).on('wheel', function(e){
+      event.stopPropagation();
+    });
+    $(window).on('scroll', function(e){
+      event.stopPropagation();
+    });
+  };
+  function parallax(){
+    var scrollPosition = $(window).scrollTop();
+    // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
+    $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
+    // $("#content").css('top', (0 - scrollPosition) + 'px');
+  };
   function enquirer(){
     var wid = window.innerWidth;
     console.log(wid);
@@ -59,26 +76,8 @@
         });
         return false;
       });
-    } else {
-      $(window).on('mousewheel', function(e){
-        event.stopPropagation();
-      });
-      $(window).on('wheel', function(e){
-        event.stopPropagation();
-      });
-      $(window).on('scroll', function(e){
-        event.stopPropagation();
-      });
-    }
+    };
   };
-  function parallax(){
-    var scrollPosition = $(window).scrollTop();
-    // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
-    $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
-    // $("#content").css('top', (0 - scrollPosition) + 'px');
-  }
-  //for emedagram
-
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -101,23 +100,22 @@
     home: {
       init: function() {
         // JavaScript to be fired on the home page
-        var wid = window.innerWidth;
-        console.log(wid);
         $(window).load(function() {
           $('.flexslider').flexslider();
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
-        $(window).on('mousewheel', function(e){
-          return true;
+        enquire.register("screen and (max-width:767px)", {
+          deferSetup : true,
+          setup : function() {
+            inquirer();
+          },
         });
-        $(window).on('wheel', function(e){
-          return true;
+        enquire.register("screen and (min-width:768px)", {
+          deferSetup : true,
+          setup : function() {
+            enquirer();
+          },
         });
-        $(window).on('scroll', function(e){
-          return true;
-        });
-        $(window).load(enquirer);
-        $(window).resize(enquirer).trigger('resize');
       }
     },
     // News page
