@@ -22,6 +22,7 @@
     $(window).on('wheel', function(e){
       return true;
     });
+    $(window).trigger('scroll');
   }
   function parallax(){
     var scrollPosition = $(window).scrollTop();
