@@ -27,7 +27,6 @@ blockquote {padding: 10px 20px;margin: 0 0 20px;border:none!important;}
 a {transition:color .2s ease;color:#727272;}
 a:hover {text-decoration:none;color:#FFFFFF;}
 
-.main {margin-bottom:100px; padding-top: 60px;}
 .col {margin: 0 25%;}
 
 /* ==========================================================================
@@ -815,7 +814,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 body.home .main {padding:0px}
 
-body.home #homecontent {padding: 75px 0px;}
+body.home #homecontent {padding-top: 75px; padding: 0px;}
 .col {margin: 0 5%;}
 
 /* === HOME === */
@@ -866,6 +865,7 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+.main {margin-bottom:100px; padding-top: 60px;}
 
 
   .about .backstretch img {
