@@ -16,7 +16,7 @@
 
 (function($) {
   function inquirer(){
-    console.log("IIIIIIIIIIIIIIIIIIIIIIII");
+    console.log("Small Enquire Called");
     $(window).on('mousewheel', function(e){
       return true;
     });
@@ -33,7 +33,7 @@
     // $("#content").css('top', (0 - scrollPosition) + 'px');
   }
   function enquirer(){
-    console.log("AAAAAAAAAAAAAAAAAAAAAAAAA");
+    console.log("Large Enquire Called");
     $(window).on('mousewheel', function(e){
       e.preventDefault();
     });
@@ -100,9 +100,10 @@
           $('.flexslider').flexslider();
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
+        
         var oR = new OnResize();
         function resizzle(){
-          console.log("KKKKKKKKKKKKKKKKKKKKKKK");
+          console.log("Calling resizzle");
           enquire.register("screen and (max-width:767px)", {
             deferSetup : true,
             setup : function() {
