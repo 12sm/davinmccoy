@@ -4,7 +4,7 @@
 /* ==========================================================================
    Base
    ========================================================================== */
-
+body{background:#1a1a1a;}
 h1 {font-family:"museo-slab";font-weight:900;font-size:42px;color:#EEE;text-transform:uppercase;}
 h2 {font-family:"museo-slab";font-size:30px;font-weight:900;color:#EEE;text-transform:uppercase;}
 h3 {font-family:"proxima-nova-alt";font-size:22px;font-weight:100;color:#EEE;}
