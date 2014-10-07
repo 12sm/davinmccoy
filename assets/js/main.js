@@ -75,6 +75,15 @@
       return false;
     });
   }
+  
+  function theSetup(){
+    var wid = window.innerWidth;
+    if (wid > 767 ){
+    	enquirer();
+    }else{
+	    inquirer();
+    };
+  }
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
@@ -101,24 +110,29 @@
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         
-        var oR = new OnResize();
-        function resizzle(){
-          console.log("Calling resizzle");
-          enquire.register("screen and (max-width:767px)", {
-            deferSetup : true,
-            setup : function() {
-              inquirer();
+        //var oR = new OnResize();
+        //function resizzle(){
+        //  console.log("Calling resizzle");
+        //  enquire.register("screen and (max-width:767px)", {
+        //    deferSetup : true,
+        //    setup : function() {
+        //      inquirer();
+        //    },
+        //  });
+        enquire.register("screen and (min-width:768px)", {
+            match: function() {
+	            enquirer();
             },
-          });
-          enquire.register("screen and (min-width:768px)", {
-            deferSetup : true,
-            setup : function() {
-              enquirer();
+            unmatch: function() {
+	            inquirer();
             },
-          });
-        }
-        resizzle();
-        oR.add(resizzle);
+            setup : function() {
+              theSetup();
+            },
+        });
+        //}
+        //resizzle();
+        //oR.add(resizzle);
       }
     },
     // News page
