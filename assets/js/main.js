@@ -108,14 +108,14 @@
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         $(window).on('mousewheel', function(e){
-          event.stopPropagation();
+          return true;
         });
         $(window).on('wheel', function(e){
+          return true;
+        });
+        $(window).on('scroll', function(e){
           event.stopPropagation();
         });
-        // $(window).on('scroll', function(e){
-        //   event.stopPropagation();
-        // });
         $(window).load(enquirer);
         $(window).resize(enquirer).trigger('resize');
       }
