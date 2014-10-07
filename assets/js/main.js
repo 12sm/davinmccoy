@@ -114,7 +114,7 @@
           return true;
         });
         $(window).on('scroll', function(e){
-          event.stopPropagation();
+          return true;
         });
         $(window).load(enquirer);
         $(window).resize(enquirer).trigger('resize');
