@@ -737,7 +737,6 @@ body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {}
 #social li a {padding: 10px;}
 
 footer {
-  position: absolute;
   top: 4855px;
   width: 100%;
   height:211px;
@@ -811,6 +810,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width: 767px) {
+  footer {
+  position: absolute;
+}
   #homecontent article{
     margin: 0 -30px;
   }
