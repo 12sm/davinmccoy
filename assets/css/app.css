@@ -815,6 +815,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+.wrap {margin-top:50px;}
+body.home .wrap {margin-top:0px;}
+
 #images {display:none;}
 
 body.home .main {padding:0px}
