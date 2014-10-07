@@ -565,11 +565,6 @@ font-size: 14px;
    CONTACT
    ========================================================================== */
 
-.blank > div > img {
-  position: absolute !important;
-  bottom: -500px !important;
-}
-
 /* ==========================================================================
    News & Posts
    ========================================================================== */
@@ -885,8 +880,12 @@ body.single.single-post {margin-top:70px;}
 @media (min-width: 768px) {
 .main {margin-bottom:100px; padding-top: 60px;}
 
-  .about .backstretch img {
-left: -885px!important;
+.about .backstretch img {
+  left: -885px!important;
+}
+
+.fa {
+  font-size: 25px;
 }
 
 footer {
