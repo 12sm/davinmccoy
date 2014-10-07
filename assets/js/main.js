@@ -17,7 +17,6 @@
 (function($) {
   function enquirer(){
     var wid = window.innerWidth;
-    console.log(wid);
     if (wid > 767 ){
       $(window).on('mousewheel', function(e){
         e.preventDefault();
@@ -60,6 +59,7 @@
         return false;
       });
     } else {
+      console.log("Small Enquire Triggered");
       $(window).on('mousewheel', function(e){
         event.stopPropagation();
       });
