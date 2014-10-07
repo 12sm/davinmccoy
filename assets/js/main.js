@@ -66,7 +66,9 @@
       $(window).on('wheel', function(e){
         return true;
       });
-      $(window).unbind('scroll');
+      $(window).on('scroll', function(e){
+        return true
+      });
     }
   };
   function parallax(){
@@ -110,6 +112,9 @@
         });
         $(window).on('wheel', function(e){
           return true;
+        });
+        $(window).on('scroll', function(e){
+          return true
         });
         $(window).load(enquirer);
         $(window).resize(enquirer).trigger('resize');
