@@ -117,6 +117,7 @@
             },
           });
         }
+        resizzle();
         oR.add(resizzle);
       }
     },
