@@ -15,6 +15,51 @@
  * ======================================================================== */
 
 (function($) {
+  function enquirer(){
+    var wid = window.innerWidth;
+    console.log(wid);
+    if (wid > 767 ){
+      $(window).on('mousewheel', function(e){
+        e.preventDefault();
+      });
+      $(window).on('wheel', function(e){
+        e.preventDefault();
+      });
+      $(window).bind('scroll', function(e){
+        parallax();
+      });
+      $('li.space a').click(function(){
+        $('html, body').animate({scrollTop : 0}, 2000, function(){
+          parallax();
+        });
+        return false;
+      });
+      $('li.earth a').click(function(){
+        $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
+          parallax();
+        });
+        return false;
+      });
+      $('li.moon a').click(function(){
+        $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
+          parallax();
+        });
+        return false;
+      });
+      $('li.rocket a').click(function(){
+        $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
+          parallax();
+        });
+        return false;
+      });
+      $('li.saturn a').click(function(){
+        $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
+          parallax();
+        });
+        return false;
+      });
+    }
+  };
   function parallax(){
     var scrollPosition = $(window).scrollTop();
     // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
@@ -52,62 +97,12 @@
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
-        function enquirer(){
-          var wid = window.innerWidth;
-          console.log(wid);
-          if (wid > 767 ){
-            $(window).on('mousewheel', function(e){
-              e.preventDefault();
-            });
-            $(window).on('wheel', function(e){
-              e.preventDefault();
-            });
-            $(window).bind('scroll', function(e){
-              parallax();
-            });
-            $('li.space a').click(function(){
-              $('html, body').animate({scrollTop : 0}, 2000, function(){
-                parallax();
-              });
-              return false;
-            });
-            $('li.earth a').click(function(){
-              $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
-                parallax();
-              });
-              return false;
-            });
-            $('li.moon a').click(function(){
-              $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
-                parallax();
-              });
-              return false;
-            });
-            $('li.rocket a').click(function(){
-              $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
-                parallax();
-              });
-              return false;
-            });
-            $('li.saturn a').click(function(){
-              $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
-                parallax();
-              });
-              return false;
-            });
-          } else {
-            $(window).unbind('scroll', function(e){
-              parallax();
-            });
-            $(window).on('mousewheel', function(e){
-              return true;
-            });
-            $(window).on('wheel', function(e){
-              return true;
-            });
-          }
-        };
-        enquirer();
+        $(window).on('mousewheel', function(e){
+          return true;
+        });
+        $(window).on('wheel', function(e){
+          return true;
+        });
         $(window).load(enquirer);
         $(window).resize(enquirer);
       }
