@@ -25,13 +25,13 @@
     $(window).on('scroll', function(e){
       event.stopPropagation();
     });
-  };
+  }
   function parallax(){
     var scrollPosition = $(window).scrollTop();
     // $("#stars").css('top', (0 - (scrollPosition * .5)) + 'px');
     $("#images").css('top', (0 - (scrollPosition * .5)) + 'px');
     // $("#content").css('top', (0 - scrollPosition) + 'px');
-  };
+  }
   function enquirer(){
     $(window).on('mousewheel', function(e){
       e.preventDefault();
@@ -73,7 +73,7 @@
       });
       return false;
     });
-  };
+  }
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Roots = {
