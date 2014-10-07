@@ -22,7 +22,7 @@
     $(window).on('wheel', function(e){
       return true;
     });
-    $(window).on('scroll', function(e){
+    $(window).bind('scroll', function(e){
       return true;
     });
   }
@@ -88,7 +88,6 @@
 	        verticalAlign: "25%"
           });
         });
-
         $('.vid-container').fitVids();
       }
     },
