@@ -16,6 +16,7 @@
 
 (function($) {
   function inquirer(){
+    console.log("IIIIIIIIIIIIIIIIIIIIIIII");
     $(window).on('mousewheel', function(e){
       return true;
     });
