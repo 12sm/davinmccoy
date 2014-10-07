@@ -870,9 +870,7 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-footer {
-  position: absolute;
-}
+
 
   .about .backstretch img {
 left: -885px!important;
