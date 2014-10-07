@@ -17,13 +17,13 @@
 (function($) {
   function inquirer(){
     $(window).on('mousewheel', function(e){
-      event.stopPropagation();
+      return true;
     });
     $(window).on('wheel', function(e){
-      event.stopPropagation();
+      return true;
     });
     $(window).on('scroll', function(e){
-      event.stopPropagation();
+      return true;
     });
   }
   function parallax(){
