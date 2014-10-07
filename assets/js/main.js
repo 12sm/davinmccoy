@@ -65,31 +65,31 @@
             $(window).bind('scroll', function(e){
               parallax();
             });
-            $('a.space').click(function(){
+            $('li.space a').click(function(){
               $('html, body').animate({scrollTop : 0}, 2000, function(){
                 parallax();
               });
               return false;
             });
-            $('a.earth').click(function(){
+            $('li.earth a').click(function(){
               $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
                 parallax();
               });
               return false;
             });
-            $('a.moon').click(function(){
+            $('li.moon a').click(function(){
               $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
                 parallax();
               });
               return false;
             });
-            $('a.rocket').click(function(){
+            $('li.rocket a').click(function(){
               $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
                 parallax();
               });
               return false;
             });
-            $('a.saturn').click(function(){
+            $('li.saturn a').click(function(){
               $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
                 parallax();
               });
