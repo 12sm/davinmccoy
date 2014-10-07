@@ -737,7 +737,7 @@ body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {}
 #social li a {padding: 10px;}
 
 footer {
-  top: 4855px;
+  position:relative;
   width: 100%;
   height:211px;
   text-align: center;
@@ -867,22 +867,20 @@ body.single.single-post {margin-top:70px;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 .main {margin-bottom:100px; padding-top: 60px;}
-.home footer{
-top: 8642px;
-}
 
   .about .backstretch img {
 left: -885px!important;
 }
 
 footer {
-  position: static;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: auto;
   text-align: center;
   background: #1a1a1a;
   z-index: 1000;
+  top: initial;
 }
 
 #home .image {
