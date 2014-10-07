@@ -18,6 +18,7 @@
   function enquirer(){
     var wid = window.innerWidth;
     if (wid > 767 ){
+      console.log("Large Enquire Triggered");
       $(window).on('mousewheel', function(e){
         e.preventDefault();
       });
@@ -61,13 +62,13 @@
     } else {
       console.log("Small Enquire Triggered");
       $(window).on('mousewheel', function(e){
-        event.stopPropagation();
+        e.stopPropagation();
       });
       $(window).on('wheel', function(e){
-        event.stopPropagation();
+        e.stopPropagation();
       });
       $(window).on('scroll', function(e){
-        event.stopPropagation();
+        e.stopPropagation();
       });
     }
   };
