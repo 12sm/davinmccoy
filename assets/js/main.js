@@ -17,12 +17,8 @@
 (function($) {
   function inquirer(){
     console.log("Small Enquire Called");
-    $(window).on('mousewheel', function(e){
-      return true;
-    });
-    $(window).on('wheel', function(e){
-      return true;
-    });
+    $(window).off('mousewheel');
+    $(window).off('wheel');
     $(window).unbind('scroll');
     $(window).bind('scroll', function(e){return true});
   }
@@ -108,15 +104,6 @@
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
         
-        //var oR = new OnResize();
-        //function resizzle(){
-        //  console.log("Calling resizzle");
-        //  enquire.register("screen and (max-width:767px)", {
-        //    deferSetup : true,
-        //    setup : function() {
-        //      inquirer();
-        //    },
-        //  });
         enquire.register("screen and (min-width:768px)", {
             match: function() {
 	            enquirer();
@@ -128,9 +115,7 @@
               theSetup();
             },
         });
-        //}
-        //resizzle();
-        //oR.add(resizzle);
+
       }
     },
     // News page
