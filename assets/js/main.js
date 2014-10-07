@@ -24,7 +24,7 @@
       return true;
     });
     $(window).unbind('scroll');
-    $(window).on('scroll', function(e){return true});
+    $(window).bind('scroll', function(e){return true});
   }
   function parallax(){
     var scrollPosition = $(window).scrollTop();
