@@ -78,10 +78,8 @@
   
   function theSetup(){
     var wid = window.innerWidth;
-    if (wid > 767 ){
-    	enquirer();
-    }else{
-	    inquirer();
+    if (wid < 768 ){
+    	inquirer();
     };
   }
   // Use this variable to set up the common and page specific functions. If you
