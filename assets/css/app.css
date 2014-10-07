@@ -882,6 +882,10 @@ footer {
   top: initial;
 }
 
+.hancock {
+  padding-top: 15px;
+}
+
 #home .image {
   max-height: 460px;
   overflow: hidden;
