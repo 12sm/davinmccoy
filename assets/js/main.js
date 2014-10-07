@@ -33,65 +33,46 @@
     // $("#content").css('top', (0 - scrollPosition) + 'px');
   };
   function enquirer(){
-    var wid = window.innerWidth;
-    if (wid > 767 ){
-      console.log("Large Enquire Triggered");
-      $(window).on('mousewheel', function(e){
-        e.preventDefault();
-      });
-      $(window).on('wheel', function(e){
-        e.preventDefault();
-      });
-      $(window).bind('scroll', function(e){
+    $(window).on('mousewheel', function(e){
+      e.preventDefault();
+    });
+    $(window).on('wheel', function(e){
+      e.preventDefault();
+    });
+    $(window).bind('scroll', function(e){
+      parallax();
+    });
+    document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
+    $('li.space a').click(function(){
+      $('html, body').animate({scrollTop : 0}, 2000, function(){
         parallax();
       });
-      document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
-      $('li.space a').click(function(){
-        $('html, body').animate({scrollTop : 0}, 2000, function(){
-          parallax();
-        });
-        return false;
+      return false;
+    });
+    $('li.earth a').click(function(){
+      $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
+        parallax();
       });
-      $('li.earth a').click(function(){
-        $('html, body').animate({scrollTop : $('#about').offset().top}, 1000, function(){
-          parallax();
-        });
-        return false;
+      return false;
+    });
+    $('li.moon a').click(function(){
+      $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
+        parallax();
       });
-      $('li.moon a').click(function(){
-        $('html, body').animate({scrollTop : $('#shows').offset().top}, 1000, function(){
-          parallax();
-        });
-        return false;
+      return false;
+    });
+    $('li.rocket a').click(function(){
+      $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
+        parallax();
       });
-      $('li.rocket a').click(function(){
-        $('html, body').animate({scrollTop : $('#videos').offset().top}, 1000, function(){
-          parallax();
-        });
-        return false;
+      return false;
+    });
+    $('li.saturn a').click(function(){
+      $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
+        parallax();
       });
-      $('li.saturn a').click(function(){
-        $('html, body').animate({scrollTop : $('#photos').offset().top}, 1000, function(){
-          parallax();
-        });
-        return false;
-      });
-<<<<<<< HEAD
-    };
-=======
-    } else {
-      console.log("Small Enquire Triggered");
-      $(window).on('mousewheel', function(e){
-        e.stopPropagation();
-      });
-      $(window).on('wheel', function(e){
-        e.stopPropagation();
-      });
-      $(window).on('scroll', function(e){
-        e.stopPropagation();
-      });
-    }
->>>>>>> FETCH_HEAD
+      return false;
+    });
   };
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
