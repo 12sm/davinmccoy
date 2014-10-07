@@ -28,6 +28,7 @@
       $(window).bind('scroll', function(e){
         parallax();
       });
+      document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
       $('li.space a').click(function(){
         $('html, body').animate({scrollTop : 0}, 2000, function(){
           parallax();
@@ -103,7 +104,6 @@
           $('.flexslider').flexslider();
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
-        document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
         $(window).on('mousewheel', function(e){
           return true;
         });
