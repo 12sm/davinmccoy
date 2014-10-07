@@ -101,18 +101,23 @@
           $('.flexslider').flexslider();
         });
         $.backstretch('../wp-content/themes/davinmccoy/assets/img/home-bg-1.jpg');
-        enquire.register("screen and (max-width:767px)", {
-          deferSetup : true,
-          setup : function() {
-            inquirer();
-          },
-        });
-        enquire.register("screen and (min-width:768px)", {
-          deferSetup : true,
-          setup : function() {
-            enquirer();
-          },
-        });
+        var oR = new OnResize();
+        function resizzle(){
+          console.log("KKKKKKKKKKKKKKKKKKKKKKK");
+          enquire.register("screen and (max-width:767px)", {
+            deferSetup : true,
+            setup : function() {
+              inquirer();
+            },
+          });
+          enquire.register("screen and (min-width:768px)", {
+            deferSetup : true,
+            setup : function() {
+              enquirer();
+            },
+          });
+        }
+        oR.add(resizzle);
       }
     },
     // News page
