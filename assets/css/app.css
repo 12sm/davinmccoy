@@ -565,7 +565,7 @@ font-size: 14px;
    CONTACT
    ========================================================================== */
 
-.blank {
+.blank > div > img {
   position: absolute !important;
   bottom: -500px !important;
 }
