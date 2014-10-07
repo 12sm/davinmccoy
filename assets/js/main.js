@@ -104,7 +104,7 @@
           return true;
         });
         $(window).load(enquirer);
-        $(window).resize(enquirer);
+        window).onresize = enquirer;
       }
     },
     // News page
