@@ -810,16 +810,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width: 767px) {
-  
-  #homecontent article{
-    margin: 0 -30px;
-  }
 
 #images {display:none;}
 
 body.home .main {padding:0px}
 
-body.home #homecontent {padding:0px;}
+body.home #homecontent {padding: 75px 0px;}
 .col {margin: 0 5%;}
 
 /* === HOME === */
