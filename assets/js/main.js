@@ -34,6 +34,7 @@
     // $("#content").css('top', (0 - scrollPosition) + 'px');
   }
   function enquirer(){
+    console.log("AAAAAAAAAAAAAAAAAAAAAAAAA");
     $(window).on('mousewheel', function(e){
       e.preventDefault();
     });
