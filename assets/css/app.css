@@ -810,9 +810,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width: 767px) {
-  footer {
-  position: absolute;
-}
+  
   #homecontent article{
     margin: 0 -30px;
   }
@@ -872,7 +870,9 @@ body.single.single-post {margin-top:70px;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+footer {
+  position: absolute;
+}
 
   .about .backstretch img {
 left: -885px!important;
