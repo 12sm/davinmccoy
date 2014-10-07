@@ -814,7 +814,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 body.home .main {padding:0px}
 
-body.home #homecontent {padding-top: 75px; padding: 0px;}
+body.home #homecontent {padding-top: 75px!important; padding: 0px;}
 .col {margin: 0 5%;}
 
 /* === HOME === */
@@ -866,7 +866,9 @@ body.single.single-post {margin-top:70px;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 .main {margin-bottom:100px; padding-top: 60px;}
-
+.home footer{
+top: 8642px;
+}
 
   .about .backstretch img {
 left: -885px!important;
@@ -885,7 +887,7 @@ footer {
 #home .image {
   max-height: 460px;
   overflow: hidden;
-  height: 50vh;
+  height: 68vh;
 }
 
 body.home {
