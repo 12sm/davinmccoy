@@ -34,8 +34,8 @@
   };
   function enquirer(){
     var wid = window.innerWidth;
-    console.log(wid);
     if (wid > 767 ){
+      console.log("Large Enquire Triggered");
       $(window).on('mousewheel', function(e){
         e.preventDefault();
       });
@@ -76,7 +76,22 @@
         });
         return false;
       });
+<<<<<<< HEAD
     };
+=======
+    } else {
+      console.log("Small Enquire Triggered");
+      $(window).on('mousewheel', function(e){
+        e.stopPropagation();
+      });
+      $(window).on('wheel', function(e){
+        e.stopPropagation();
+      });
+      $(window).on('scroll', function(e){
+        e.stopPropagation();
+      });
+    }
+>>>>>>> FETCH_HEAD
   };
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
