@@ -1242,4 +1242,15 @@ padding: 2px 10px;
 
 .subscribe-column {text-align:left;}
 
+p.credits {
+font-size: 12px;
+opacity: .5;
+padding-top: 8px;
+margin-bottom: 0;
+}
+
+.hancock {
+padding-top: 0;
+}
+
 }
