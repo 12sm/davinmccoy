@@ -1246,7 +1246,7 @@ p.credits {
 font-size: 12px;
 opacity: .5;
 padding-top: 8px;
-margin-bottom: 0;
+margin-bottom: 0!important;
 }
 
 .hancock {
