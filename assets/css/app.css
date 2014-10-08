@@ -755,7 +755,7 @@ body.post-type-archive-videos .imgLiquidFill.imgLiquid.video-image {}
 footer {
   position:relative;
   width: 100%;
-  height:auto;
+  height:45px;
   text-align: center;
   background: #1a1a1a;
   z-index: 1000;
