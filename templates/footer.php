@@ -55,7 +55,7 @@
       </div> -->
       <p class="credits">&copy;
         <?php echo date( 'Y'); ?>
-        <?php bloginfo( 'name'); ?> | <a href="http://12southmusic.com/" target="_blank">built by 12SM</a>
+        <?php bloginfo( 'name'); ?> <img src="/wp-content/themes/davinmccoy/assets/img/blank-tiny.png" /> | <a href="http://12southmusic.com/" target="_blank">built by 12SM</a>
       </p>
     </div>
 
