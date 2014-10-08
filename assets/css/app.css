@@ -762,7 +762,7 @@ footer {
 }
 
 footer img {
-height: 30px;
+height: 30px!important;
 }
 
 ul#menu-social-navigation {
