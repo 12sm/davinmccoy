@@ -761,8 +761,8 @@ footer {
   z-index: 1000;
 }
 
-footer img {
-height: 30px!important;
+p.credits img {
+height: 30px;
 }
 
 ul#menu-social-navigation {
