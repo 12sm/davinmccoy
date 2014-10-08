@@ -761,10 +761,6 @@ footer {
   z-index: 1000;
 }
 
-p.credits img {
-height: 30px;
-}
-
 ul#menu-social-navigation {
 padding-left: 0px;
 list-style: none;
