@@ -794,7 +794,7 @@ min-width: 130px;
 font-size: 12px;
 }
 
-.footer-nav, p.credits {
+.footer-nav{
 padding: 10px 0 10px 3%;
 }
 
@@ -806,7 +806,7 @@ p.credits {
 font-size: 12px;
 opacity: .5;
 padding-top: 8px;
-margin-bottom: 0;
+margin-bottom: 0!important;
 }
 
 .hancock {
