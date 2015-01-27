@@ -21,6 +21,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< Updated upstream
+=======
+  <meta name="twitter:widgets:csp" content="on">
+
+>>>>>>> Stashed changes
   <?php wp_head(); ?>
   <a href="https://plus.google.com/104125639634728855129" class="hidden" rel="publisher">Google+</a>
 
