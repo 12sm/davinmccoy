@@ -759,7 +759,7 @@ footer {
   text-align: center;
   background: #1a1a1a;
   z-index: 1000;
-}  
+}
 
 ul#menu-social-navigation {
 padding-left: 0px;
@@ -1257,4 +1257,9 @@ margin-bottom: 0!important;
 padding-top: 0;
 }
 
+}
+
+
+div#bit-widget-dialog {
+  z-index: 9999999999999999!important;
 }
